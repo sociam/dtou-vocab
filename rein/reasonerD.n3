@@ -1,0 +1,187 @@
+# USAGE : cwm reasonerD.n3 requestD.n3 --think --filter="filterD.n3"
+
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log:  <http://www.w3.org/2000/10/swap/log#> .
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix string: <http://www.w3.org/2000/10/swap/string#>.
+@prefix rein: <rein.n3#>.
+@prefix reind: <reinD.n3#>.
+@prefix ont: <ontD.n3#>.
+@prefix : <#> .
+
+
+#############################
+## SETTING UP FORMULAE     ##
+#############################
+
+@forAll :request, :actor, :deontic, :action, :policy, :ontology, :F, :G.
+{   :request a rein:Request.
+    :request rein:requestedAction :action.
+    :request rein:requester :actor.
+    :request rein:requestType :deontic.
+    :action.log:semantics log:includes { :action rein:controlledBy :policy }.
+    :policy.log:semantics log:includes { :policy rein:usesOntology :ontology }.
+    :ontology.log:semantics log:includes {:ontology rein:hasReasoner <> }.
+    ( :policy.log:semantics
+      :ontology.log:semantics
+      :action.log:semantics
+      :actor.log:semantics
+      :deontic.log:semantics
+      <rules.n3>.log:semantics) log:conjunction :F.
+    :F log:conclusion :G.
+} => { :F :policyInfo :G }.
+
+{   :F :policyInfo :G. 
+    :G log:includes {:x a ont:User} 
+} => { :x a :User }.
+
+{   :F :policyInfo :G. 
+    :G log:includes {:x a ont:File} 
+} => { :x a :User }.
+
+
+###########################################
+## IMPLEMENTING UNIX-LIKE ACCESS CONTROL ##
+###########################################
+
+# if requester owns file, then check access+U
+#@forAll :request, :file, :actor, :access, :m, :n.
+#{   :request a rein:Request.
+#    :request rein:requester :actor.
+#    :request rein:requestedAction :file.
+#    :request rein:requestType :access.
+#    :F :policyInfo :G.
+#    (:access "U") string:concatenation :m. 
+#    :m log:n3String :n.
+#    :G log:includes {:file ont:owner :actor}. 
+#    :G log:includes {:file :n reind:Set}. 
+#} => {:actor reind:read :n}.
+
+
+# if requester owns file, and access is read, then check readU
+@forAll :request, :file, :actor, :access, :m, :n.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:read.
+    :F :policyInfo :G.
+    :G log:includes {:file ont:owner :actor}. 
+    :G log:includes {:file reind:readU reind:Set}. 
+} => {:actor reind:read :file}.
+
+# if requester owns file, and access is write, then check writeU
+@forAll :request, :file, :actor, :access, :m, :n.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:write.
+    :F :policyInfo :G.
+    :G log:includes {:file ont:owner :actor}. 
+    :G log:includes {:file reind:writeU reind:Set}. 
+} => {:actor reind:write :file}.
+
+# if requester owns file, and access is execute, then check executeU
+@forAll :request, :file, :actor, :access, :m, :n.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:execute.
+    :F :policyInfo :G.
+    :G log:includes {:file ont:owner :actor}. 
+    :G log:includes {:file reind:executeU reind:Set}. 
+} => {:actor reind:execute :file}.
+
+# if requester is not owner but belongs to owner-group and read access, then check readG
+@forAll :request, :file, :actor, :access, :owner-group.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:read.
+    :F :policyInfo :G.
+    :G log:notIncludes {:file ont:owner :actor}. 
+    :G log:includes { :file ont:owner-group :owner-group. :actor ont:in :owner-group}. 
+    :G log:includes {:file reind:readG reind:Set}. 
+} => {:actor reind:read :file}.
+
+# if requester is not owner, but belongs to owner-group and write access, then check writeG
+@forAll :request, :file, :actor, :access, :owner-group.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:write.
+    :F :policyInfo :G.
+    :G log:notIncludes {:file ont:owner :actor}. 
+    :G log:includes { :file ont:owner-group :owner-group. :actor ont:in :owner-group}. 
+    :G log:includes {:file reind:writeG reind:Set}. 
+} => {:actor reind:write :file}.
+
+# if requester is not owner, but belongs to owner-group and execute access, then check executeG
+@forAll :request, :file, :actor, :access, :owner-group.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:execute.
+    :F :policyInfo :G.
+    :G log:notIncludes {:file ont:owner :actor}. 
+    :G log:includes { :file ont:owner-group :owner-group. :actor ont:in :owner-group}. 
+    :G log:includes {:file reind:executeG reind:Set}. 
+} => {:actor reind:execute :file}.
+
+# if requester is not owner and does not belong to owner-group 
+# if read access, then check readO
+@forAll :request, :file, :actor, :access, :owner-group.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:read.
+    :F :policyInfo :G.
+    :G log:notIncludes {:file ont:owner :actor}. 
+    :G log:includes { :file ont:owner-group :owner-group}. 
+    :G log:notIncludes { :actor ont:in :owner-group}. 
+    :G log:includes {:file reind:readO reind:Set}. 
+} => {:actor reind:read :file}.
+
+# if requester is not owner and does not belong to owner-group 
+# if write access, then check writeO
+@forAll :request, :file, :actor, :access, :owner-group.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:write.
+    :F :policyInfo :G.
+    :G log:notIncludes {:file ont:owner :actor}. 
+    :G log:includes { :file ont:owner-group :owner-group}. 
+    :G log:notIncludes { :actor ont:in :owner-group}. 
+    :G log:includes {:file reind:writeO reind:Set}. 
+} => {:actor reind:write :file}.
+
+
+# if requester is not owner and does not belong to owner-group 
+# if execute access, then check executeO
+@forAll :request, :file, :actor, :access, :owner-group.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType reind:execute.
+    :F :policyInfo :G.
+    :G log:notIncludes {:file ont:owner :actor}. 
+    :G log:includes { :file ont:owner-group :owner-group}. 
+    :G log:notIncludes { :actor ont:in :owner-group}. 
+    :G log:includes {:file reind:executeO reind:Set}. 
+} => {:actor reind:execute :file}.
+
+
+# to change the permissions on a file, the requester should be the owner
+@forAll :request, :file, :actor, :change, :access-type, :value.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :file.
+    :request rein:requestType :change.
+    :F :policyInfo :G.
+    :G log:includes {:file ont:owner :actor}.
+    :G log:includes {:change a reind:Chmod; reind:file :file}.
+} => {:actor :change :file}.
+
+#ends

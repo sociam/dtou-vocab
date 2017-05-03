@@ -1,0 +1,13 @@
+# USAGE :  cwm --closure=i --n3 requestA.n3 --think --filter="policyA.n3"
+# USAGE :  cwm --closure=i --n3 requestA.n3 query.n3 --think --filter="query.n3"
+
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix : <#>.
+
+<> :deployed <http://www.livejournal.com/users/smileloki/data/foaf>.
+
+#ends
+

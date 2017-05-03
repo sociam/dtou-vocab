@@ -1,0 +1,57 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix reinb: <reinB.n3#>.
+@prefix rein: <rein.n3#>.
+@prefix : <#>.
+
+# classes
+:Student a rdfs:Class; rdfs:subClassOf :MemberOfMIT.
+:GradStudent a rdfs:Class; rdfs:subClassOf :Student.
+:UnderGradStudent a rdfs:Class; rdfs:subClassOf :Student.
+
+:Employee a rdfs:Class; rdfs:subClassOf :MemberOfMIT.
+:Faculty a rdfs:Class; rdfs:subClassOf :Employee.
+:Staff a rdfs:Class; rdfs:subClassOf :Employee.
+
+:AssistProf a rdfs:Class; rdfs:subClassOf :Faculty.
+:AssociateProf a rdfs:Class; rdfs:subClassOf :Faculty.
+:Prof a rdfs:Class; rdfs:subClassOf :Faculty.
+:Scientist a rdfs:Class; rdfs:subClassOf :Faculty.
+:PostDoc a rdfs:Class; rdfs:subClassOf :Faculty.
+
+:Printer a rdfs:Class; rdfs:subClassOf :Equipment.
+
+:PrintService a rdfs:Class.
+:PhotoService a rdfs:Class.
+:PhoneService a rdfs:Class.
+
+# instances
+
+:Alice a :GradStudent.
+:Bob a :UnderGradStudent.
+:George a :GradStudent.
+
+:Carol a :Prof;
+        :advises :Bob;
+        :affiliatedTo :Dig.
+
+:Uberprinter a :Printer;
+        :locatedIn :Dig.
+
+:Flickr a :PhotoService;
+	rein:controlledBy <policyB.n3>.
+
+:Call a :PhoneService;
+	rein:controlledBy <policyB.n3>.
+
+:CsailPrint a rdfs:Class; rdfs:subClassOf :PrintService.
+
+:UberPrint a :CsailPrint;
+        :target :Uberprinter;
+	rein:controlledBy <policyB.n3>;
+	reinb:default reinb:ProhibitedByDefault.
+
+#ends

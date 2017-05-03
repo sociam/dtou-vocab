@@ -1,0 +1,63 @@
+# USAGE :  cwm --closure=i --n3 requestC.n3 --think --filter="policyC.n3"
+
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix rein: <rein.n3#>.
+@prefix reinc: <reinC.n3#>.
+@prefix ont: <ontC.n3#>.
+@prefix ontd: <ontD.n3#>.
+@prefix : <#>.
+
+# valid
+# reason : attended the meeting in which the picture was taken
+:request1 a rein:Request;
+        rein:requester ont:Jim;
+	rein:requestType reinc:canAccess;
+        rein:requestedAction ont:Pic123.
+
+# valid
+# reason : attended the meeting in which the picture was taken
+:request2 a rein:Request;
+        rein:requester ont:Jan;
+	rein:requestType reinc:canAccess;
+        rein:requestedAction ont:Pic234.
+
+# invalid
+# reason : did not attend the meeting in which the picture was taken
+:request3 a rein:Request;
+        rein:requester ont:Jerry;
+	rein:requestType reinc:canAccess;
+        rein:requestedAction ont:Pic456.
+
+# valid
+# reason : attended the meeting in which the picture was taken
+:request4 a rein:Request;
+       rein:requester ont:Jose;
+       rein:requestType reinc:canAccess;
+       rein:requestedAction ont:Pic789.
+
+# valid
+# reason : is known by the deployer of resourceZ
+:request5 a rein:Request;
+        rein:requester <http://www.livejournal.com/users/kyrielle/data/foaf>;
+	rein:requestType reinc:canAccess;
+        rein:requestedAction ont:Pic789.
+
+# valid
+# reason : is not known by the deployer of resourceZ
+:request6 a rein:Request;
+        rein:requester <http://www.cs.umbc.edu/~finin/foaf.rdf>;
+	rein:requestType reinc:cannotAccess;
+        rein:requestedAction ont:Pic123.
+
+# valid
+# reason : Sue is a member and is able to execute ontd:File2
+# every member who can execute ontd:File2 can access all pics of FirstMeeting
+:request6 a rein:Request;
+        rein:requester ontd:Sue;
+        rein:requestType reinc:canAccess;
+        rein:requestedAction ont:Pic123.
+
+#ends

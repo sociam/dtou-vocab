@@ -1,0 +1,80 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix reind: <reinD.n3#>.
+@prefix rein: <rein.n3#>.
+@prefix ontd: <ontD.n3#>.
+@prefix onta: <ontA.n3#>.
+@prefix : <#>.
+
+
+# classes and properties
+:User a rdfs:Class.
+:Group a rdfs:Class.
+:File a rdfs:Class.
+:Directory a rdfs:Class;
+	rdfs:subClassOf :File.
+
+:group a rdf:Property;
+        rdfs:range :Group;
+        rdfs:domain :User.
+
+:owner a rdf:Property;
+        rdfs:range :User;
+        rdfs:domain :File.
+
+# owner-group of a file is group of user who owns the file
+:owner-group a rdf:Property;
+        rdfs:range :Group;
+        rdfs:domain :File.
+
+# some instances
+
+:Jennifer a :User;
+	:in :Dig;
+	:in :Tig.
+
+:Karen a :User;
+	:in :W3;
+	:in :Tig.
+
+:Anne a :User;
+	:in :Dig;
+	:in :W3;
+	:in :Tig.
+
+:Morris a :User;
+	:in :W3;
+	:in :Tig.
+
+:Jane a :User;
+	:in :Tig.
+
+:Sue a :User;
+	:in :W3.
+
+onta:Matthew a :User;
+	:in :Dig.
+
+:Dig a :Group.
+:W3 a :Group.
+:Tig a :Group.
+
+:File1 a :File;
+	:owner :Jennifer;
+	:owner-group :Dig;
+	rein:controlledBy <policyD.n3>.
+
+:File2 a :File;
+	:owner :Karen;
+	rein:controlledBy <policyD.n3>;
+	:owner-group :Tig.
+
+:File3 a :File;
+	:owner :Morris;
+	rein:controlledBy <policyD.n3>;
+	:owner-group :W3.
+
+#ends

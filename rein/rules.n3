@@ -1,0 +1,327 @@
+#Processed by Id: cwm.py,v 1.82 2001/11/15 22:11:23 timbl Exp 
+        #    using base file:/web/infomesh/2001/05/rdflint/
+        
+#  Notation3 generation by
+#       notation3.py,v 1.98 2001/11/15 22:11:24 timbl Exp
+
+#   Base was: file:/web/infomesh/2001/05/rdflint/
+     @prefix : <http://www.w3.org/2000/01/rdf-schema#> .
+     @prefix daml: <http://www.daml.org/2001/03/daml+oil#> .
+     @prefix log: <http://www.w3.org/2000/10/swap/log#> .
+     @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+     @prefix v: <http://infomesh.net/2001/05/rdflint/vars#> .
+    
+    rdf:type     a rdf:Property,
+                :Resource;
+         :domain :Resource;
+         :range :Class .
+    
+    @forAll     v:a,
+                v:b,
+                v:c,
+                v:p,
+                v:q,
+                v:r,
+                v:s,
+                v:x,
+                v:y,
+                v:z .
+    {
+        v:p     daml:inverseOf v:q .
+        
+        }     log:implies {v:q     daml:inverseOf v:p .
+        } .
+    {
+        v:a     v:p v:b .
+        v:p     daml:inverseOf v:q .
+        
+        }     log:implies {v:b     v:q v:a .
+        } .
+    {
+        v:p     a daml:TransitiveProperty .
+        v:x     daml:inverseOf v:x .
+        v:y     v:p v:x .
+        
+        }     log:implies {v:y     daml:inverseOf v:y .
+        } .
+    {
+        v:p     a daml:TransitiveProperty .
+        v:x     v:p v:y .
+        v:y     v:p v:z .
+        
+        }     log:implies {v:x     v:p v:z .
+        } .
+    {
+        v:p     a daml:UniqueProperty .
+        v:x     v:p v:y,
+                    v:z .
+        
+        }     log:implies {v:y     = v:z .
+        } .
+    {
+        v:p     a daml:UnambiguousProperty .
+        v:y     v:p v:x .
+        v:z     v:p v:x .
+        
+        }     log:implies {v:y     = v:z .
+        } .
+    {
+        v:a     a v:b .
+        v:b     :subClassOf v:c .
+        
+        }     log:implies {v:a     a v:c .
+        } .
+    {
+        v:p     :domain v:r .
+        v:q     :subPropertyOf v:p .
+        
+        }     log:implies {v:q     :domain v:r .
+        } .
+    {
+        v:p     :range v:r .
+        v:q     :subPropertyOf v:p .
+        
+        }     log:implies {v:q     :range v:r .
+        } .
+    {
+        v:x     daml:oneOf  (
+            v:y 
+             ) .
+        
+        }     log:implies {v:x     a :Class .
+        v:y     a v:x .
+        } .
+    {
+        v:p     = v:q .
+        
+        }     log:implies {v:q     = v:p .
+        } .
+    {
+        v:a     v:b v:c .
+        v:d     = v:a .
+        
+        }     log:implies {v:d     v:b v:c .
+        } .
+    {
+        v:a     v:b v:c .
+        v:d     = v:b .
+        
+        }     log:implies {v:a     v:d v:c .
+        } .
+    {
+        v:a     v:b v:c .
+        v:d     = v:c .
+        
+        }     log:implies {v:a     v:b v:d .
+        } .
+    {
+        v:x     v:y v:z .
+        v:y     :range v:p .
+        
+        }     log:implies {v:z     a v:p .
+        } .
+    {
+        v:x     v:y v:z .
+        v:y     :domain v:p .
+        
+        }     log:implies {v:x     a v:p .
+        } .
+    {
+        v:x     :subClassOf v:y .
+        v:z     a v:x .
+        
+        }     log:implies {v:z     a v:y .
+        } .
+    
+    daml:Class     a :Class,
+                :Resource;
+         :subClassOf :Class,
+                :Resource .
+    
+    daml:Datatype     a :Class,
+                :Resource;
+         :subClassOf :Class,
+                :Resource .
+    
+    daml:List     a :Class,
+                :Resource .
+    
+    daml:Nothing     a daml:Class,
+                :Class,
+                :Resource;
+         daml:complementOf daml:Thing .
+    
+    daml:Restriction     a :Class,
+                :Resource;
+         :subClassOf daml:Class,
+                :Class,
+                :Resource .
+    
+    daml:Thing     a daml:Class,
+                :Class,
+                :Resource;
+         daml:unionOf  [
+             daml:first daml:Nothing;
+             daml:rest  (
+             [
+                     daml:complementOf daml:Nothing;
+                     a :Class,
+                            :Resource ]
+             );
+             a daml:List,
+                    :Resource ] .
+    
+    daml:TransitiveProperty     a :Class,
+                :Resource .
+    
+    daml:complementOf     a rdf:Property,
+                :Resource;
+         :domain :Class;
+         :range daml:Class .
+    
+    daml:differentIndividualFrom     a rdf:Property,
+                :Resource;
+         :domain :Thing;
+         :range :Thing .
+    
+    daml:disjointUnionOf     a rdf:Property,
+                :Resource;
+         :domain :Class;
+         :range daml:List .
+    
+    daml:disjointWith     a rdf:Property,
+                :Resource;
+         :domain :Class;
+         :range :Class .
+    
+    daml:equivalentTo     a rdf:Property,
+                :Resource .
+    
+    daml:hasClass     a rdf:Property,
+                :Resource;
+         :domain daml:Restriction;
+         :range :Class .
+    
+    daml:hasValue     a rdf:Property,
+                :Resource;
+         :domain daml:Restriction .
+    
+    daml:intersectionOf     a rdf:Property,
+                :Resource;
+         :domain :Class;
+         :range daml:List .
+    
+    daml:onProperty     a rdf:Property,
+                :Resource;
+         :domain daml:Restriction;
+         :range rdf:Property .
+    
+    daml:oneOf     a rdf:Property,
+                :Resource;
+         :domain :Class;
+         :range daml:List .
+    
+    daml:sameClassAs     a rdf:Property,
+                :Resource;
+         :domain :Class;
+         :range :Class;
+         :subPropertyOf daml:equivalentTo,
+                :subClassOf .
+    
+    daml:sameIndividualAs     a rdf:Property,
+                :Resource;
+         :domain daml:Thing;
+         :range daml:Thing;
+         :subPropertyOf daml:equivalentTo .
+    
+    daml:samePropertyAs     a rdf:Property,
+                :Resource;
+         :domain rdf:Property;
+         :range rdf:Property;
+         :subPropertyOf daml:equivalentTo,
+                :subPropertyOf .
+    
+    daml:toClass     a rdf:Property,
+                :Resource;
+         :domain daml:Restriction;
+         :range :Class .
+    
+    daml:unionOf     a rdf:Property,
+                :Resource;
+         :domain :Class;
+         :range daml:List .
+    
+    rdf:Property     a :Class,
+                :Resource;
+         :subClassOf :Resource .
+    
+    :Class     a :Class,
+                :Resource;
+         :subClassOf :Resource .
+    
+    :ConstraintProperty     a :Class,
+                :Resource;
+         :subClassOf rdf:Property,
+                :ConstraintResource,
+                :Resource .
+    
+    :ConstraintResource     a :Class,
+                :Resource .
+    
+    :Literal     a :Class,
+                :Resource .
+    
+    :Resource     a :Class,
+                :Resource .
+    
+    :Thing     a :Class,
+                :Resource .
+    
+    :comment     a rdf:Property,
+                :Resource;
+         :domain :Resource;
+         :range :Literal .
+    
+    :containerMembershipProperty     a :Class,
+                :Resource;
+         :subClassOf rdf:Property,
+                :Resource .
+    
+    :domain     a rdf:Property,
+                :ConstraintProperty,
+                :ConstraintResource,
+                :Resource;
+         :domain rdf:Property;
+         :range :Class .
+    
+    :isDefinedBy     a rdf:Property,
+                :Resource .
+    
+    :label     a rdf:Property,
+                :Resource;
+         :domain :Resource;
+         :range :Literal .
+    
+    :range     a rdf:Property,
+                :ConstraintProperty,
+                :ConstraintResource,
+                :Resource;
+         :domain rdf:Property;
+         :range :Class .
+    
+    :seeAlso     a rdf:Property,
+                :Resource .
+    
+    :subClassOf     a daml:TransitiveProperty,
+                rdf:Property,
+                :Resource;
+         :domain :Class;
+         :range :Class .
+    
+    :subPropertyOf     a daml:TransitiveProperty,
+                rdf:Property,
+                :Resource;
+         :domain rdf:Property;
+         :range rdf:Property .
+    
+#ENDS

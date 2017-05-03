@@ -1,0 +1,56 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix rein: <rein.n3#> .
+@prefix : <reinB.n3#> .
+
+# based on Rei ontology (http://rei.umbc.edu)
+
+<> rein:hasReasoner <reasonerB.n3>.
+
+:Policy a rdfs:Class.
+
+# possibly permitted and possibly prohibited
+:pospermitted a rdf:Property.
+:posprohibited a rdf:Property.
+
+# permitted and prohibited
+:permitted a rdf:Property;
+	rdfs:subProperty :pospermitted.
+:prohibited a rdf:Property;
+	rdfs:subProperty :posprohibited.
+
+:Metapolicy a owl:Class.
+
+:Default a owl:Class;
+	rdf:subClassOf :metapolicy.
+
+:MetaMeta a owl:Class;
+	rdf:subClassOf :metapolicy.
+
+:Modality a owl:Class;
+	rdf:subClassOf :metapolicy.
+
+:PermittedByDefault a :Default.
+:ProhibitedByDefault a :Default.
+
+:CheckModalityFirst a :MetaMeta.
+:CheckPriorityFirst a :MetaMeta.
+
+:Positive a :Modality.
+:Negative a :Modality.
+
+:default a rdf:Property;
+	rdfs:range :Default;
+	rdfs:domain rein:Policy.
+
+:metameta a rdf:Property;
+	rdfs:range :MetaMeta;
+	rdfs:domain rein:Policy.
+
+:modality a rdf:Property;
+	rdfs:range :Modality;
+	rdfs:domain rein:Policy.
+
+#ends

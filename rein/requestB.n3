@@ -1,0 +1,42 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix rein: <rein.n3#>.
+@prefix reinb: <reinB.n3#>.
+@prefix ont: <ontB.n3#>.
+@prefix : <#>.
+
+# valid
+# reason : Alice is a grad student, and grad students are
+# permitted to use printing services
+:request1 a rein:Request;
+        rein:requester ont:Alice;
+	rein:requestType reinb:permitted;
+        rein:requestedAction ont:UberPrint.
+
+# valid
+# reason : Alice is permitted to onta:UseHPFax, so she is permitted
+# to use ont:Flickr
+:request2 a rein:Request;
+        rein:requester ont:Alice;
+	rein:requestType reinb:permitted;
+        rein:requestedAction ont:Flickr.
+
+# valid
+# reason : she is posprohibited from Flickr, and everyone who is
+# posprohibited from Flickr is permitted
+:request3 a rein:Request;
+        rein:requester ont:Alice;
+	rein:requestType reinb:permitted;
+        rein:requestedAction ont:Call.
+
+# invalid
+# reason : all grad students are prohibited from using Flickr
+:request4 a rein:Request;
+        rein:requester ont:George;
+        rein:requestType reinb:permitted;
+        rein:requestedAction ont:Flickr.
+
+#ends
+

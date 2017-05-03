@@ -1,0 +1,14 @@
+#Processed by Id: cwm.py,v 1.197 2007/12/13 15:38:39 syosi Exp 
+        #    using base file:///Users/junhao/Documents/sociam/publications/iswc/rein/mob-requestA.n3
+        
+#  Notation3 generation by
+#       notation3.py,v 1.200 2007/12/11 21:18:08 syosi Exp
+
+#   Base was: file:///Users/junhao/Documents/sociam/publications/iswc/rein/mob-requestA.n3
+     @prefix : <person.n3#> .
+    @prefix reina: <reinA.n3#> .
+    @prefix tracker: <tracker.n3#> .
+    
+    tracker:Facebook-ads     reina:isprohibited :Oxford .
+    
+#ENDS

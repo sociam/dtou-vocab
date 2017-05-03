@@ -1,0 +1,66 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.semanticweb.org/junhao/ontologies/2017/3/tracker-ontology> a owl:Ontology .
+
+:hasParentCompany a owl:ObjectProperty , owl:FunctionalProperty , owl:TransitiveProperty ;
+	rdfs:domain :Tracker ;
+	rdfs:range :Tracker .
+
+:hasPrimaryTrackingPurposes a owl:ObjectProperty .
+
+:aquiredIn a owl:DatatypeProperty .
+
+:belongToJurisdictionOf a owl:DatatypeProperty .
+
+:foundedIn a owl:DatatypeProperty .
+
+:hasName a owl:DatatypeProperty .
+
+:hasWebSite a owl:DatatypeProperty .
+
+:Advertisement a owl:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:Analytics a owl:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:CoreFunction a owl:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:FirstPartyTracker a owl:Class ;
+	rdfs:subClassOf :Tracker .
+
+:Google-ads a :Tracker ;
+	:hasPrimaryTrackingPurposes :Advertisement  .
+
+:Facebook-ads a :Tracker ;
+	:hasPrimaryTrackingPurposes :Advertisement  .
+
+:Facebook a :Tracker .
+
+:Marketing a owl:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:Security a owl:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:ThirdPartyTracker a owl:Class .
+
+:Tracker a owl:Class .
+
+:TrackingPurpose a owl:Class .
+
+
+#### some instances
+
+:Google-ads a :Tracker ;
+			:hasPrimaryTrackingPurposes :Advertisement .
+
+:Facebook-ads a :Tracker ;
+			:hasPrimaryTrackingPurposes :Advertisement .
+

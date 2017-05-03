@@ -1,0 +1,54 @@
+# USAGE :  cwm --n3 requestD.n3 engine.n3 --think --filter="engine.n3"
+
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix rein: <rein.n3#>.
+@prefix reind: <reinD.n3#>.
+@prefix ont: <ontD.n3#>.
+@prefix onta: <ontA.n3#>.
+@prefix : <#>.
+
+# valid
+# reason : owner and readU is set
+:request1 a rein:Request;
+        rein:requester ont:Jennifer;
+	rein:requestType reind:read;
+        rein:requestedAction ont:File1.
+
+# valid
+# reason : other and executeO is set
+:request10 a rein:Request;
+        rein:requester onta:Matthew;
+	rein:requestType reind:execute;
+        rein:requestedAction ont:File2.
+
+# valid
+# reason : belongs to group and executeG is set
+:request2 a rein:Request;
+        rein:requester ont:Karen;
+	rein:requestType reind:execute;
+        rein:requestedAction ont:File3.
+
+:change-command a reind:Chmod;
+	reind:file ont:File1;
+	reind:rwx reind:executeO; 
+	reind:set reind:Set.
+
+# valid
+# reason : owner and owner is permitted to change permissions 
+:request3 a rein:Request;
+        rein:requester ont:Jennifer;
+	rein:requestType :change-command;
+        rein:requestedAction ont:File1.
+
+# invalid
+# reason : other and writeO is not set
+:request4 a rein:Request;
+        rein:requester ont:Sue;
+	rein:requestType reind:write;
+        rein:requestedAction ont:File2.
+
+
+#ends
