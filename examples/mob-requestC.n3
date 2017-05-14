@@ -1,0 +1,35 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix rein: <rein.n3#>.
+@prefix reina: <reinA.n3#>.
+@prefix ont: <ontA.n3#>.
+@prefix ontb: <ontB.n3#>.
+@prefix person: <person-C.n3#>.
+@prefix tracker: <tracker.n3#>.
+@prefix : <#>.
+
+# valid
+# reason : All access by a chinese tracker is not permitted
+:request1 a rein:Request;
+        rein:requester tracker:company-cn;
+        rein:requestType reina:isprohibited;
+        rein:requestedAction person:GB.
+
+# invalid
+# reason : All access by a chinese tracker is not permitted
+:request2 a rein:Request;
+        rein:requester tracker:company-cn;
+        rein:requestType reina:ispermitted;
+        rein:requestedAction person:GB.
+
+# valid
+# reason : All access by a chinese tracker is not permitted
+:request3 a rein:Request;
+        rein:requester tracker:company-gb;
+        rein:requestType reina:ispermitted;
+        rein:requestedAction person:GB.
+
+
+#ends

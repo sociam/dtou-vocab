@@ -1,0 +1,43 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix rein: <rein.n3#>.
+@prefix reina: <reinA.n3#>.
+@prefix ont: <ontA.n3#>.
+@prefix ontb: <ontB.n3#>.
+@prefix person: <person-D.n3#>.
+@prefix tracker: <tracker.n3#>.
+@prefix : <#>.
+
+# valid
+# reason : All access for ad is prohibited
+:request1 a rein:Request;
+        rein:requester tracker:Google-ads;
+        rein:requestType reina:isprohibited;
+        rein:requestedAction person:GB.
+
+# valid
+# reason : All access for core is permitted
+:request2 a rein:Request;
+        rein:requester tracker:Google;
+        rein:requestType reina:ispermitted;
+        rein:requestedAction person:GB.
+
+
+# valid
+# reason : All access for unknown purpose is not permitted
+:request2 a rein:Request;
+        rein:requester tracker:vungle;
+        rein:requestType reina:isprohibited;
+        rein:requestedAction person:GB.
+
+
+# valid
+# reason : All access for marketing is not permitted
+:request2 a rein:Request;
+        rein:requester tracker:comScore;
+        rein:requestType reina:isprohibited;
+        rein:requestedAction person:GB.
+
+#ends

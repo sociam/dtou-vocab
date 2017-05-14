@@ -1,0 +1,28 @@
+# USAGE : cwm --n3 requestA.n3 engine.n3 --think --filter="engine.n3"
+
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix reina: <reinA.n3#> .
+@prefix rein: <rein.n3#> .
+@prefix reind: <reinD.n3#> .
+@prefix person: <person.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix : <#>.
+
+<>  a reina:Policy;
+  reina:modalitydef reina:PositiveMod;
+  rein:usesOntology <reinA.n3>.
+
+### All access to location data by trackers is prohibited 
+
+## invalid
+@forAll :x, :y.
+{  ?x a tracker:Tracker. 
+   ?y a person:LocationData. 
+} => { ?x reina:isprohited ?y }.
+
+
+

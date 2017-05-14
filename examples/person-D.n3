@@ -1,0 +1,35 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rein: <rein.n3#>.
+
+:City a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+:CoarseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Continent a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:Country a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:GPS a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+:LocationData a rdfs:Class .
+
+:PreciseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Town a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+#### some instance data
+
+:GB a :CoarseLocationData ;rein:controlledBy <mob-policyD.n3> .
+
