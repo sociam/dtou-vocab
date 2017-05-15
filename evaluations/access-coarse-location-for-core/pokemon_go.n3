@@ -1,0 +1,251 @@
+@prefix person:  <person-E.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3254 a rein:Request ;
+	 rein:requestedAction person:3254 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3255 a rein:Request ;
+	 rein:requestedAction person:3255 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3256 a rein:Request ;
+	 rein:requestedAction person:3256 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Upsight_/_Upsight-Api
+ ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3257 a rein:Request ;
+	 rein:requestedAction person:3257 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Upsight_/_Upsight-Api
+ ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3258 a rein:Request ;
+	 rein:requestedAction person:3258 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Upsight_/_Upsight-Api
+ ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3259 a rein:Request ;
+	 rein:requestedAction person:3259 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Upsight_/_Upsight-Api
+ ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3260 a rein:Request ;
+	 rein:requestedAction person:3260 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3261 a rein:Request ;
+	 rein:requestedAction person:3261 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3262 a rein:Request ;
+	 rein:requestedAction person:3262 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3263 a rein:Request ;
+	 rein:requestedAction person:3263 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Niantic ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3264 a rein:Request ;
+	 rein:requestedAction person:3264 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3265 a rein:Request ;
+	 rein:requestedAction person:3265 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3266 a rein:Request ;
+	 rein:requestedAction person:3266 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3267 a rein:Request ;
+	 rein:requestedAction person:3267 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3268 a rein:Request ;
+	 rein:requestedAction person:3268 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3269 a rein:Request ;
+	 rein:requestedAction person:3269 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3270 a rein:Request ;
+	 rein:requestedAction person:3270 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3271 a rein:Request ;
+	 rein:requestedAction person:3271 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3272 a rein:Request ;
+	 rein:requestedAction person:3272 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3273 a rein:Request ;
+	 rein:requestedAction person:3273 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3274 a rein:Request ;
+	 rein:requestedAction person:3274 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3275 a rein:Request ;
+	 rein:requestedAction person:3275 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3276 a rein:Request ;
+	 rein:requestedAction person:3276 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Unitytechnologies ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3277 a rein:Request ;
+	 rein:requestedAction person:3277 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3278 a rein:Request ;
+	 rein:requestedAction person:3278 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3279 a rein:Request ;
+	 rein:requestedAction person:3279 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3280 a rein:Request ;
+	 rein:requestedAction person:3280 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3281 a rein:Request ;
+	 rein:requestedAction person:3281 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3282 a rein:Request ;
+	 rein:requestedAction person:3282 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3283 a rein:Request ;
+	 rein:requestedAction person:3283 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3284 a rein:Request ;
+	 rein:requestedAction person:3284 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Upsight_/_Upsight-Api
+ ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3285 a rein:Request ;
+	 rein:requestedAction person:3285 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Upsight_/_Upsight-Api
+ ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3286 a rein:Request ;
+	 rein:requestedAction person:3286 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3287 a rein:Request ;
+	 rein:requestedAction person:3287 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3288 a rein:Request ;
+	 rein:requestedAction person:3288 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3289 a rein:Request ;
+	 rein:requestedAction person:3289 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3290 a rein:Request ;
+	 rein:requestedAction person:3290 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3291 a rein:Request ;
+	 rein:requestedAction person:3291 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3292 a rein:Request ;
+	 rein:requestedAction person:3292 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3293 a rein:Request ;
+	 rein:requestedAction person:3293 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3294 a rein:Request ;
+	 rein:requestedAction person:3294 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3295 a rein:Request ;
+	 rein:requestedAction person:3295 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3296 a rein:Request ;
+	 rein:requestedAction person:3296 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3297 a rein:Request ;
+	 rein:requestedAction person:3297 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3298 a rein:Request ;
+	 rein:requestedAction person:3298 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3299 a rein:Request ;
+	 rein:requestedAction person:3299 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3300 a rein:Request ;
+	 rein:requestedAction person:3300 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.
+:request3301 a rein:Request ;
+	 rein:requestedAction person:3301 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pokemon_go.

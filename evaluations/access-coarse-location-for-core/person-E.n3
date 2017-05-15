@@ -1,0 +1,1058 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rein: <rein.n3#>.
+
+:City a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:CoarseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Continent a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:Country a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:GPS a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+:LocationData a rdfs:Class .
+
+:PreciseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Town a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:PhoneCharacteristics a rdfs:Class .
+:PhoneID a rdfs:Class ;
+	rdfs:subClassOf :PhoneCharacteristics .
+
+:PersonalDetails a rdfs:Class .
+:Age a rdfs:Class ;
+	rdfs:subClassOf :PersonalDetails .
+
+#### some instance data
+
+:phoneid a :PhoneCharacteristics ;rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+
+<person-A.n3#age/20> a :Age ;rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+
+:GB a :CoarseLocationData ;rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+
+:Oxford a :Town ;
+	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+
+:gps1 a :GPS ;
+	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:4 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:5 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:6 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:7 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:8 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:9 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:10 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:11 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:12 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:13 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:14 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:15 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:16 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:17 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:18 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:19 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:20 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:21 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:22 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:23 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:24 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:25 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:26 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:27 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:28 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:29 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:30 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:31 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:32 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:33 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:34 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:35 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:36 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:37 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:38 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:39 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:40 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:41 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:42 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:43 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:46 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:47 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:48 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:49 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:50 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:51 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:52 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:53 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:54 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:55 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:56 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:57 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:58 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:62 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:63 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:470 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:471 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:472 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:475 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:476 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:477 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:478 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:479 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:480 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:481 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:482 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:483 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:484 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:485 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:486 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:487 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:488 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:700 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:702 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:703 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:706 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:707 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:708 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:712 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:713 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:714 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:715 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:716 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:717 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:719 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:720 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:721 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:725 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:726 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:727 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:728 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:729 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:730 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:731 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:732 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:733 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:735 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:737 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:738 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:739 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:743 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:744 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:745 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:746 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:747 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:748 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:749 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:750 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:753 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:754 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:755 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:756 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:757 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:760 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:761 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:762 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:763 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:764 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:766 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:767 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:768 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:769 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:770 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:771 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1561 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1562 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1563 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1564 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1565 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1566 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1567 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1568 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1569 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1570 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1571 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1572 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1574 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1575 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1576 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1577 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1578 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1579 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1580 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1581 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1582 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1586 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1587 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1588 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1589 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1590 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1591 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1592 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1593 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1594 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1595 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1596 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1597 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1598 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1599 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1600 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1601 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1602 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1603 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1604 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1605 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1606 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1607 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1608 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1609 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1610 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1611 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1612 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1613 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1614 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1615 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1616 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1617 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1618 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1619 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1620 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1621 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1622 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1623 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1624 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1625 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1626 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1627 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1628 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1629 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1630 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1631 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1632 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1633 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1634 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1635 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1636 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1637 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1638 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1639 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1640 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1641 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1642 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1643 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1644 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1645 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1646 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1647 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1648 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1649 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1650 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1651 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1652 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1653 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1654 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1655 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1656 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1657 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1658 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1659 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1660 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1661 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1662 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1663 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1664 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1665 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1666 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1667 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1668 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1669 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1670 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1671 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1672 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1673 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1674 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1675 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1676 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1677 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1678 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1967 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1968 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1969 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1970 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1971 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1972 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1973 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1974 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1975 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1976 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1977 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:1978 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2152 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2153 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2154 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2155 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2156 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2157 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2158 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2159 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2160 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2161 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2162 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2163 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2164 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2165 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2166 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2167 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2168 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2352 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2353 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2354 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2355 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2356 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2357 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2358 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2360 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2361 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2362 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2365 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2366 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2368 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2369 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2370 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2610 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2611 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2612 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2613 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2614 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2615 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2619 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2620 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2621 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2622 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2623 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2624 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2625 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2626 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2627 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2628 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2629 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2630 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2631 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2632 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2633 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2634 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2635 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2636 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2637 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2638 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2639 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2640 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2641 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2642 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2643 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2644 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2645 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2646 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2647 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2648 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2649 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2650 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2651 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2652 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2653 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2654 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2655 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2656 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2657 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2658 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2659 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2660 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2661 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2662 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2663 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2664 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2665 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2666 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2667 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2668 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2669 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2670 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2671 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2672 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2673 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2674 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2675 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2676 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2677 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2678 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2679 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2680 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2681 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2682 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2683 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2684 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2685 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2686 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2687 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2688 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2689 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2690 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2793 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2794 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2795 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2796 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2799 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2800 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2801 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2802 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2803 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2804 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2805 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2806 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2807 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2808 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2809 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2810 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2811 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2812 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2813 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2814 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2815 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2816 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2817 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2818 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2819 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2820 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2821 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2822 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2823 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2824 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2825 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2829 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2830 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2833 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2834 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:2835 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3192 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3193 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3194 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3195 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3196 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3197 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3198 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3199 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3200 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3201 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3202 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3203 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3204 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3205 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3206 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3207 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3208 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3209 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3210 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3211 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3212 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3213 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3214 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3215 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3216 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3218 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3219 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3220 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3221 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3222 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3223 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3224 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3225 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3226 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3227 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3228 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3229 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3230 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3231 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3232 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3233 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3234 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3235 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3236 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3237 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3240 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3241 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3242 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3243 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3244 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3245 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3246 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3247 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3248 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3249 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3250 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3254 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3255 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3256 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3257 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3258 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3259 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3260 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3261 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3262 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3263 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3264 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3265 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3266 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3267 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3268 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3269 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3270 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3271 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3272 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3273 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3274 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3275 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3276 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3277 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3278 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3279 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3280 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3281 a :CoarseLocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3282 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3283 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3284 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3285 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3286 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3287 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3288 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3289 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3290 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3291 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3292 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3293 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3294 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3295 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3296 a :LocationData;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3297 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3298 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3299 a :PhoneID;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3300 a :PersonalDetails;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .
+:3301 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <5-policy-coarse-location-for-func-only.n3> .

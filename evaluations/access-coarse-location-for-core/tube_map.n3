@@ -1,0 +1,575 @@
+@prefix person:  <person-E.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1561 a rein:Request ;
+	 rein:requestedAction person:1561 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1562 a rein:Request ;
+	 rein:requestedAction person:1562 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1563 a rein:Request ;
+	 rein:requestedAction person:1563 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Primelocation ;
+	 dtou:requestApp dtou:tube_map.
+:request1564 a rein:Request ;
+	 rein:requestedAction person:1564 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admaxim ;
+	 dtou:requestApp dtou:tube_map.
+:request1565 a rein:Request ;
+	 rein:requestedAction person:1565 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admaxim ;
+	 dtou:requestApp dtou:tube_map.
+:request1566 a rein:Request ;
+	 rein:requestedAction person:1566 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admaxim ;
+	 dtou:requestApp dtou:tube_map.
+:request1567 a rein:Request ;
+	 rein:requestedAction person:1567 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admaxim ;
+	 dtou:requestApp dtou:tube_map.
+:request1568 a rein:Request ;
+	 rein:requestedAction person:1568 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Flashtalking ;
+	 dtou:requestApp dtou:tube_map.
+:request1569 a rein:Request ;
+	 rein:requestedAction person:1569 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Flashtalking ;
+	 dtou:requestApp dtou:tube_map.
+:request1570 a rein:Request ;
+	 rein:requestedAction person:1570 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admaxim ;
+	 dtou:requestApp dtou:tube_map.
+:request1571 a rein:Request ;
+	 rein:requestedAction person:1571 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admaxim ;
+	 dtou:requestApp dtou:tube_map.
+:request1572 a rein:Request ;
+	 rein:requestedAction person:1572 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Oracle ;
+	 dtou:requestApp dtou:tube_map.
+:request1574 a rein:Request ;
+	 rein:requestedAction person:1574 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1575 a rein:Request ;
+	 rein:requestedAction person:1575 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1576 a rein:Request ;
+	 rein:requestedAction person:1576 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1577 a rein:Request ;
+	 rein:requestedAction person:1577 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Celtra ;
+	 dtou:requestApp dtou:tube_map.
+:request1578 a rein:Request ;
+	 rein:requestedAction person:1578 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Celtra ;
+	 dtou:requestApp dtou:tube_map.
+:request1579 a rein:Request ;
+	 rein:requestedAction person:1579 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Presage ;
+	 dtou:requestApp dtou:tube_map.
+:request1580 a rein:Request ;
+	 rein:requestedAction person:1580 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Presage ;
+	 dtou:requestApp dtou:tube_map.
+:request1581 a rein:Request ;
+	 rein:requestedAction person:1581 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tube_map.
+:request1582 a rein:Request ;
+	 rein:requestedAction person:1582 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tube_map.
+:request1586 a rein:Request ;
+	 rein:requestedAction person:1586 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1587 a rein:Request ;
+	 rein:requestedAction person:1587 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1588 a rein:Request ;
+	 rein:requestedAction person:1588 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1589 a rein:Request ;
+	 rein:requestedAction person:1589 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Integral_Ad_Science ;
+	 dtou:requestApp dtou:tube_map.
+:request1590 a rein:Request ;
+	 rein:requestedAction person:1590 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tube_map.
+:request1591 a rein:Request ;
+	 rein:requestedAction person:1591 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tube_map.
+:request1592 a rein:Request ;
+	 rein:requestedAction person:1592 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tube_map.
+:request1593 a rein:Request ;
+	 rein:requestedAction person:1593 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1594 a rein:Request ;
+	 rein:requestedAction person:1594 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:tube_map.
+:request1595 a rein:Request ;
+	 rein:requestedAction person:1595 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1596 a rein:Request ;
+	 rein:requestedAction person:1596 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1597 a rein:Request ;
+	 rein:requestedAction person:1597 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1598 a rein:Request ;
+	 rein:requestedAction person:1598 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1599 a rein:Request ;
+	 rein:requestedAction person:1599 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1600 a rein:Request ;
+	 rein:requestedAction person:1600 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tube_map.
+:request1601 a rein:Request ;
+	 rein:requestedAction person:1601 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1602 a rein:Request ;
+	 rein:requestedAction person:1602 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1603 a rein:Request ;
+	 rein:requestedAction person:1603 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1604 a rein:Request ;
+	 rein:requestedAction person:1604 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1605 a rein:Request ;
+	 rein:requestedAction person:1605 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Statiq ;
+	 dtou:requestApp dtou:tube_map.
+:request1606 a rein:Request ;
+	 rein:requestedAction person:1606 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Statiq ;
+	 dtou:requestApp dtou:tube_map.
+:request1607 a rein:Request ;
+	 rein:requestedAction person:1607 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Statiq ;
+	 dtou:requestApp dtou:tube_map.
+:request1608 a rein:Request ;
+	 rein:requestedAction person:1608 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1609 a rein:Request ;
+	 rein:requestedAction person:1609 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1610 a rein:Request ;
+	 rein:requestedAction person:1610 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Celtra ;
+	 dtou:requestApp dtou:tube_map.
+:request1611 a rein:Request ;
+	 rein:requestedAction person:1611 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Pushwoosh ;
+	 dtou:requestApp dtou:tube_map.
+:request1612 a rein:Request ;
+	 rein:requestedAction person:1612 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1613 a rein:Request ;
+	 rein:requestedAction person:1613 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1614 a rein:Request ;
+	 rein:requestedAction person:1614 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1615 a rein:Request ;
+	 rein:requestedAction person:1615 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1616 a rein:Request ;
+	 rein:requestedAction person:1616 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1617 a rein:Request ;
+	 rein:requestedAction person:1617 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admarvel ;
+	 dtou:requestApp dtou:tube_map.
+:request1618 a rein:Request ;
+	 rein:requestedAction person:1618 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tube_map.
+:request1619 a rein:Request ;
+	 rein:requestedAction person:1619 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tube_map.
+:request1620 a rein:Request ;
+	 rein:requestedAction person:1620 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tube_map.
+:request1621 a rein:Request ;
+	 rein:requestedAction person:1621 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tube_map.
+:request1622 a rein:Request ;
+	 rein:requestedAction person:1622 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1623 a rein:Request ;
+	 rein:requestedAction person:1623 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1624 a rein:Request ;
+	 rein:requestedAction person:1624 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1625 a rein:Request ;
+	 rein:requestedAction person:1625 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1626 a rein:Request ;
+	 rein:requestedAction person:1626 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1627 a rein:Request ;
+	 rein:requestedAction person:1627 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1628 a rein:Request ;
+	 rein:requestedAction person:1628 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:tube_map.
+:request1629 a rein:Request ;
+	 rein:requestedAction person:1629 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1630 a rein:Request ;
+	 rein:requestedAction person:1630 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1631 a rein:Request ;
+	 rein:requestedAction person:1631 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1632 a rein:Request ;
+	 rein:requestedAction person:1632 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1633 a rein:Request ;
+	 rein:requestedAction person:1633 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1634 a rein:Request ;
+	 rein:requestedAction person:1634 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tube_map.
+:request1635 a rein:Request ;
+	 rein:requestedAction person:1635 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tube_map.
+:request1636 a rein:Request ;
+	 rein:requestedAction person:1636 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1637 a rein:Request ;
+	 rein:requestedAction person:1637 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1638 a rein:Request ;
+	 rein:requestedAction person:1638 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1639 a rein:Request ;
+	 rein:requestedAction person:1639 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bluekai ;
+	 dtou:requestApp dtou:tube_map.
+:request1640 a rein:Request ;
+	 rein:requestedAction person:1640 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bluekai ;
+	 dtou:requestApp dtou:tube_map.
+:request1641 a rein:Request ;
+	 rein:requestedAction person:1641 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bluekai ;
+	 dtou:requestApp dtou:tube_map.
+:request1642 a rein:Request ;
+	 rein:requestedAction person:1642 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mookie1 ;
+	 dtou:requestApp dtou:tube_map.
+:request1643 a rein:Request ;
+	 rein:requestedAction person:1643 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1644 a rein:Request ;
+	 rein:requestedAction person:1644 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1645 a rein:Request ;
+	 rein:requestedAction person:1645 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1646 a rein:Request ;
+	 rein:requestedAction person:1646 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:tube_map.
+:request1647 a rein:Request ;
+	 rein:requestedAction person:1647 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mologiq ;
+	 dtou:requestApp dtou:tube_map.
+:request1648 a rein:Request ;
+	 rein:requestedAction person:1648 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admarvel ;
+	 dtou:requestApp dtou:tube_map.
+:request1649 a rein:Request ;
+	 rein:requestedAction person:1649 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Celtra ;
+	 dtou:requestApp dtou:tube_map.
+:request1650 a rein:Request ;
+	 rein:requestedAction person:1650 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Celtra ;
+	 dtou:requestApp dtou:tube_map.
+:request1651 a rein:Request ;
+	 rein:requestedAction person:1651 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Treasuredata ;
+	 dtou:requestApp dtou:tube_map.
+:request1652 a rein:Request ;
+	 rein:requestedAction person:1652 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sizmek ;
+	 dtou:requestApp dtou:tube_map.
+:request1653 a rein:Request ;
+	 rein:requestedAction person:1653 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sizmek ;
+	 dtou:requestApp dtou:tube_map.
+:request1654 a rein:Request ;
+	 rein:requestedAction person:1654 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mapway ;
+	 dtou:requestApp dtou:tube_map.
+:request1655 a rein:Request ;
+	 rein:requestedAction person:1655 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mapway ;
+	 dtou:requestApp dtou:tube_map.
+:request1656 a rein:Request ;
+	 rein:requestedAction person:1656 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Zoopla ;
+	 dtou:requestApp dtou:tube_map.
+:request1657 a rein:Request ;
+	 rein:requestedAction person:1657 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:tube_map.
+:request1658 a rein:Request ;
+	 rein:requestedAction person:1658 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Nexage ;
+	 dtou:requestApp dtou:tube_map.
+:request1659 a rein:Request ;
+	 rein:requestedAction person:1659 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Nexage ;
+	 dtou:requestApp dtou:tube_map.
+:request1660 a rein:Request ;
+	 rein:requestedAction person:1660 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Celtra ;
+	 dtou:requestApp dtou:tube_map.
+:request1661 a rein:Request ;
+	 rein:requestedAction person:1661 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Celtra ;
+	 dtou:requestApp dtou:tube_map.
+:request1662 a rein:Request ;
+	 rein:requestedAction person:1662 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1663 a rein:Request ;
+	 rein:requestedAction person:1663 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1664 a rein:Request ;
+	 rein:requestedAction person:1664 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:tube_map.
+:request1665 a rein:Request ;
+	 rein:requestedAction person:1665 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1666 a rein:Request ;
+	 rein:requestedAction person:1666 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1667 a rein:Request ;
+	 rein:requestedAction person:1667 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.
+:request1668 a rein:Request ;
+	 rein:requestedAction person:1668 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1669 a rein:Request ;
+	 rein:requestedAction person:1669 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1670 a rein:Request ;
+	 rein:requestedAction person:1670 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1671 a rein:Request ;
+	 rein:requestedAction person:1671 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1672 a rein:Request ;
+	 rein:requestedAction person:1672 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tube_map.
+:request1673 a rein:Request ;
+	 rein:requestedAction person:1673 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tube_map.
+:request1674 a rein:Request ;
+	 rein:requestedAction person:1674 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tube_map.
+:request1675 a rein:Request ;
+	 rein:requestedAction person:1675 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1676 a rein:Request ;
+	 rein:requestedAction person:1676 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1677 a rein:Request ;
+	 rein:requestedAction person:1677 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:tube_map.
+:request1678 a rein:Request ;
+	 rein:requestedAction person:1678 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:tube_map.

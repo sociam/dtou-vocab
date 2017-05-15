@@ -1,0 +1,90 @@
+@prefix person:  <person-E.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request470 a rein:Request ;
+	 rein:requestedAction person:470 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:withings.
+:request471 a rein:Request ;
+	 rein:requestedAction person:471 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:withings.
+:request472 a rein:Request ;
+	 rein:requestedAction person:472 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:withings.
+:request475 a rein:Request ;
+	 rein:requestedAction person:475 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:withings.
+:request476 a rein:Request ;
+	 rein:requestedAction person:476 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:withings.
+:request477 a rein:Request ;
+	 rein:requestedAction person:477 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:withings.
+:request478 a rein:Request ;
+	 rein:requestedAction person:478 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:withings.
+:request479 a rein:Request ;
+	 rein:requestedAction person:479 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Withings ;
+	 dtou:requestApp dtou:withings.
+:request480 a rein:Request ;
+	 rein:requestedAction person:480 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:withings.
+:request481 a rein:Request ;
+	 rein:requestedAction person:481 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:withings.
+:request482 a rein:Request ;
+	 rein:requestedAction person:482 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:withings.
+:request483 a rein:Request ;
+	 rein:requestedAction person:483 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:withings.
+:request484 a rein:Request ;
+	 rein:requestedAction person:484 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:withings.
+:request485 a rein:Request ;
+	 rein:requestedAction person:485 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Withings ;
+	 dtou:requestApp dtou:withings.
+:request486 a rein:Request ;
+	 rein:requestedAction person:486 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Withings ;
+	 dtou:requestApp dtou:withings.
+:request487 a rein:Request ;
+	 rein:requestedAction person:487 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:withings.
+:request488 a rein:Request ;
+	 rein:requestedAction person:488 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:withings.

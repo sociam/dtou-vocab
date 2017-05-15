@@ -1,0 +1,90 @@
+@prefix person:  <person-E.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2152 a rein:Request ;
+	 rein:requestedAction person:2152 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2153 a rein:Request ;
+	 rein:requestedAction person:2153 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:google_maps.
+:request2154 a rein:Request ;
+	 rein:requestedAction person:2154 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:google_maps.
+:request2155 a rein:Request ;
+	 rein:requestedAction person:2155 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2156 a rein:Request ;
+	 rein:requestedAction person:2156 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2157 a rein:Request ;
+	 rein:requestedAction person:2157 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2158 a rein:Request ;
+	 rein:requestedAction person:2158 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2159 a rein:Request ;
+	 rein:requestedAction person:2159 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2160 a rein:Request ;
+	 rein:requestedAction person:2160 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2161 a rein:Request ;
+	 rein:requestedAction person:2161 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2162 a rein:Request ;
+	 rein:requestedAction person:2162 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2163 a rein:Request ;
+	 rein:requestedAction person:2163 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2164 a rein:Request ;
+	 rein:requestedAction person:2164 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2165 a rein:Request ;
+	 rein:requestedAction person:2165 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2166 a rein:Request ;
+	 rein:requestedAction person:2166 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2167 a rein:Request ;
+	 rein:requestedAction person:2167 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.
+:request2168 a rein:Request ;
+	 rein:requestedAction person:2168 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:google_maps.

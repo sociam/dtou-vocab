@@ -1,0 +1,295 @@
+@prefix person:  <person-E.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1 a rein:Request ;
+	 rein:requestedAction person:1 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request2 a rein:Request ;
+	 rein:requestedAction person:2 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request3 a rein:Request ;
+	 rein:requestedAction person:3 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request4 a rein:Request ;
+	 rein:requestedAction person:4 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request5 a rein:Request ;
+	 rein:requestedAction person:5 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request6 a rein:Request ;
+	 rein:requestedAction person:6 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request7 a rein:Request ;
+	 rein:requestedAction person:7 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request8 a rein:Request ;
+	 rein:requestedAction person:8 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Uber ;
+	 dtou:requestApp dtou:uber.
+:request9 a rein:Request ;
+	 rein:requestedAction person:9 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Uber ;
+	 dtou:requestApp dtou:uber.
+:request10 a rein:Request ;
+	 rein:requestedAction person:10 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Uber ;
+	 dtou:requestApp dtou:uber.
+:request11 a rein:Request ;
+	 rein:requestedAction person:11 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:uber.
+:request12 a rein:Request ;
+	 rein:requestedAction person:12 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:uber.
+:request13 a rein:Request ;
+	 rein:requestedAction person:13 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request14 a rein:Request ;
+	 rein:requestedAction person:14 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request15 a rein:Request ;
+	 rein:requestedAction person:15 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request16 a rein:Request ;
+	 rein:requestedAction person:16 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request17 a rein:Request ;
+	 rein:requestedAction person:17 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request18 a rein:Request ;
+	 rein:requestedAction person:18 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request19 a rein:Request ;
+	 rein:requestedAction person:19 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request20 a rein:Request ;
+	 rein:requestedAction person:20 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request21 a rein:Request ;
+	 rein:requestedAction person:21 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request22 a rein:Request ;
+	 rein:requestedAction person:22 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:uber.
+:request23 a rein:Request ;
+	 rein:requestedAction person:23 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request24 a rein:Request ;
+	 rein:requestedAction person:24 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:uber.
+:request25 a rein:Request ;
+	 rein:requestedAction person:25 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request26 a rein:Request ;
+	 rein:requestedAction person:26 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request27 a rein:Request ;
+	 rein:requestedAction person:27 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request28 a rein:Request ;
+	 rein:requestedAction person:28 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request29 a rein:Request ;
+	 rein:requestedAction person:29 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request30 a rein:Request ;
+	 rein:requestedAction person:30 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request31 a rein:Request ;
+	 rein:requestedAction person:31 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request32 a rein:Request ;
+	 rein:requestedAction person:32 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:uber.
+:request33 a rein:Request ;
+	 rein:requestedAction person:33 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:uber.
+:request34 a rein:Request ;
+	 rein:requestedAction person:34 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:uber.
+:request35 a rein:Request ;
+	 rein:requestedAction person:35 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request36 a rein:Request ;
+	 rein:requestedAction person:36 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request37 a rein:Request ;
+	 rein:requestedAction person:37 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request38 a rein:Request ;
+	 rein:requestedAction person:38 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:App-Measurement ;
+	 dtou:requestApp dtou:uber.
+:request39 a rein:Request ;
+	 rein:requestedAction person:39 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request40 a rein:Request ;
+	 rein:requestedAction person:40 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:uber.
+:request41 a rein:Request ;
+	 rein:requestedAction person:41 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request42 a rein:Request ;
+	 rein:requestedAction person:42 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request43 a rein:Request ;
+	 rein:requestedAction person:43 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request46 a rein:Request ;
+	 rein:requestedAction person:46 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request47 a rein:Request ;
+	 rein:requestedAction person:47 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request48 a rein:Request ;
+	 rein:requestedAction person:48 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request49 a rein:Request ;
+	 rein:requestedAction person:49 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request50 a rein:Request ;
+	 rein:requestedAction person:50 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request51 a rein:Request ;
+	 rein:requestedAction person:51 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request52 a rein:Request ;
+	 rein:requestedAction person:52 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request53 a rein:Request ;
+	 rein:requestedAction person:53 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request54 a rein:Request ;
+	 rein:requestedAction person:54 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request55 a rein:Request ;
+	 rein:requestedAction person:55 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request56 a rein:Request ;
+	 rein:requestedAction person:56 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:uber.
+:request57 a rein:Request ;
+	 rein:requestedAction person:57 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request58 a rein:Request ;
+	 rein:requestedAction person:58 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:uber.
+:request62 a rein:Request ;
+	 rein:requestedAction person:62 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:uber.
+:request63 a rein:Request ;
+	 rein:requestedAction person:63 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:uber.
