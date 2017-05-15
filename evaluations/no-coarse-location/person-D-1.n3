@@ -1,0 +1,76 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rein: <rein.n3#>.
+
+:City a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:CoarseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Continent a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:Country a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:GPS a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+:LocationData a rdfs:Class .
+
+:PreciseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Town a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:PhoneCharacteristics a rdfs:Class .
+:PhoneID a rdfs:Class ;
+	rdfs:subClassOf :PhoneCharacteristics .
+
+:PersonalDetails a rdfs:Class .
+:Age a rdfs:Class ;
+	rdfs:subClassOf :PersonalDetails .
+
+#### some instance data
+:2911 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2912 a :PhoneID;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2913 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2914 a :PersonalDetails;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2918 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2919 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2920 a :PhoneID;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2921 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2922 a :PersonalDetails;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2923 a :PhoneID;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2924 a :LocationData;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2928 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2929 a :PhoneID;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2930 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2931 a :PhoneID;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2932 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2933 a :LocationData;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .
+:2934 a :PersonalDetails;
+ 	 	rein:controlledBy <4-policy-no-coarse-location-allowed.n3> .

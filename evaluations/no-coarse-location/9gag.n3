@@ -1,4 +1,4 @@
-@prefix person:  <person-B.n3#> .
+@prefix person:  <person-D-1.n3#> .
 @prefix rein:  <rein.n3#> .
 @prefix reina:  <reinA.n3#> .
 @prefix tracker: <tracker.n3#> .
