@@ -1,0 +1,95 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2911 a rein:Request ;
+	 rein:requestedAction person:2911 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:9Gag ;
+	 dtou:requestApp dtou:9gag.
+:request2912 a rein:Request ;
+	 rein:requestedAction person:2912 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:9Gag ;
+	 dtou:requestApp dtou:9gag.
+:request2913 a rein:Request ;
+	 rein:requestedAction person:2913 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:9gag.
+:request2914 a rein:Request ;
+	 rein:requestedAction person:2914 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:9gag.
+:request2918 a rein:Request ;
+	 rein:requestedAction person:2918 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:9Gag ;
+	 dtou:requestApp dtou:9gag.
+:request2919 a rein:Request ;
+	 rein:requestedAction person:2919 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:9Gag ;
+	 dtou:requestApp dtou:9gag.
+:request2920 a rein:Request ;
+	 rein:requestedAction person:2920 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:9Gag ;
+	 dtou:requestApp dtou:9gag.
+:request2921 a rein:Request ;
+	 rein:requestedAction person:2921 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:9gag.
+:request2922 a rein:Request ;
+	 rein:requestedAction person:2922 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:9gag.
+:request2923 a rein:Request ;
+	 rein:requestedAction person:2923 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:9gag.
+:request2924 a rein:Request ;
+	 rein:requestedAction person:2924 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:9gag.
+:request2928 a rein:Request ;
+	 rein:requestedAction person:2928 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:9gag.
+:request2929 a rein:Request ;
+	 rein:requestedAction person:2929 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:9gag.
+:request2930 a rein:Request ;
+	 rein:requestedAction person:2930 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:9gag.
+:request2931 a rein:Request ;
+	 rein:requestedAction person:2931 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:9gag.
+:request2932 a rein:Request ;
+	 rein:requestedAction person:2932 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:9gag.
+:request2933 a rein:Request ;
+	 rein:requestedAction person:2933 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:9gag.
+:request2934 a rein:Request ;
+	 rein:requestedAction person:2934 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:9gag.

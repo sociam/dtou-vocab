@@ -1,0 +1,176 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:hasParentCompany a rdf:Property ;
+	rdfs:domain :Tracker ;
+	rdfs:range :Tracker .
+
+:hasPrimaryTrackingPurposes a rdf:Property .
+
+:aquiredIn a rdf:Property .
+
+:belongToJurisdictionOf a rdf:Property .
+
+:foundedIn a rdf:Property .
+
+:hasName a rdf:Property .
+
+:hasWebSite a rdf:Property .
+
+:Advertisement a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:Unknown a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:Analytics a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:CoreFunction a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:FirstPartyTracker a rdfs:Class ;
+	rdfs:subClassOf :Tracker .
+
+
+:Facebook-ads a :Tracker ;
+	:hasPrimaryTrackingPurposes :Advertisement  .
+
+:Facebook a :Tracker ;
+	:hasPrimaryTrackingPurposes :CoreFunction  .
+
+:Marketing a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:Security a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:ThirdPartyTracker a rdfs:Class .
+
+:Tracker a rdfs:Class .
+
+:TrackingPurpose a rdfs:Class .
+
+:App a rdfs:Class .
+
+#### some instances
+
+:Google-ads a :Tracker ;
+	:hasPrimaryTrackingPurposes :Advertisement ;
+	:belongToJurisdictionOf "us" .
+
+:Google a :Tracker ;
+	:hasPrimaryTrackingPurposes :CoreFunction ;
+	:belongToJurisdictionOf "us" .
+
+:vungle a :Tracker ;
+	:hasPrimaryTrackingPurposes :Unknown .
+
+:comScore a :Tracker ;
+	:hasPrimaryTrackingPurposes :Analytics .
+
+:company-cn a :ChineseCompany ;
+	:belongToJurisdictionOf "cn" .
+
+:company-gb a :Tracker ;
+	:belongToJurisdictionOf "gb" .
+
+:9Gag a :Tracker .
+
+:Applovin a :Tracker .
+
+:Facebook a :Tracker .
+
+:Digitalwindow a :Tracker .
+:Amazon-Ads a :Tracker .
+:Branch a :Tracker .
+:Urbanairship a :Tracker .
+:Nike_Fuelband a :Tracker .
+:Pushwoosh a :Tracker .
+:Pubmatic a :Tracker .
+:Ycombinator a :Tracker .
+:Applovin a :Tracker .
+:Mathtag a :Tracker .
+:Appboy a :Tracker .
+:Vungle a :Tracker .
+:Easytouch a :Tracker .
+:Automattic a :Tracker .
+:Lowtechstudios a :Tracker .
+:Adobe a :Tracker .
+:Instagram a :Tracker .
+:Scribbler a :Tracker .
+:Umeng a :Tracker .
+:Healthuniverse a :Tracker .
+:Scorecardresearch a :Tracker .
+:Skype a :Tracker .
+:Ensighten a :Tracker .
+:Premii a :Tracker .
+:Dattch a :Tracker .
+:Evernote a :Tracker .
+:Akamai a :Tracker .
+:Medium a :Tracker .
+:Cloudfront a :Tracker .
+:Amazon a :Tracker .
+:Facebook a :Tracker .
+:Appnexus a :Tracker .
+:King a :Tracker .
+:Appsflyer a :Tracker .
+:Youtube a :Tracker .
+:Unitytechnologies a :Tracker .
+:Bee7 a :Tracker .
+:Microsoft a :Tracker .
+:Applifier a :Tracker .
+:Integral_Ad_Science a :Tracker .
+:Newrelic a :Tracker .
+:Miae a :Tracker .
+:Wordpress a :Tracker .
+:Mozilla a :Tracker .
+:Xiaomi a :Tracker .
+:Electronicarts a :Tracker .
+:Theguardian a :Tracker .
+:Tune a :Tracker .
+:Firebase a :Tracker .
+:Taplytics a :Tracker .
+:Popcap a :Tracker .
+:Ironsource a :Tracker .
+:App-Measurement a :Tracker .
+:Swrve a :Tracker .
+:Apple a :Tracker .
+:Twitter a :Tracker .
+:Thetrainline a :Tracker .
+:Esa a :Tracker .
+:Microsoft-Azure a :Tracker .
+:Outfit7 a :Tracker .
+:9Gag a :Tracker .
+:MSN a :Tracker .
+:Foursquare a :Tracker .
+:Doubleclick a :Tracker .
+:Codecomputerlove a :Tracker .
+:Corethree a :Tracker .
+:Google-Ads a :Tracker .
+:Hotukdeals a :Tracker .
+:Mixpanel a :Tracker .
+:Vimov a :Tracker .
+:Apple-Ads a :Tracker .
+:Google-Analytics a :Tracker .
+:Demdex a :Tracker .
+:Leanplum a :Tracker .
+:Otherlevels a :Tracker .
+:Freeway a :Tracker .
+:Tealium a :Tracker .
+:Adjust a :Tracker .
+:Tinder a :Tracker .
+:Citymapper a :Tracker .
+:Google a :Tracker .
+:Machinezone a :Tracker .
+:Awin1 a :Tracker .
+:Wikimedia a :Tracker .
+:Cdn a :Tracker .
+:Linkedin a :Tracker .
+:Tencent a :Tracker .
+
+

@@ -1,0 +1,150 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1696 a rein:Request ;
+	 rein:requestedAction person:1696 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1697 a rein:Request ;
+	 rein:requestedAction person:1697 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1698 a rein:Request ;
+	 rein:requestedAction person:1698 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1699 a rein:Request ;
+	 rein:requestedAction person:1699 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1700 a rein:Request ;
+	 rein:requestedAction person:1700 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1701 a rein:Request ;
+	 rein:requestedAction person:1701 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1702 a rein:Request ;
+	 rein:requestedAction person:1702 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1703 a rein:Request ;
+	 rein:requestedAction person:1703 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1704 a rein:Request ;
+	 rein:requestedAction person:1704 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1705 a rein:Request ;
+	 rein:requestedAction person:1705 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1706 a rein:Request ;
+	 rein:requestedAction person:1706 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1707 a rein:Request ;
+	 rein:requestedAction person:1707 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1708 a rein:Request ;
+	 rein:requestedAction person:1708 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1709 a rein:Request ;
+	 rein:requestedAction person:1709 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1710 a rein:Request ;
+	 rein:requestedAction person:1710 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1711 a rein:Request ;
+	 rein:requestedAction person:1711 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1712 a rein:Request ;
+	 rein:requestedAction person:1712 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1713 a rein:Request ;
+	 rein:requestedAction person:1713 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1714 a rein:Request ;
+	 rein:requestedAction person:1714 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1715 a rein:Request ;
+	 rein:requestedAction person:1715 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple-Ads ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1716 a rein:Request ;
+	 rein:requestedAction person:1716 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple-Ads ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1717 a rein:Request ;
+	 rein:requestedAction person:1717 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1718 a rein:Request ;
+	 rein:requestedAction person:1718 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1719 a rein:Request ;
+	 rein:requestedAction person:1719 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1720 a rein:Request ;
+	 rein:requestedAction person:1720 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1721 a rein:Request ;
+	 rein:requestedAction person:1721 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1722 a rein:Request ;
+	 rein:requestedAction person:1722 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1723 a rein:Request ;
+	 rein:requestedAction person:1723 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:flappy_bird.
+:request1724 a rein:Request ;
+	 rein:requestedAction person:1724 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:flappy_bird.

@@ -1,0 +1,64 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rein: <rein.n3#>.
+
+:City a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:CoarseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Continent a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:Country a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:GPS a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+:LocationData a rdfs:Class .
+
+:PreciseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Town a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:PhoneCharacteristics a rdfs:Class .
+:PhoneID a rdfs:Class ;
+	rdfs:subClassOf :PhoneCharacteristics .
+:PhoneSoftware a rdfs:Class ;
+	rdfs:subClassOf :PhoneCharacteristics .
+
+:PersonalDetails a rdfs:Class .
+:Age a rdfs:Class ;
+	rdfs:subClassOf :PersonalDetails .
+
+#### some instance data
+:deviceid1 a :PhoneID; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:deviceid2 a :PhoneID; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:deviceid3 a :PhoneID; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:devicesoft1 a :PhoneSoftware; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:devicesoft2 a :PhoneSoftware; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:devicesoft3 a :PhoneSoftware; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:devicesoft4 a :PhoneSoftware; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:devicesoft5 a :PhoneSoftware; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:devicesoft6 a :PhoneSoftware; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:person1 a :PersonalDetails; rein:controlledBy <1-policy-no-location-allowed.n3> .
+:person2 a :PersonalDetails; rein:controlledBy <1-policy-no-location-allowed.n3> .
+
+:phoneid a :PhoneID ;rein:controlledBy <1-policy-no-location-allowed.n3> .
+<person-A.n3#age/20> a :PhoneID ;rein:controlledBy <1-policy-no-location-allowed.n3> .
+
+:GB a :CoarseLocationData ;rein:controlledBy <1-policy-no-location-allowed.n3> .
+
+:Oxford a :Town ;
+	rein:controlledBy <1-policy-no-location-allowed.n3> .
+
+:gps1 a :GPS ;
+	rein:controlledBy <1-policy-no-location-allowed.n3> .

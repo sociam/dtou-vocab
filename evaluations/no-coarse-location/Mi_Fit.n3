@@ -1,0 +1,175 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2318 a rein:Request ;
+	 rein:requestedAction person:2318 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tencent ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2319 a rein:Request ;
+	 rein:requestedAction person:2319 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tencent ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2320 a rein:Request ;
+	 rein:requestedAction person:2320 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2321 a rein:Request ;
+	 rein:requestedAction person:2321 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2322 a rein:Request ;
+	 rein:requestedAction person:2322 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2323 a rein:Request ;
+	 rein:requestedAction person:2323 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2324 a rein:Request ;
+	 rein:requestedAction person:2324 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2325 a rein:Request ;
+	 rein:requestedAction person:2325 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Xiaomi ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2326 a rein:Request ;
+	 rein:requestedAction person:2326 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2327 a rein:Request ;
+	 rein:requestedAction person:2327 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2328 a rein:Request ;
+	 rein:requestedAction person:2328 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Xiaomi ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2329 a rein:Request ;
+	 rein:requestedAction person:2329 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2330 a rein:Request ;
+	 rein:requestedAction person:2330 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2331 a rein:Request ;
+	 rein:requestedAction person:2331 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tencent ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2332 a rein:Request ;
+	 rein:requestedAction person:2332 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tencent ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2333 a rein:Request ;
+	 rein:requestedAction person:2333 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Miae ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2334 a rein:Request ;
+	 rein:requestedAction person:2334 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Miae ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2335 a rein:Request ;
+	 rein:requestedAction person:2335 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Miae ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2336 a rein:Request ;
+	 rein:requestedAction person:2336 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Miae ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2337 a rein:Request ;
+	 rein:requestedAction person:2337 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2338 a rein:Request ;
+	 rein:requestedAction person:2338 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2339 a rein:Request ;
+	 rein:requestedAction person:2339 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Xiaomi ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2340 a rein:Request ;
+	 rein:requestedAction person:2340 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Xiaomi ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2341 a rein:Request ;
+	 rein:requestedAction person:2341 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2342 a rein:Request ;
+	 rein:requestedAction person:2342 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2343 a rein:Request ;
+	 rein:requestedAction person:2343 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2344 a rein:Request ;
+	 rein:requestedAction person:2344 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2345 a rein:Request ;
+	 rein:requestedAction person:2345 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2346 a rein:Request ;
+	 rein:requestedAction person:2346 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2347 a rein:Request ;
+	 rein:requestedAction person:2347 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Xiaomi ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2348 a rein:Request ;
+	 rein:requestedAction person:2348 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Xiaomi ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2349 a rein:Request ;
+	 rein:requestedAction person:2349 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2350 a rein:Request ;
+	 rein:requestedAction person:2350 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Mi_Fit.
+:request2351 a rein:Request ;
+	 rein:requestedAction person:2351 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Umeng ;
+	 dtou:requestApp dtou:Mi_Fit.

@@ -1,0 +1,25 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request658 a rein:Request ;
+	 rein:requestedAction person:658 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:bbc_weather.
+:request659 a rein:Request ;
+	 rein:requestedAction person:659 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:bbc_weather.
+:request660 a rein:Request ;
+	 rein:requestedAction person:660 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:bbc_weather.
+:request663 a rein:Request ;
+	 rein:requestedAction person:663 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_weather.

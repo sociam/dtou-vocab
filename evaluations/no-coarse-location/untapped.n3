@@ -1,0 +1,135 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1781 a rein:Request ;
+	 rein:requestedAction person:1781 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:untapped.
+:request1782 a rein:Request ;
+	 rein:requestedAction person:1782 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:untapped.
+:request1783 a rein:Request ;
+	 rein:requestedAction person:1783 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:untapped.
+:request1784 a rein:Request ;
+	 rein:requestedAction person:1784 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:untapped.
+:request1785 a rein:Request ;
+	 rein:requestedAction person:1785 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:untapped.
+:request1786 a rein:Request ;
+	 rein:requestedAction person:1786 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Branch ;
+	 dtou:requestApp dtou:untapped.
+:request1787 a rein:Request ;
+	 rein:requestedAction person:1787 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:untapped.
+:request1788 a rein:Request ;
+	 rein:requestedAction person:1788 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:untapped.
+:request1790 a rein:Request ;
+	 rein:requestedAction person:1790 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Wordpress ;
+	 dtou:requestApp dtou:untapped.
+:request1791 a rein:Request ;
+	 rein:requestedAction person:1791 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Wordpress ;
+	 dtou:requestApp dtou:untapped.
+:request1794 a rein:Request ;
+	 rein:requestedAction person:1794 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:untapped.
+:request1795 a rein:Request ;
+	 rein:requestedAction person:1795 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:untapped.
+:request1796 a rein:Request ;
+	 rein:requestedAction person:1796 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:untapped.
+:request1797 a rein:Request ;
+	 rein:requestedAction person:1797 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:untapped.
+:request1798 a rein:Request ;
+	 rein:requestedAction person:1798 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:untapped.
+:request1799 a rein:Request ;
+	 rein:requestedAction person:1799 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:untapped.
+:request1800 a rein:Request ;
+	 rein:requestedAction person:1800 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:untapped.
+:request1801 a rein:Request ;
+	 rein:requestedAction person:1801 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:untapped.
+:request1802 a rein:Request ;
+	 rein:requestedAction person:1802 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:untapped.
+:request1803 a rein:Request ;
+	 rein:requestedAction person:1803 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Newrelic ;
+	 dtou:requestApp dtou:untapped.
+:request1804 a rein:Request ;
+	 rein:requestedAction person:1804 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Automattic ;
+	 dtou:requestApp dtou:untapped.
+:request1805 a rein:Request ;
+	 rein:requestedAction person:1805 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Automattic ;
+	 dtou:requestApp dtou:untapped.
+:request1806 a rein:Request ;
+	 rein:requestedAction person:1806 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:untapped.
+:request1807 a rein:Request ;
+	 rein:requestedAction person:1807 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:untapped.
+:request1808 a rein:Request ;
+	 rein:requestedAction person:1808 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Foursquare ;
+	 dtou:requestApp dtou:untapped.
+:request1809 a rein:Request ;
+	 rein:requestedAction person:1809 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Foursquare ;
+	 dtou:requestApp dtou:untapped.

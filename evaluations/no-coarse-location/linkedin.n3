@@ -1,0 +1,220 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request489 a rein:Request ;
+	 rein:requestedAction person:489 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Linkedin ;
+	 dtou:requestApp dtou:linkedin.
+:request490 a rein:Request ;
+	 rein:requestedAction person:490 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:linkedin.
+:request491 a rein:Request ;
+	 rein:requestedAction person:491 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request492 a rein:Request ;
+	 rein:requestedAction person:492 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request493 a rein:Request ;
+	 rein:requestedAction person:493 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request494 a rein:Request ;
+	 rein:requestedAction person:494 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:linkedin.
+:request495 a rein:Request ;
+	 rein:requestedAction person:495 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request496 a rein:Request ;
+	 rein:requestedAction person:496 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request497 a rein:Request ;
+	 rein:requestedAction person:497 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request498 a rein:Request ;
+	 rein:requestedAction person:498 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request499 a rein:Request ;
+	 rein:requestedAction person:499 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request500 a rein:Request ;
+	 rein:requestedAction person:500 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request501 a rein:Request ;
+	 rein:requestedAction person:501 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request502 a rein:Request ;
+	 rein:requestedAction person:502 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:linkedin.
+:request503 a rein:Request ;
+	 rein:requestedAction person:503 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:linkedin.
+:request504 a rein:Request ;
+	 rein:requestedAction person:504 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request505 a rein:Request ;
+	 rein:requestedAction person:505 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request506 a rein:Request ;
+	 rein:requestedAction person:506 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request507 a rein:Request ;
+	 rein:requestedAction person:507 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:linkedin.
+:request508 a rein:Request ;
+	 rein:requestedAction person:508 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:linkedin.
+:request509 a rein:Request ;
+	 rein:requestedAction person:509 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:linkedin.
+:request510 a rein:Request ;
+	 rein:requestedAction person:510 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request511 a rein:Request ;
+	 rein:requestedAction person:511 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request512 a rein:Request ;
+	 rein:requestedAction person:512 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request513 a rein:Request ;
+	 rein:requestedAction person:513 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:linkedin.
+:request514 a rein:Request ;
+	 rein:requestedAction person:514 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:linkedin.
+:request515 a rein:Request ;
+	 rein:requestedAction person:515 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:linkedin.
+:request516 a rein:Request ;
+	 rein:requestedAction person:516 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:linkedin.
+:request517 a rein:Request ;
+	 rein:requestedAction person:517 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Linkedin ;
+	 dtou:requestApp dtou:linkedin.
+:request518 a rein:Request ;
+	 rein:requestedAction person:518 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Linkedin ;
+	 dtou:requestApp dtou:linkedin.
+:request519 a rein:Request ;
+	 rein:requestedAction person:519 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Linkedin ;
+	 dtou:requestApp dtou:linkedin.
+:request520 a rein:Request ;
+	 rein:requestedAction person:520 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request521 a rein:Request ;
+	 rein:requestedAction person:521 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request522 a rein:Request ;
+	 rein:requestedAction person:522 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request523 a rein:Request ;
+	 rein:requestedAction person:523 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request524 a rein:Request ;
+	 rein:requestedAction person:524 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:linkedin.
+:request525 a rein:Request ;
+	 rein:requestedAction person:525 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:linkedin.
+:request526 a rein:Request ;
+	 rein:requestedAction person:526 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:linkedin.
+:request527 a rein:Request ;
+	 rein:requestedAction person:527 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:linkedin.
+:request528 a rein:Request ;
+	 rein:requestedAction person:528 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request529 a rein:Request ;
+	 rein:requestedAction person:529 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request530 a rein:Request ;
+	 rein:requestedAction person:530 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:linkedin.
+:request531 a rein:Request ;
+	 rein:requestedAction person:531 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Linkedin ;
+	 dtou:requestApp dtou:linkedin.

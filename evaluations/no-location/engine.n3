@@ -1,0 +1,55 @@
+#  alias cwm="python ~/Research/cwm/cwm-1.0.0/cwm.py"
+# USAGE :  cwm --n3 <request>.n3 --think --filter="engine.n3"
+# USAGE :  cwm --n3 requestA.n3 --think --filter="engine.n3"
+# USAGE :  cwm --n3 requestB.n3 --think --filter="engine.n3"
+# USAGE :  cwm --n3 requestC.n3 --think --filter="engine.n3"
+# USAGE :  cwm --n3 requestD.n3  --think --filter="engine.n3"
+
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix rein: <rein.n3#>.
+@prefix : <#>.
+
+# if policy does not have a reasoner, load it and check whether 
+# it infers that (requester requestType requestedAction) is true
+
+@forAll :request, :actor, :action, :deontic, :A, :policy, :ontology, :F, :G.
+
+{  :request rein:requester :actor.
+   :request rein:requestedAction :action.
+   :request rein:requestType :deontic.
+   :action log:semantics :A.
+   :A log:includes {:action rein:controlledBy :policy}.
+   :policy.log:semantics log:includes { [] rein:usesOntology :ontology}.
+   :ontology.log:semantics log:notIncludes { [] rein:hasReasoner [] }.
+   ( :policy.log:semanticsWithImportsClosure
+     :A
+     :actor.log:semantics
+     :ontology.log:semantics) log:conjunction :F.
+   :F log:conclusion :G.
+   :G log:includes {:actor :deontic :action }.
+} => {:actor :deontic :action}.
+
+
+# if policy has a reasoner, load the reasoner and the request 
+# check whether it infers that (requester requestType requestedAction) is true
+# semantics replaced by semanticsWithImportsClosure
+
+@forAll :request, :actor, :action, :deontic, :policy, :ontology, :reasoner, :F, :G.
+{   :request a rein:Request.
+    :request rein:requester :actor.
+    :request rein:requestedAction :action.
+    :request rein:requestType :deontic.
+    :action.log:semantics log:includes { :action rein:controlledBy :policy }.
+    :policy.log:semantics log:includes { :policy rein:usesOntology :ontology }.
+    :ontology.log:semantics log:includes { :ontology rein:hasReasoner :reasoner }. 
+    (  {[] a rein:Request; rein:requester :actor; 
+        rein:requestedAction :action; rein:requestType :deontic}
+       :reasoner.log:semantics) log:conjunction :F.
+    :F log:conclusion :G.
+    :G log:includes {:actor :deontic :action}. 
+} => { :actor :deontic :action }.
+
+#ends

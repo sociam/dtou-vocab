@@ -1,0 +1,100 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2294 a rein:Request ;
+	 rein:requestedAction person:2294 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2295 a rein:Request ;
+	 rein:requestedAction person:2295 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2296 a rein:Request ;
+	 rein:requestedAction person:2296 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2297 a rein:Request ;
+	 rein:requestedAction person:2297 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2298 a rein:Request ;
+	 rein:requestedAction person:2298 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2299 a rein:Request ;
+	 rein:requestedAction person:2299 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2300 a rein:Request ;
+	 rein:requestedAction person:2300 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2303 a rein:Request ;
+	 rein:requestedAction person:2303 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Digitalwindow ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2304 a rein:Request ;
+	 rein:requestedAction person:2304 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Hotukdeals ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2305 a rein:Request ;
+	 rein:requestedAction person:2305 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Awin1 ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2306 a rein:Request ;
+	 rein:requestedAction person:2306 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2307 a rein:Request ;
+	 rein:requestedAction person:2307 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2308 a rein:Request ;
+	 rein:requestedAction person:2308 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2309 a rein:Request ;
+	 rein:requestedAction person:2309 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2310 a rein:Request ;
+	 rein:requestedAction person:2310 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2311 a rein:Request ;
+	 rein:requestedAction person:2311 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2312 a rein:Request ;
+	 rein:requestedAction person:2312 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Hotukdeals ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2313 a rein:Request ;
+	 rein:requestedAction person:2313 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:hotukdeals.
+:request2314 a rein:Request ;
+	 rein:requestedAction person:2314 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Pushwoosh ;
+	 dtou:requestApp dtou:hotukdeals.

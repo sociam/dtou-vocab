@@ -1,0 +1,60 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2866 a rein:Request ;
+	 rein:requestedAction person:2866 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pinterest.
+:request2867 a rein:Request ;
+	 rein:requestedAction person:2867 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pinterest.
+:request2870 a rein:Request ;
+	 rein:requestedAction person:2870 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Branch ;
+	 dtou:requestApp dtou:pinterest.
+:request2891 a rein:Request ;
+	 rein:requestedAction person:2891 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pinterest.
+:request2892 a rein:Request ;
+	 rein:requestedAction person:2892 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:App-Measurement ;
+	 dtou:requestApp dtou:pinterest.
+:request2893 a rein:Request ;
+	 rein:requestedAction person:2893 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:pinterest.
+:request2898 a rein:Request ;
+	 rein:requestedAction person:2898 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pinterest.
+:request2899 a rein:Request ;
+	 rein:requestedAction person:2899 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pinterest.
+:request2900 a rein:Request ;
+	 rein:requestedAction person:2900 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:pinterest.
+:request2901 a rein:Request ;
+	 rein:requestedAction person:2901 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:pinterest.
+:request2902 a rein:Request ;
+	 rein:requestedAction person:2902 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:pinterest.

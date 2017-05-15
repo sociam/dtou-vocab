@@ -1,0 +1,20 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3094 a rein:Request ;
+	 rein:requestedAction person:3094 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:S_Memo.
+:request3095 a rein:Request ;
+	 rein:requestedAction person:3095 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:S_Memo.
+:request3096 a rein:Request ;
+	 rein:requestedAction person:3096 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:S_Memo.

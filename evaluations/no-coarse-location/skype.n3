@@ -1,0 +1,185 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request776 a rein:Request ;
+	 rein:requestedAction person:776 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request777 a rein:Request ;
+	 rein:requestedAction person:777 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request778 a rein:Request ;
+	 rein:requestedAction person:778 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request779 a rein:Request ;
+	 rein:requestedAction person:779 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request780 a rein:Request ;
+	 rein:requestedAction person:780 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request781 a rein:Request ;
+	 rein:requestedAction person:781 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request782 a rein:Request ;
+	 rein:requestedAction person:782 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request783 a rein:Request ;
+	 rein:requestedAction person:783 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request784 a rein:Request ;
+	 rein:requestedAction person:784 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request785 a rein:Request ;
+	 rein:requestedAction person:785 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ensighten ;
+	 dtou:requestApp dtou:skype.
+:request786 a rein:Request ;
+	 rein:requestedAction person:786 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request787 a rein:Request ;
+	 rein:requestedAction person:787 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request788 a rein:Request ;
+	 rein:requestedAction person:788 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request789 a rein:Request ;
+	 rein:requestedAction person:789 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request795 a rein:Request ;
+	 rein:requestedAction person:795 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request796 a rein:Request ;
+	 rein:requestedAction person:796 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request797 a rein:Request ;
+	 rein:requestedAction person:797 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:skype.
+:request798 a rein:Request ;
+	 rein:requestedAction person:798 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:skype.
+:request799 a rein:Request ;
+	 rein:requestedAction person:799 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request800 a rein:Request ;
+	 rein:requestedAction person:800 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request801 a rein:Request ;
+	 rein:requestedAction person:801 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request802 a rein:Request ;
+	 rein:requestedAction person:802 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request803 a rein:Request ;
+	 rein:requestedAction person:803 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request804 a rein:Request ;
+	 rein:requestedAction person:804 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:skype.
+:request805 a rein:Request ;
+	 rein:requestedAction person:805 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request806 a rein:Request ;
+	 rein:requestedAction person:806 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request809 a rein:Request ;
+	 rein:requestedAction person:809 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request810 a rein:Request ;
+	 rein:requestedAction person:810 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request811 a rein:Request ;
+	 rein:requestedAction person:811 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request812 a rein:Request ;
+	 rein:requestedAction person:812 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request813 a rein:Request ;
+	 rein:requestedAction person:813 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request814 a rein:Request ;
+	 rein:requestedAction person:814 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Skype ;
+	 dtou:requestApp dtou:skype.
+:request815 a rein:Request ;
+	 rein:requestedAction person:815 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request816 a rein:Request ;
+	 rein:requestedAction person:816 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.
+:request817 a rein:Request ;
+	 rein:requestedAction person:817 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft-Azure ;
+	 dtou:requestApp dtou:skype.
+:request818 a rein:Request ;
+	 rein:requestedAction person:818 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:skype.

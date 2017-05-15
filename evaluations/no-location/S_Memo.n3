@@ -1,0 +1,26 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix rein: <rein.n3#>.
+@prefix reina: <reinA.n3#>.
+@prefix person: <person-A.n3#>.
+@prefix tracker: <tracker.n3#>.
+@prefix dtou: <dtou.n3#>.
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix : <#>.
+
+
+# valid
+# reason : All access to location is not permitted, but others are permitted
+:request1 a rein:Request;
+        rein:requester tracker:Google;
+		rein:requestType reina:ispermitted;
+        rein:requestedAction person:devicesoft6;
+        dtou:requestApp tracker:S_Memo .
+
+:request2 a rein:Request;
+        rein:requester tracker:Google;
+		rein:requestType reina:ispermitted;
+        rein:requestedAction person:person2;
+        dtou:requestApp tracker:S_Memo .

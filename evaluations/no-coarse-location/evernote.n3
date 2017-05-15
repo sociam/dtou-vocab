@@ -1,0 +1,130 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1193 a rein:Request ;
+	 rein:requestedAction person:1193 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:evernote.
+:request1194 a rein:Request ;
+	 rein:requestedAction person:1194 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:evernote.
+:request1195 a rein:Request ;
+	 rein:requestedAction person:1195 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:evernote.
+:request1196 a rein:Request ;
+	 rein:requestedAction person:1196 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:evernote.
+:request1197 a rein:Request ;
+	 rein:requestedAction person:1197 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:evernote.
+:request1198 a rein:Request ;
+	 rein:requestedAction person:1198 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:evernote.
+:request1199 a rein:Request ;
+	 rein:requestedAction person:1199 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:evernote.
+:request1200 a rein:Request ;
+	 rein:requestedAction person:1200 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Evernote ;
+	 dtou:requestApp dtou:evernote.
+:request1201 a rein:Request ;
+	 rein:requestedAction person:1201 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:evernote.
+:request1202 a rein:Request ;
+	 rein:requestedAction person:1202 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:evernote.
+:request1203 a rein:Request ;
+	 rein:requestedAction person:1203 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:App-Measurement ;
+	 dtou:requestApp dtou:evernote.
+:request1204 a rein:Request ;
+	 rein:requestedAction person:1204 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:evernote.
+:request1205 a rein:Request ;
+	 rein:requestedAction person:1205 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:evernote.
+:request1206 a rein:Request ;
+	 rein:requestedAction person:1206 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:evernote.
+:request1207 a rein:Request ;
+	 rein:requestedAction person:1207 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:evernote.
+:request1208 a rein:Request ;
+	 rein:requestedAction person:1208 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:evernote.
+:request1209 a rein:Request ;
+	 rein:requestedAction person:1209 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:evernote.
+:request1210 a rein:Request ;
+	 rein:requestedAction person:1210 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:evernote.
+:request1211 a rein:Request ;
+	 rein:requestedAction person:1211 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:evernote.
+:request1212 a rein:Request ;
+	 rein:requestedAction person:1212 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:evernote.
+:request1213 a rein:Request ;
+	 rein:requestedAction person:1213 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Evernote ;
+	 dtou:requestApp dtou:evernote.
+:request1214 a rein:Request ;
+	 rein:requestedAction person:1214 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:evernote.
+:request1215 a rein:Request ;
+	 rein:requestedAction person:1215 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:evernote.
+:request1216 a rein:Request ;
+	 rein:requestedAction person:1216 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:evernote.
+:request1217 a rein:Request ;
+	 rein:requestedAction person:1217 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Evernote ;
+	 dtou:requestApp dtou:evernote.

@@ -1,0 +1,35 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3302 a rein:Request ;
+	 rein:requestedAction person:3302 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Wikimedia ;
+	 dtou:requestApp dtou:wikipanion.
+:request3303 a rein:Request ;
+	 rein:requestedAction person:3303 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:wikipanion.
+:request3304 a rein:Request ;
+	 rein:requestedAction person:3304 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:wikipanion.
+:request3305 a rein:Request ;
+	 rein:requestedAction person:3305 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:wikipanion.
+:request3306 a rein:Request ;
+	 rein:requestedAction person:3306 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:wikipanion.
+:request3307 a rein:Request ;
+	 rein:requestedAction person:3307 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:wikipanion.

@@ -1,0 +1,220 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3047 a rein:Request ;
+	 rein:requestedAction person:3047 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3048 a rein:Request ;
+	 rein:requestedAction person:3048 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3049 a rein:Request ;
+	 rein:requestedAction person:3049 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3050 a rein:Request ;
+	 rein:requestedAction person:3050 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:citymapper.
+:request3051 a rein:Request ;
+	 rein:requestedAction person:3051 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:citymapper.
+:request3053 a rein:Request ;
+	 rein:requestedAction person:3053 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:citymapper.
+:request3054 a rein:Request ;
+	 rein:requestedAction person:3054 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:citymapper.
+:request3055 a rein:Request ;
+	 rein:requestedAction person:3055 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3056 a rein:Request ;
+	 rein:requestedAction person:3056 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3057 a rein:Request ;
+	 rein:requestedAction person:3057 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3058 a rein:Request ;
+	 rein:requestedAction person:3058 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3059 a rein:Request ;
+	 rein:requestedAction person:3059 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3060 a rein:Request ;
+	 rein:requestedAction person:3060 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3061 a rein:Request ;
+	 rein:requestedAction person:3061 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3062 a rein:Request ;
+	 rein:requestedAction person:3062 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3063 a rein:Request ;
+	 rein:requestedAction person:3063 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3064 a rein:Request ;
+	 rein:requestedAction person:3064 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3065 a rein:Request ;
+	 rein:requestedAction person:3065 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3066 a rein:Request ;
+	 rein:requestedAction person:3066 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3067 a rein:Request ;
+	 rein:requestedAction person:3067 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3069 a rein:Request ;
+	 rein:requestedAction person:3069 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3070 a rein:Request ;
+	 rein:requestedAction person:3070 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3071 a rein:Request ;
+	 rein:requestedAction person:3071 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3072 a rein:Request ;
+	 rein:requestedAction person:3072 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3073 a rein:Request ;
+	 rein:requestedAction person:3073 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:citymapper.
+:request3074 a rein:Request ;
+	 rein:requestedAction person:3074 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:citymapper.
+:request3075 a rein:Request ;
+	 rein:requestedAction person:3075 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:citymapper.
+:request3076 a rein:Request ;
+	 rein:requestedAction person:3076 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:citymapper.
+:request3077 a rein:Request ;
+	 rein:requestedAction person:3077 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:App-Measurement ;
+	 dtou:requestApp dtou:citymapper.
+:request3078 a rein:Request ;
+	 rein:requestedAction person:3078 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3079 a rein:Request ;
+	 rein:requestedAction person:3079 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:citymapper.
+:request3080 a rein:Request ;
+	 rein:requestedAction person:3080 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:citymapper.
+:request3081 a rein:Request ;
+	 rein:requestedAction person:3081 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:citymapper.
+:request3082 a rein:Request ;
+	 rein:requestedAction person:3082 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:citymapper.
+:request3083 a rein:Request ;
+	 rein:requestedAction person:3083 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3084 a rein:Request ;
+	 rein:requestedAction person:3084 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3085 a rein:Request ;
+	 rein:requestedAction person:3085 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3088 a rein:Request ;
+	 rein:requestedAction person:3088 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:citymapper.
+:request3089 a rein:Request ;
+	 rein:requestedAction person:3089 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:citymapper.
+:request3090 a rein:Request ;
+	 rein:requestedAction person:3090 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3091 a rein:Request ;
+	 rein:requestedAction person:3091 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3092 a rein:Request ;
+	 rein:requestedAction person:3092 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Citymapper ;
+	 dtou:requestApp dtou:citymapper.
+:request3093 a rein:Request ;
+	 rein:requestedAction person:3093 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:citymapper.

@@ -1,0 +1,70 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2940 a rein:Request ;
+	 rein:requestedAction person:2940 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2941 a rein:Request ;
+	 rein:requestedAction person:2941 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2954 a rein:Request ;
+	 rein:requestedAction person:2954 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2955 a rein:Request ;
+	 rein:requestedAction person:2955 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2956 a rein:Request ;
+	 rein:requestedAction person:2956 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2957 a rein:Request ;
+	 rein:requestedAction person:2957 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2986 a rein:Request ;
+	 rein:requestedAction person:2986 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2987 a rein:Request ;
+	 rein:requestedAction person:2987 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2988 a rein:Request ;
+	 rein:requestedAction person:2988 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2989 a rein:Request ;
+	 rein:requestedAction person:2989 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2990 a rein:Request ;
+	 rein:requestedAction person:2990 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2995 a rein:Request ;
+	 rein:requestedAction person:2995 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:youtube-kids.
+:request2996 a rein:Request ;
+	 rein:requestedAction person:2996 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:youtube-kids.

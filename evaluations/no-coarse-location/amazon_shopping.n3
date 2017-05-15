@@ -1,0 +1,160 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3001 a rein:Request ;
+	 rein:requestedAction person:3001 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3004 a rein:Request ;
+	 rein:requestedAction person:3004 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3005 a rein:Request ;
+	 rein:requestedAction person:3005 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon-Ads ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3006 a rein:Request ;
+	 rein:requestedAction person:3006 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon-Ads ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3007 a rein:Request ;
+	 rein:requestedAction person:3007 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon-Ads ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3009 a rein:Request ;
+	 rein:requestedAction person:3009 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3010 a rein:Request ;
+	 rein:requestedAction person:3010 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3011 a rein:Request ;
+	 rein:requestedAction person:3011 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3012 a rein:Request ;
+	 rein:requestedAction person:3012 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3013 a rein:Request ;
+	 rein:requestedAction person:3013 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3014 a rein:Request ;
+	 rein:requestedAction person:3014 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3015 a rein:Request ;
+	 rein:requestedAction person:3015 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3016 a rein:Request ;
+	 rein:requestedAction person:3016 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3017 a rein:Request ;
+	 rein:requestedAction person:3017 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3018 a rein:Request ;
+	 rein:requestedAction person:3018 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3019 a rein:Request ;
+	 rein:requestedAction person:3019 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3020 a rein:Request ;
+	 rein:requestedAction person:3020 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3021 a rein:Request ;
+	 rein:requestedAction person:3021 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3025 a rein:Request ;
+	 rein:requestedAction person:3025 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3026 a rein:Request ;
+	 rein:requestedAction person:3026 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3027 a rein:Request ;
+	 rein:requestedAction person:3027 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3028 a rein:Request ;
+	 rein:requestedAction person:3028 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3029 a rein:Request ;
+	 rein:requestedAction person:3029 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3030 a rein:Request ;
+	 rein:requestedAction person:3030 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3031 a rein:Request ;
+	 rein:requestedAction person:3031 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3032 a rein:Request ;
+	 rein:requestedAction person:3032 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3033 a rein:Request ;
+	 rein:requestedAction person:3033 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3034 a rein:Request ;
+	 rein:requestedAction person:3034 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3041 a rein:Request ;
+	 rein:requestedAction person:3041 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon-Ads ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3042 a rein:Request ;
+	 rein:requestedAction person:3042 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon-Ads ;
+	 dtou:requestApp dtou:amazon_shopping.
+:request3043 a rein:Request ;
+	 rein:requestedAction person:3043 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon-Ads ;
+	 dtou:requestApp dtou:amazon_shopping.

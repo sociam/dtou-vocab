@@ -1,0 +1,370 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request393 a rein:Request ;
+	 rein:requestedAction person:393 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request394 a rein:Request ;
+	 rein:requestedAction person:394 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request395 a rein:Request ;
+	 rein:requestedAction person:395 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request396 a rein:Request ;
+	 rein:requestedAction person:396 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bee7 ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request397 a rein:Request ;
+	 rein:requestedAction person:397 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bee7 ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request398 a rein:Request ;
+	 rein:requestedAction person:398 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request399 a rein:Request ;
+	 rein:requestedAction person:399 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request400 a rein:Request ;
+	 rein:requestedAction person:400 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request402 a rein:Request ;
+	 rein:requestedAction person:402 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Outfit7 ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request403 a rein:Request ;
+	 rein:requestedAction person:403 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Outfit7 ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request404 a rein:Request ;
+	 rein:requestedAction person:404 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Outfit7 ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request405 a rein:Request ;
+	 rein:requestedAction person:405 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request406 a rein:Request ;
+	 rein:requestedAction person:406 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request407 a rein:Request ;
+	 rein:requestedAction person:407 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request408 a rein:Request ;
+	 rein:requestedAction person:408 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request409 a rein:Request ;
+	 rein:requestedAction person:409 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request410 a rein:Request ;
+	 rein:requestedAction person:410 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vungle ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request411 a rein:Request ;
+	 rein:requestedAction person:411 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request412 a rein:Request ;
+	 rein:requestedAction person:412 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request413 a rein:Request ;
+	 rein:requestedAction person:413 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request414 a rein:Request ;
+	 rein:requestedAction person:414 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request415 a rein:Request ;
+	 rein:requestedAction person:415 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request417 a rein:Request ;
+	 rein:requestedAction person:417 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Outfit7 ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request418 a rein:Request ;
+	 rein:requestedAction person:418 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request419 a rein:Request ;
+	 rein:requestedAction person:419 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request421 a rein:Request ;
+	 rein:requestedAction person:421 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request422 a rein:Request ;
+	 rein:requestedAction person:422 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request423 a rein:Request ;
+	 rein:requestedAction person:423 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request424 a rein:Request ;
+	 rein:requestedAction person:424 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request425 a rein:Request ;
+	 rein:requestedAction person:425 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request426 a rein:Request ;
+	 rein:requestedAction person:426 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request427 a rein:Request ;
+	 rein:requestedAction person:427 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vungle ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request428 a rein:Request ;
+	 rein:requestedAction person:428 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request429 a rein:Request ;
+	 rein:requestedAction person:429 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request430 a rein:Request ;
+	 rein:requestedAction person:430 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request431 a rein:Request ;
+	 rein:requestedAction person:431 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request432 a rein:Request ;
+	 rein:requestedAction person:432 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request433 a rein:Request ;
+	 rein:requestedAction person:433 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request434 a rein:Request ;
+	 rein:requestedAction person:434 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Machinezone ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request435 a rein:Request ;
+	 rein:requestedAction person:435 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Machinezone ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request436 a rein:Request ;
+	 rein:requestedAction person:436 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request437 a rein:Request ;
+	 rein:requestedAction person:437 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request438 a rein:Request ;
+	 rein:requestedAction person:438 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bee7 ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request439 a rein:Request ;
+	 rein:requestedAction person:439 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bee7 ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request440 a rein:Request ;
+	 rein:requestedAction person:440 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request441 a rein:Request ;
+	 rein:requestedAction person:441 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request442 a rein:Request ;
+	 rein:requestedAction person:442 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request443 a rein:Request ;
+	 rein:requestedAction person:443 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request444 a rein:Request ;
+	 rein:requestedAction person:444 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request445 a rein:Request ;
+	 rein:requestedAction person:445 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request446 a rein:Request ;
+	 rein:requestedAction person:446 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request447 a rein:Request ;
+	 rein:requestedAction person:447 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request448 a rein:Request ;
+	 rein:requestedAction person:448 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request449 a rein:Request ;
+	 rein:requestedAction person:449 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request450 a rein:Request ;
+	 rein:requestedAction person:450 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request451 a rein:Request ;
+	 rein:requestedAction person:451 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request452 a rein:Request ;
+	 rein:requestedAction person:452 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request453 a rein:Request ;
+	 rein:requestedAction person:453 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request454 a rein:Request ;
+	 rein:requestedAction person:454 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request455 a rein:Request ;
+	 rein:requestedAction person:455 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request456 a rein:Request ;
+	 rein:requestedAction person:456 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request457 a rein:Request ;
+	 rein:requestedAction person:457 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request458 a rein:Request ;
+	 rein:requestedAction person:458 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request459 a rein:Request ;
+	 rein:requestedAction person:459 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request460 a rein:Request ;
+	 rein:requestedAction person:460 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request461 a rein:Request ;
+	 rein:requestedAction person:461 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request462 a rein:Request ;
+	 rein:requestedAction person:462 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request463 a rein:Request ;
+	 rein:requestedAction person:463 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request464 a rein:Request ;
+	 rein:requestedAction person:464 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request465 a rein:Request ;
+	 rein:requestedAction person:465 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request466 a rein:Request ;
+	 rein:requestedAction person:466 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request468 a rein:Request ;
+	 rein:requestedAction person:468 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:talking_tom_gold_run.
+:request469 a rein:Request ;
+	 rein:requestedAction person:469 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:talking_tom_gold_run.

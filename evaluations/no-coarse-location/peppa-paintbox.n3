@@ -1,0 +1,40 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3308 a rein:Request ;
+	 rein:requestedAction person:3308 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:peppa-paintbox.
+:request3309 a rein:Request ;
+	 rein:requestedAction person:3309 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:peppa-paintbox.
+:request3310 a rein:Request ;
+	 rein:requestedAction person:3310 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:peppa-paintbox.
+:request3311 a rein:Request ;
+	 rein:requestedAction person:3311 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:peppa-paintbox.
+:request3312 a rein:Request ;
+	 rein:requestedAction person:3312 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:peppa-paintbox.
+:request3313 a rein:Request ;
+	 rein:requestedAction person:3313 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:peppa-paintbox.
+:request3314 a rein:Request ;
+	 rein:requestedAction person:3314 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:peppa-paintbox.

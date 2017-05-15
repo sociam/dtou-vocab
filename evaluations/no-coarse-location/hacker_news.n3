@@ -1,0 +1,210 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2752 a rein:Request ;
+	 rein:requestedAction person:2752 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Premii ;
+	 dtou:requestApp dtou:hacker_news.
+:request2753 a rein:Request ;
+	 rein:requestedAction person:2753 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Wordpress ;
+	 dtou:requestApp dtou:hacker_news.
+:request2754 a rein:Request ;
+	 rein:requestedAction person:2754 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Medium ;
+	 dtou:requestApp dtou:hacker_news.
+:request2755 a rein:Request ;
+	 rein:requestedAction person:2755 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Medium ;
+	 dtou:requestApp dtou:hacker_news.
+:request2756 a rein:Request ;
+	 rein:requestedAction person:2756 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:hacker_news.
+:request2757 a rein:Request ;
+	 rein:requestedAction person:2757 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2758 a rein:Request ;
+	 rein:requestedAction person:2758 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2759 a rein:Request ;
+	 rein:requestedAction person:2759 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2760 a rein:Request ;
+	 rein:requestedAction person:2760 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ycombinator ;
+	 dtou:requestApp dtou:hacker_news.
+:request2761 a rein:Request ;
+	 rein:requestedAction person:2761 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2762 a rein:Request ;
+	 rein:requestedAction person:2762 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:hacker_news.
+:request2763 a rein:Request ;
+	 rein:requestedAction person:2763 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:hacker_news.
+:request2764 a rein:Request ;
+	 rein:requestedAction person:2764 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:hacker_news.
+:request2765 a rein:Request ;
+	 rein:requestedAction person:2765 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:hacker_news.
+:request2766 a rein:Request ;
+	 rein:requestedAction person:2766 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Premii ;
+	 dtou:requestApp dtou:hacker_news.
+:request2767 a rein:Request ;
+	 rein:requestedAction person:2767 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:hacker_news.
+:request2768 a rein:Request ;
+	 rein:requestedAction person:2768 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:hacker_news.
+:request2769 a rein:Request ;
+	 rein:requestedAction person:2769 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:hacker_news.
+:request2770 a rein:Request ;
+	 rein:requestedAction person:2770 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:hacker_news.
+:request2771 a rein:Request ;
+	 rein:requestedAction person:2771 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:hacker_news.
+:request2772 a rein:Request ;
+	 rein:requestedAction person:2772 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Firebase ;
+	 dtou:requestApp dtou:hacker_news.
+:request2773 a rein:Request ;
+	 rein:requestedAction person:2773 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Premii ;
+	 dtou:requestApp dtou:hacker_news.
+:request2774 a rein:Request ;
+	 rein:requestedAction person:2774 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:hacker_news.
+:request2775 a rein:Request ;
+	 rein:requestedAction person:2775 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2776 a rein:Request ;
+	 rein:requestedAction person:2776 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2777 a rein:Request ;
+	 rein:requestedAction person:2777 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2778 a rein:Request ;
+	 rein:requestedAction person:2778 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:hacker_news.
+:request2779 a rein:Request ;
+	 rein:requestedAction person:2779 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Premii ;
+	 dtou:requestApp dtou:hacker_news.
+:request2780 a rein:Request ;
+	 rein:requestedAction person:2780 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Premii ;
+	 dtou:requestApp dtou:hacker_news.
+:request2781 a rein:Request ;
+	 rein:requestedAction person:2781 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Premii ;
+	 dtou:requestApp dtou:hacker_news.
+:request2782 a rein:Request ;
+	 rein:requestedAction person:2782 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:hacker_news.
+:request2783 a rein:Request ;
+	 rein:requestedAction person:2783 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:hacker_news.
+:request2784 a rein:Request ;
+	 rein:requestedAction person:2784 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2785 a rein:Request ;
+	 rein:requestedAction person:2785 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2786 a rein:Request ;
+	 rein:requestedAction person:2786 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2787 a rein:Request ;
+	 rein:requestedAction person:2787 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hacker_news.
+:request2788 a rein:Request ;
+	 rein:requestedAction person:2788 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Esa ;
+	 dtou:requestApp dtou:hacker_news.
+:request2789 a rein:Request ;
+	 rein:requestedAction person:2789 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:hacker_news.
+:request2790 a rein:Request ;
+	 rein:requestedAction person:2790 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:hacker_news.
+:request2791 a rein:Request ;
+	 rein:requestedAction person:2791 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:hacker_news.
+:request2792 a rein:Request ;
+	 rein:requestedAction person:2792 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Firebase ;
+	 dtou:requestApp dtou:hacker_news.

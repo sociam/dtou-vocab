@@ -1,0 +1,300 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1842 a rein:Request ;
+	 rein:requestedAction person:1842 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1843 a rein:Request ;
+	 rein:requestedAction person:1843 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1844 a rein:Request ;
+	 rein:requestedAction person:1844 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1845 a rein:Request ;
+	 rein:requestedAction person:1845 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Swrve ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1846 a rein:Request ;
+	 rein:requestedAction person:1846 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Swrve ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1847 a rein:Request ;
+	 rein:requestedAction person:1847 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1848 a rein:Request ;
+	 rein:requestedAction person:1848 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1849 a rein:Request ;
+	 rein:requestedAction person:1849 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1850 a rein:Request ;
+	 rein:requestedAction person:1850 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1851 a rein:Request ;
+	 rein:requestedAction person:1851 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1852 a rein:Request ;
+	 rein:requestedAction person:1852 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Electronicarts ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1853 a rein:Request ;
+	 rein:requestedAction person:1853 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1854 a rein:Request ;
+	 rein:requestedAction person:1854 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1855 a rein:Request ;
+	 rein:requestedAction person:1855 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1856 a rein:Request ;
+	 rein:requestedAction person:1856 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Electronicarts ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1857 a rein:Request ;
+	 rein:requestedAction person:1857 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Unitytechnologies ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1858 a rein:Request ;
+	 rein:requestedAction person:1858 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Unitytechnologies ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1859 a rein:Request ;
+	 rein:requestedAction person:1859 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1860 a rein:Request ;
+	 rein:requestedAction person:1860 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1861 a rein:Request ;
+	 rein:requestedAction person:1861 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1862 a rein:Request ;
+	 rein:requestedAction person:1862 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1863 a rein:Request ;
+	 rein:requestedAction person:1863 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Electronicarts ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1864 a rein:Request ;
+	 rein:requestedAction person:1864 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1865 a rein:Request ;
+	 rein:requestedAction person:1865 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1866 a rein:Request ;
+	 rein:requestedAction person:1866 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1867 a rein:Request ;
+	 rein:requestedAction person:1867 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1868 a rein:Request ;
+	 rein:requestedAction person:1868 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1869 a rein:Request ;
+	 rein:requestedAction person:1869 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Swrve ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1870 a rein:Request ;
+	 rein:requestedAction person:1870 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Swrve ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1871 a rein:Request ;
+	 rein:requestedAction person:1871 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1872 a rein:Request ;
+	 rein:requestedAction person:1872 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Electronicarts ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1873 a rein:Request ;
+	 rein:requestedAction person:1873 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1874 a rein:Request ;
+	 rein:requestedAction person:1874 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Electronicarts ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1875 a rein:Request ;
+	 rein:requestedAction person:1875 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1876 a rein:Request ;
+	 rein:requestedAction person:1876 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1877 a rein:Request ;
+	 rein:requestedAction person:1877 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1878 a rein:Request ;
+	 rein:requestedAction person:1878 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1879 a rein:Request ;
+	 rein:requestedAction person:1879 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1880 a rein:Request ;
+	 rein:requestedAction person:1880 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Popcap ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1881 a rein:Request ;
+	 rein:requestedAction person:1881 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1882 a rein:Request ;
+	 rein:requestedAction person:1882 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1883 a rein:Request ;
+	 rein:requestedAction person:1883 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Swrve ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1884 a rein:Request ;
+	 rein:requestedAction person:1884 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1885 a rein:Request ;
+	 rein:requestedAction person:1885 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1888 a rein:Request ;
+	 rein:requestedAction person:1888 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1889 a rein:Request ;
+	 rein:requestedAction person:1889 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1890 a rein:Request ;
+	 rein:requestedAction person:1890 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1891 a rein:Request ;
+	 rein:requestedAction person:1891 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1892 a rein:Request ;
+	 rein:requestedAction person:1892 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1893 a rein:Request ;
+	 rein:requestedAction person:1893 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1894 a rein:Request ;
+	 rein:requestedAction person:1894 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1895 a rein:Request ;
+	 rein:requestedAction person:1895 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1896 a rein:Request ;
+	 rein:requestedAction person:1896 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1897 a rein:Request ;
+	 rein:requestedAction person:1897 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1898 a rein:Request ;
+	 rein:requestedAction person:1898 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1899 a rein:Request ;
+	 rein:requestedAction person:1899 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1900 a rein:Request ;
+	 rein:requestedAction person:1900 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1901 a rein:Request ;
+	 rein:requestedAction person:1901 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.
+:request1902 a rein:Request ;
+	 rein:requestedAction person:1902 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:plants_vs_zombies_2.

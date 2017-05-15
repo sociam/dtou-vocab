@@ -1,0 +1,65 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1932 a rein:Request ;
+	 rein:requestedAction person:1932 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:msn_sport.
+:request1933 a rein:Request ;
+	 rein:requestedAction person:1933 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:msn_sport.
+:request1934 a rein:Request ;
+	 rein:requestedAction person:1934 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:msn_sport.
+:request1935 a rein:Request ;
+	 rein:requestedAction person:1935 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:msn_sport.
+:request1936 a rein:Request ;
+	 rein:requestedAction person:1936 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Twitter ;
+	 dtou:requestApp dtou:msn_sport.
+:request1937 a rein:Request ;
+	 rein:requestedAction person:1937 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Twitter ;
+	 dtou:requestApp dtou:msn_sport.
+:request1940 a rein:Request ;
+	 rein:requestedAction person:1940 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:msn_sport.
+:request1941 a rein:Request ;
+	 rein:requestedAction person:1941 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:msn_sport.
+:request1942 a rein:Request ;
+	 rein:requestedAction person:1942 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:msn_sport.
+:request1943 a rein:Request ;
+	 rein:requestedAction person:1943 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:msn_sport.
+:request1945 a rein:Request ;
+	 rein:requestedAction person:1945 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appnexus ;
+	 dtou:requestApp dtou:msn_sport.
+:request1947 a rein:Request ;
+	 rein:requestedAction person:1947 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:msn_sport.

@@ -1,0 +1,260 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1725 a rein:Request ;
+	 rein:requestedAction person:1725 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1726 a rein:Request ;
+	 rein:requestedAction person:1726 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1727 a rein:Request ;
+	 rein:requestedAction person:1727 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1728 a rein:Request ;
+	 rein:requestedAction person:1728 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Codecomputerlove ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1729 a rein:Request ;
+	 rein:requestedAction person:1729 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1730 a rein:Request ;
+	 rein:requestedAction person:1730 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1731 a rein:Request ;
+	 rein:requestedAction person:1731 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1732 a rein:Request ;
+	 rein:requestedAction person:1732 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1733 a rein:Request ;
+	 rein:requestedAction person:1733 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1734 a rein:Request ;
+	 rein:requestedAction person:1734 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1735 a rein:Request ;
+	 rein:requestedAction person:1735 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1736 a rein:Request ;
+	 rein:requestedAction person:1736 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1737 a rein:Request ;
+	 rein:requestedAction person:1737 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1738 a rein:Request ;
+	 rein:requestedAction person:1738 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1739 a rein:Request ;
+	 rein:requestedAction person:1739 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1740 a rein:Request ;
+	 rein:requestedAction person:1740 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1741 a rein:Request ;
+	 rein:requestedAction person:1741 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1742 a rein:Request ;
+	 rein:requestedAction person:1742 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1743 a rein:Request ;
+	 rein:requestedAction person:1743 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1744 a rein:Request ;
+	 rein:requestedAction person:1744 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1745 a rein:Request ;
+	 rein:requestedAction person:1745 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1746 a rein:Request ;
+	 rein:requestedAction person:1746 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1747 a rein:Request ;
+	 rein:requestedAction person:1747 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1748 a rein:Request ;
+	 rein:requestedAction person:1748 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1749 a rein:Request ;
+	 rein:requestedAction person:1749 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1750 a rein:Request ;
+	 rein:requestedAction person:1750 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1751 a rein:Request ;
+	 rein:requestedAction person:1751 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1752 a rein:Request ;
+	 rein:requestedAction person:1752 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1753 a rein:Request ;
+	 rein:requestedAction person:1753 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:App-Measurement ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1754 a rein:Request ;
+	 rein:requestedAction person:1754 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1755 a rein:Request ;
+	 rein:requestedAction person:1755 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1756 a rein:Request ;
+	 rein:requestedAction person:1756 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1757 a rein:Request ;
+	 rein:requestedAction person:1757 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1758 a rein:Request ;
+	 rein:requestedAction person:1758 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1761 a rein:Request ;
+	 rein:requestedAction person:1761 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1762 a rein:Request ;
+	 rein:requestedAction person:1762 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1763 a rein:Request ;
+	 rein:requestedAction person:1763 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1764 a rein:Request ;
+	 rein:requestedAction person:1764 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1765 a rein:Request ;
+	 rein:requestedAction person:1765 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1766 a rein:Request ;
+	 rein:requestedAction person:1766 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1767 a rein:Request ;
+	 rein:requestedAction person:1767 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1768 a rein:Request ;
+	 rein:requestedAction person:1768 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1769 a rein:Request ;
+	 rein:requestedAction person:1769 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1770 a rein:Request ;
+	 rein:requestedAction person:1770 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1771 a rein:Request ;
+	 rein:requestedAction person:1771 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1772 a rein:Request ;
+	 rein:requestedAction person:1772 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1773 a rein:Request ;
+	 rein:requestedAction person:1773 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1774 a rein:Request ;
+	 rein:requestedAction person:1774 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1775 a rein:Request ;
+	 rein:requestedAction person:1775 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1776 a rein:Request ;
+	 rein:requestedAction person:1776 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.
+:request1777 a rein:Request ;
+	 rein:requestedAction person:1777 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:the_higher_lower_game.

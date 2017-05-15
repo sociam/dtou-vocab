@@ -1,0 +1,105 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request373 a rein:Request ;
+	 rein:requestedAction person:373 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request374 a rein:Request ;
+	 rein:requestedAction person:374 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request375 a rein:Request ;
+	 rein:requestedAction person:375 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request376 a rein:Request ;
+	 rein:requestedAction person:376 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Corethree ;
+	 dtou:requestApp dtou:oxford_bus.
+:request377 a rein:Request ;
+	 rein:requestedAction person:377 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Corethree ;
+	 dtou:requestApp dtou:oxford_bus.
+:request378 a rein:Request ;
+	 rein:requestedAction person:378 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Corethree ;
+	 dtou:requestApp dtou:oxford_bus.
+:request379 a rein:Request ;
+	 rein:requestedAction person:379 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Corethree ;
+	 dtou:requestApp dtou:oxford_bus.
+:request380 a rein:Request ;
+	 rein:requestedAction person:380 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Corethree ;
+	 dtou:requestApp dtou:oxford_bus.
+:request381 a rein:Request ;
+	 rein:requestedAction person:381 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request382 a rein:Request ;
+	 rein:requestedAction person:382 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request383 a rein:Request ;
+	 rein:requestedAction person:383 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request384 a rein:Request ;
+	 rein:requestedAction person:384 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request385 a rein:Request ;
+	 rein:requestedAction person:385 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request386 a rein:Request ;
+	 rein:requestedAction person:386 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request387 a rein:Request ;
+	 rein:requestedAction person:387 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request388 a rein:Request ;
+	 rein:requestedAction person:388 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request389 a rein:Request ;
+	 rein:requestedAction person:389 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:oxford_bus.
+:request390 a rein:Request ;
+	 rein:requestedAction person:390 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Twitter ;
+	 dtou:requestApp dtou:oxford_bus.
+:request391 a rein:Request ;
+	 rein:requestedAction person:391 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Twitter ;
+	 dtou:requestApp dtou:oxford_bus.
+:request392 a rein:Request ;
+	 rein:requestedAction person:392 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:oxford_bus.

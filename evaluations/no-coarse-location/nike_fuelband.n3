@@ -1,0 +1,60 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1544 a rein:Request ;
+	 rein:requestedAction person:1544 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Urbanairship ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1545 a rein:Request ;
+	 rein:requestedAction person:1545 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1546 a rein:Request ;
+	 rein:requestedAction person:1546 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1547 a rein:Request ;
+	 rein:requestedAction person:1547 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1548 a rein:Request ;
+	 rein:requestedAction person:1548 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1549 a rein:Request ;
+	 rein:requestedAction person:1549 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1550 a rein:Request ;
+	 rein:requestedAction person:1550 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1553 a rein:Request ;
+	 rein:requestedAction person:1553 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Urbanairship ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1554 a rein:Request ;
+	 rein:requestedAction person:1554 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Urbanairship ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1555 a rein:Request ;
+	 rein:requestedAction person:1555 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Nike_Fuelband ;
+	 dtou:requestApp dtou:nike_fuelband.
+:request1556 a rein:Request ;
+	 rein:requestedAction person:1556 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Nike_Fuelband ;
+	 dtou:requestApp dtou:nike_fuelband.

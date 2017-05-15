@@ -1,0 +1,75 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2466 a rein:Request ;
+	 rein:requestedAction person:2466 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Boomerang.
+:request2467 a rein:Request ;
+	 rein:requestedAction person:2467 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Boomerang.
+:request2468 a rein:Request ;
+	 rein:requestedAction person:2468 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Boomerang.
+:request2469 a rein:Request ;
+	 rein:requestedAction person:2469 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Boomerang.
+:request2470 a rein:Request ;
+	 rein:requestedAction person:2470 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Boomerang.
+:request2471 a rein:Request ;
+	 rein:requestedAction person:2471 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:Boomerang.
+:request2472 a rein:Request ;
+	 rein:requestedAction person:2472 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:Boomerang.
+:request2473 a rein:Request ;
+	 rein:requestedAction person:2473 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Boomerang.
+:request2474 a rein:Request ;
+	 rein:requestedAction person:2474 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Boomerang.
+:request2475 a rein:Request ;
+	 rein:requestedAction person:2475 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Boomerang.
+:request2476 a rein:Request ;
+	 rein:requestedAction person:2476 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Freeway ;
+	 dtou:requestApp dtou:Boomerang.
+:request2477 a rein:Request ;
+	 rein:requestedAction person:2477 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Boomerang.
+:request2478 a rein:Request ;
+	 rein:requestedAction person:2478 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Boomerang.
+:request2479 a rein:Request ;
+	 rein:requestedAction person:2479 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Boomerang.

@@ -1,0 +1,95 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2480 a rein:Request ;
+	 rein:requestedAction person:2480 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:easytouch.
+:request2481 a rein:Request ;
+	 rein:requestedAction person:2481 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:easytouch.
+:request2482 a rein:Request ;
+	 rein:requestedAction person:2482 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:easytouch.
+:request2483 a rein:Request ;
+	 rein:requestedAction person:2483 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:easytouch.
+:request2484 a rein:Request ;
+	 rein:requestedAction person:2484 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:easytouch.
+:request2485 a rein:Request ;
+	 rein:requestedAction person:2485 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Easytouch ;
+	 dtou:requestApp dtou:easytouch.
+:request2486 a rein:Request ;
+	 rein:requestedAction person:2486 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Easytouch ;
+	 dtou:requestApp dtou:easytouch.
+:request2487 a rein:Request ;
+	 rein:requestedAction person:2487 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:easytouch.
+:request2488 a rein:Request ;
+	 rein:requestedAction person:2488 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:easytouch.
+:request2489 a rein:Request ;
+	 rein:requestedAction person:2489 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:easytouch.
+:request2492 a rein:Request ;
+	 rein:requestedAction person:2492 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:easytouch.
+:request2493 a rein:Request ;
+	 rein:requestedAction person:2493 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:easytouch.
+:request2494 a rein:Request ;
+	 rein:requestedAction person:2494 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:easytouch.
+:request2497 a rein:Request ;
+	 rein:requestedAction person:2497 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Umeng ;
+	 dtou:requestApp dtou:easytouch.
+:request2498 a rein:Request ;
+	 rein:requestedAction person:2498 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:easytouch.
+:request2499 a rein:Request ;
+	 rein:requestedAction person:2499 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:easytouch.
+:request2500 a rein:Request ;
+	 rein:requestedAction person:2500 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Easytouch ;
+	 dtou:requestApp dtou:easytouch.
+:request2501 a rein:Request ;
+	 rein:requestedAction person:2501 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Umeng ;
+	 dtou:requestApp dtou:easytouch.

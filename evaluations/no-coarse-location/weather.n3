@@ -1,0 +1,35 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request692 a rein:Request ;
+	 rein:requestedAction person:692 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:weather.
+:request693 a rein:Request ;
+	 rein:requestedAction person:693 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:weather.
+:request694 a rein:Request ;
+	 rein:requestedAction person:694 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:weather.
+:request695 a rein:Request ;
+	 rein:requestedAction person:695 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:weather.
+:request696 a rein:Request ;
+	 rein:requestedAction person:696 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:weather.
+:request697 a rein:Request ;
+	 rein:requestedAction person:697 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:weather.

@@ -1,0 +1,165 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3122 a rein:Request ;
+	 rein:requestedAction person:3122 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3123 a rein:Request ;
+	 rein:requestedAction person:3123 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3124 a rein:Request ;
+	 rein:requestedAction person:3124 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3125 a rein:Request ;
+	 rein:requestedAction person:3125 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3126 a rein:Request ;
+	 rein:requestedAction person:3126 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:King ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3127 a rein:Request ;
+	 rein:requestedAction person:3127 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:King ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3128 a rein:Request ;
+	 rein:requestedAction person:3128 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:King ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3129 a rein:Request ;
+	 rein:requestedAction person:3129 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3130 a rein:Request ;
+	 rein:requestedAction person:3130 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3131 a rein:Request ;
+	 rein:requestedAction person:3131 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3132 a rein:Request ;
+	 rein:requestedAction person:3132 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3133 a rein:Request ;
+	 rein:requestedAction person:3133 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3134 a rein:Request ;
+	 rein:requestedAction person:3134 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3135 a rein:Request ;
+	 rein:requestedAction person:3135 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3136 a rein:Request ;
+	 rein:requestedAction person:3136 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3137 a rein:Request ;
+	 rein:requestedAction person:3137 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3138 a rein:Request ;
+	 rein:requestedAction person:3138 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3139 a rein:Request ;
+	 rein:requestedAction person:3139 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3140 a rein:Request ;
+	 rein:requestedAction person:3140 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3141 a rein:Request ;
+	 rein:requestedAction person:3141 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3142 a rein:Request ;
+	 rein:requestedAction person:3142 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3143 a rein:Request ;
+	 rein:requestedAction person:3143 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3144 a rein:Request ;
+	 rein:requestedAction person:3144 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:King ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3145 a rein:Request ;
+	 rein:requestedAction person:3145 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:King ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3146 a rein:Request ;
+	 rein:requestedAction person:3146 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mozilla ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3147 a rein:Request ;
+	 rein:requestedAction person:3147 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:King ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3148 a rein:Request ;
+	 rein:requestedAction person:3148 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:King ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3149 a rein:Request ;
+	 rein:requestedAction person:3149 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:King ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3150 a rein:Request ;
+	 rein:requestedAction person:3150 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3151 a rein:Request ;
+	 rein:requestedAction person:3151 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3152 a rein:Request ;
+	 rein:requestedAction person:3152 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:farm_heroes.
+:request3153 a rein:Request ;
+	 rein:requestedAction person:3153 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:farm_heroes.
