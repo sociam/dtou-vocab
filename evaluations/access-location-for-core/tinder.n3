@@ -1,0 +1,195 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3154 a rein:Request ;
+	 rein:requestedAction person:3154 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3155 a rein:Request ;
+	 rein:requestedAction person:3155 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3156 a rein:Request ;
+	 rein:requestedAction person:3156 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3157 a rein:Request ;
+	 rein:requestedAction person:3157 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3158 a rein:Request ;
+	 rein:requestedAction person:3158 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3159 a rein:Request ;
+	 rein:requestedAction person:3159 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3160 a rein:Request ;
+	 rein:requestedAction person:3160 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3161 a rein:Request ;
+	 rein:requestedAction person:3161 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appboy ;
+	 dtou:requestApp dtou:tinder.
+:request3162 a rein:Request ;
+	 rein:requestedAction person:3162 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:tinder.
+:request3163 a rein:Request ;
+	 rein:requestedAction person:3163 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:tinder.
+:request3164 a rein:Request ;
+	 rein:requestedAction person:3164 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Branch ;
+	 dtou:requestApp dtou:tinder.
+:request3165 a rein:Request ;
+	 rein:requestedAction person:3165 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3166 a rein:Request ;
+	 rein:requestedAction person:3166 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3167 a rein:Request ;
+	 rein:requestedAction person:3167 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3168 a rein:Request ;
+	 rein:requestedAction person:3168 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3169 a rein:Request ;
+	 rein:requestedAction person:3169 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.
+:request3170 a rein:Request ;
+	 rein:requestedAction person:3170 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.
+:request3171 a rein:Request ;
+	 rein:requestedAction person:3171 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Taplytics ;
+	 dtou:requestApp dtou:tinder.
+:request3172 a rein:Request ;
+	 rein:requestedAction person:3172 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Taplytics ;
+	 dtou:requestApp dtou:tinder.
+:request3173 a rein:Request ;
+	 rein:requestedAction person:3173 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.
+:request3174 a rein:Request ;
+	 rein:requestedAction person:3174 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.
+:request3175 a rein:Request ;
+	 rein:requestedAction person:3175 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Taplytics ;
+	 dtou:requestApp dtou:tinder.
+:request3176 a rein:Request ;
+	 rein:requestedAction person:3176 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.
+:request3177 a rein:Request ;
+	 rein:requestedAction person:3177 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.
+:request3178 a rein:Request ;
+	 rein:requestedAction person:3178 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.
+:request3179 a rein:Request ;
+	 rein:requestedAction person:3179 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3180 a rein:Request ;
+	 rein:requestedAction person:3180 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3181 a rein:Request ;
+	 rein:requestedAction person:3181 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3182 a rein:Request ;
+	 rein:requestedAction person:3182 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3183 a rein:Request ;
+	 rein:requestedAction person:3183 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3184 a rein:Request ;
+	 rein:requestedAction person:3184 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3185 a rein:Request ;
+	 rein:requestedAction person:3185 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3186 a rein:Request ;
+	 rein:requestedAction person:3186 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3187 a rein:Request ;
+	 rein:requestedAction person:3187 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3188 a rein:Request ;
+	 rein:requestedAction person:3188 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:tinder.
+:request3189 a rein:Request ;
+	 rein:requestedAction person:3189 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:tinder.
+:request3190 a rein:Request ;
+	 rein:requestedAction person:3190 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.
+:request3191 a rein:Request ;
+	 rein:requestedAction person:3191 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tinder ;
+	 dtou:requestApp dtou:tinder.

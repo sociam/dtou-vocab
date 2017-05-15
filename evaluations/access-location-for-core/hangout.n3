@@ -1,0 +1,65 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1967 a rein:Request ;
+	 rein:requestedAction person:1967 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hangout.
+:request1968 a rein:Request ;
+	 rein:requestedAction person:1968 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hangout.
+:request1969 a rein:Request ;
+	 rein:requestedAction person:1969 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:hangout.
+:request1970 a rein:Request ;
+	 rein:requestedAction person:1970 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:hangout.
+:request1971 a rein:Request ;
+	 rein:requestedAction person:1971 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hangout.
+:request1972 a rein:Request ;
+	 rein:requestedAction person:1972 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hangout.
+:request1973 a rein:Request ;
+	 rein:requestedAction person:1973 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:hangout.
+:request1974 a rein:Request ;
+	 rein:requestedAction person:1974 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:hangout.
+:request1975 a rein:Request ;
+	 rein:requestedAction person:1975 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hangout.
+:request1976 a rein:Request ;
+	 rein:requestedAction person:1976 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hangout.
+:request1977 a rein:Request ;
+	 rein:requestedAction person:1977 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hangout.
+:request1978 a rein:Request ;
+	 rein:requestedAction person:1978 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:hangout.

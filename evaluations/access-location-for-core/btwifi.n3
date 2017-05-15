@@ -1,0 +1,45 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1299 a rein:Request ;
+	 rein:requestedAction person:1299 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:btwifi.
+:request1300 a rein:Request ;
+	 rein:requestedAction person:1300 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:btwifi.
+:request1301 a rein:Request ;
+	 rein:requestedAction person:1301 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:btwifi.
+:request1302 a rein:Request ;
+	 rein:requestedAction person:1302 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:btwifi.
+:request1303 a rein:Request ;
+	 rein:requestedAction person:1303 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:btwifi.
+:request1304 a rein:Request ;
+	 rein:requestedAction person:1304 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:btwifi.
+:request1305 a rein:Request ;
+	 rein:requestedAction person:1305 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:btwifi.
+:request1306 a rein:Request ;
+	 rein:requestedAction person:1306 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:btwifi.

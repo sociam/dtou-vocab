@@ -1,0 +1,116 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rein: <rein.n3#>.
+
+:City a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:CoarseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Continent a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:Country a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:GPS a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+:LocationData a rdfs:Class .
+
+:PreciseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Town a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:PhoneCharacteristics a rdfs:Class .
+:PhoneID a rdfs:Class ;
+	rdfs:subClassOf :PhoneCharacteristics .
+
+:PersonalDetails a rdfs:Class .
+:Age a rdfs:Class ;
+	rdfs:subClassOf :PersonalDetails .
+
+#### some instance data
+
+:phoneid a :PhoneCharacteristics ;rein:controlledBy <2-policy-location-for-func-only.n3> .
+
+<person-A.n3#age/20> a :Age ;rein:controlledBy <2-policy-location-for-func-only.n3> .
+
+:GB a :CoarseLocationData ;rein:controlledBy <2-policy-location-for-func-only.n3> .
+
+:Oxford a :Town ;
+	rein:controlledBy <2-policy-location-for-func-only.n3> .
+
+:gps1 a :GPS ;
+	rein:controlledBy <2-policy-location-for-func-only.n3> .
+
+:3001 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3004 a :PersonalDetails;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3005 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3006 a :PhoneID;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3007 a :PersonalDetails;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3009 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3010 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3011 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3012 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3013 a :PhoneID;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3014 a :PersonalDetails;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3015 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3016 a :LocationData;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3017 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3018 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3019 a :PersonalDetails;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3020 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3021 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3025 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3026 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3027 a :PersonalDetails;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3028 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3029 a :LocationData;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3030 a :PhoneID;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3031 a :LocationData;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3032 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3033 a :LocationData;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3034 a :PersonalDetails;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3041 a :PhoneID;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3042 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+:3043 a :PersonalDetails;
+ 	 	rein:controlledBy <2-policy-location-for-func-only.n3> .
+

@@ -1,0 +1,165 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:hasParentCompany a rdf:Property ;
+	rdfs:domain :Tracker ;
+	rdfs:range :Tracker .
+
+:hasPrimaryTrackingPurposes a rdf:Property .
+
+:aquiredIn a rdf:Property .
+
+:belongToJurisdictionOf a rdf:Property .
+
+:foundedIn a rdf:Property .
+
+:hasName a rdf:Property .
+
+:hasWebSite a rdf:Property .
+
+:Advertisement a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:Unknown a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:Analytics a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:CoreFunction a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:FirstPartyTracker a rdfs:Class ;
+	rdfs:subClassOf :Tracker .
+
+
+:Facebook-ads a :Tracker ;
+	:hasPrimaryTrackingPurposes :Advertisement  .
+
+:Facebook a :Tracker ;
+	:hasPrimaryTrackingPurposes :CoreFunction  .
+
+:Marketing a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:Security a rdfs:Class ;
+	rdfs:subClassOf :TrackingPurpose .
+
+:ThirdPartyTracker a rdfs:Class .
+
+:Tracker a rdfs:Class .
+
+:TrackingPurpose a rdfs:Class .
+
+:App a rdfs:Class .
+
+#### some instances
+
+:Google-ads a :Tracker ;
+	:hasPrimaryTrackingPurposes :Advertisement ;
+	:belongToJurisdictionOf "us" .
+
+:Google a :Tracker ;
+	:hasPrimaryTrackingPurposes :CoreFunction ;
+	:belongToJurisdictionOf "us" .
+
+:vungle a :Tracker ;
+	:hasPrimaryTrackingPurposes :Unknown .
+
+:comScore a :Tracker ;
+	:hasPrimaryTrackingPurposes :Analytics .
+
+:company-cn a :ChineseCompany ;
+	:belongToJurisdictionOf "cn" .
+
+:company-gb a :Tracker ;
+	:belongToJurisdictionOf "gb" .
+
+
+:Mopub a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Onlinemetrix a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Mozilla a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Evernote a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Branch a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Microsoft-Azure a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Dattch a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Amazon-Ads a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:MSN a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Foursquare a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Wordpress a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Doubleclick a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Cheetahmobile a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Urbanairship a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Finderly a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Nike_Fuelband a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Niantic a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Taplytics a :Tracker ; :hasPrimaryTrackingPurposes :Marketing. 
+:Appboy a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Corethree a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Tapjoy a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Google-Ads a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Paypal a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Yahoo a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Cloudfront a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Adcolony a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Mixpanel a :Tracker ; :hasPrimaryTrackingPurposes :Analytics. 
+:Vimov a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Theguardian a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Facebook a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Applovin a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Zynga a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Intowow a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Google-Analytics a :Tracker ; :hasPrimaryTrackingPurposes :Analytics. 
+:Amazon a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Sumo_Logic a :Tracker ; :hasPrimaryTrackingPurposes :Marketing. 
+:Tune a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Apptimize a :Tracker ; :hasPrimaryTrackingPurposes :Analytics. 
+:Hoteltonight a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Akamai a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Chengdu a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Appsflyer a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Otherlevels a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Unitytechnologies a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Newrelic a :Tracker ; :hasPrimaryTrackingPurposes :Analytics. 
+:Youtube a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Thetrainline a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Demdex a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Freeway a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Mcro a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Tealium a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Applifier a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Tinder a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:App-Measurement a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Vungle a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Withings a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Rollout a :Tracker ; :hasPrimaryTrackingPurposes :Analytics. 
+:Microsoft a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Apple a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Uber a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Lowtechstudios a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Google a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Adobe a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Instagram a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Umeng a :Tracker ; :hasPrimaryTrackingPurposes :Analytics. 
+:Wikimedia a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Cdn a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Citymapper a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Easytouch a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Healthuniverse a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Linkedin a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Leanplum a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Adjust a :Tracker ; :hasPrimaryTrackingPurposes :Analytics. 
+:Scorecardresearch a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Directly a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Skype a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Ensighten a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Musical a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Chartboost a :Tracker ; :hasPrimaryTrackingPurposes :Advertisement. 
+:Twitter a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+:Automattic a :Tracker ; :hasPrimaryTrackingPurposes :Unknown. 
+
+

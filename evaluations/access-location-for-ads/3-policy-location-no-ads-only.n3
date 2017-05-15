@@ -1,0 +1,60 @@
+# USAGE : cwm --n3 requestA.n3 engine.n3 --think --filter="engine.n3"
+
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix log: <http://www.w3.org/2000/10/swap/log#> .
+@prefix math: <http://www.w3.org/2000/10/swap/math#>.
+@prefix reina: <reinA.n3#> .
+@prefix rein: <rein.n3#> .
+@prefix reind: <reinD.n3#> .
+@prefix person: <person-C-1.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix ont: <ontA.n3#>.
+@prefix : <#>.
+
+<>  a reina:Policy;
+  reina:modalitydef reina:PositiveMod;
+  rein:usesOntology <reinA.n3>.
+
+### All access to for not core function is prohibited 
+
+@forAll :x, :y.
+{  ?x a tracker:Tracker. 
+   ?x tracker:hasPrimaryTrackingPurposes tracker:CoreFunction .
+   ?y a person:LocationData. 
+} => { ?x reina:ispermitted ?y }.
+
+@forAll :x, :y.
+{  ?x a tracker:Tracker. 
+   ?x tracker:hasPrimaryTrackingPurposes tracker:Advertisement .
+   ?y a person:LocationData. 
+} => { ?x reina:isprohibited ?y }.
+
+@forAll :x, :y.
+{  ?x a tracker:Tracker. 
+   ?x tracker:hasPrimaryTrackingPurposes tracker:Unknown .
+   ?y a person:LocationData. 
+} => { ?x reina:ispermitted ?y }.
+
+
+@forAll :x, :y.
+{  ?x a tracker:Tracker. 
+   ?x tracker:hasPrimaryTrackingPurposes tracker:Analytics .
+   ?y a person:LocationData. 
+} => { ?x reina:ispermitted ?y }.
+
+### All access to phone data by trackers is permitted 
+
+@forAll :x, :y.
+{  ?x a tracker:Tracker. 
+   ?y a person:PhoneCharacteristics. 
+} => { ?x reina:ispermitted ?y }.
+
+### All access to personal details data by trackers is permitted 
+
+@forAll :x, :y.
+{  ?x a tracker:Tracker. 
+   ?y a person:PersonalDetails. 
+} => { ?x reina:ispermitted ?y }.
+

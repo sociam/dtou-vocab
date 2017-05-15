@@ -1,0 +1,260 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1135 a rein:Request ;
+	 rein:requestedAction person:1135 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1137 a rein:Request ;
+	 rein:requestedAction person:1137 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1138 a rein:Request ;
+	 rein:requestedAction person:1138 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1139 a rein:Request ;
+	 rein:requestedAction person:1139 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Finderly ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1140 a rein:Request ;
+	 rein:requestedAction person:1140 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1142 a rein:Request ;
+	 rein:requestedAction person:1142 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1143 a rein:Request ;
+	 rein:requestedAction person:1143 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1144 a rein:Request ;
+	 rein:requestedAction person:1144 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1145 a rein:Request ;
+	 rein:requestedAction person:1145 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1146 a rein:Request ;
+	 rein:requestedAction person:1146 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1147 a rein:Request ;
+	 rein:requestedAction person:1147 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1148 a rein:Request ;
+	 rein:requestedAction person:1148 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1149 a rein:Request ;
+	 rein:requestedAction person:1149 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1150 a rein:Request ;
+	 rein:requestedAction person:1150 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Finderly ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1151 a rein:Request ;
+	 rein:requestedAction person:1151 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1152 a rein:Request ;
+	 rein:requestedAction person:1152 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1153 a rein:Request ;
+	 rein:requestedAction person:1153 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1154 a rein:Request ;
+	 rein:requestedAction person:1154 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1155 a rein:Request ;
+	 rein:requestedAction person:1155 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1156 a rein:Request ;
+	 rein:requestedAction person:1156 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1157 a rein:Request ;
+	 rein:requestedAction person:1157 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1158 a rein:Request ;
+	 rein:requestedAction person:1158 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:App-Measurement ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1159 a rein:Request ;
+	 rein:requestedAction person:1159 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Finderly ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1160 a rein:Request ;
+	 rein:requestedAction person:1160 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Finderly ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1161 a rein:Request ;
+	 rein:requestedAction person:1161 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Finderly ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1162 a rein:Request ;
+	 rein:requestedAction person:1162 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1163 a rein:Request ;
+	 rein:requestedAction person:1163 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1164 a rein:Request ;
+	 rein:requestedAction person:1164 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1165 a rein:Request ;
+	 rein:requestedAction person:1165 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1166 a rein:Request ;
+	 rein:requestedAction person:1166 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1167 a rein:Request ;
+	 rein:requestedAction person:1167 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1168 a rein:Request ;
+	 rein:requestedAction person:1168 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1169 a rein:Request ;
+	 rein:requestedAction person:1169 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1172 a rein:Request ;
+	 rein:requestedAction person:1172 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1173 a rein:Request ;
+	 rein:requestedAction person:1173 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1174 a rein:Request ;
+	 rein:requestedAction person:1174 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1175 a rein:Request ;
+	 rein:requestedAction person:1175 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1176 a rein:Request ;
+	 rein:requestedAction person:1176 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1177 a rein:Request ;
+	 rein:requestedAction person:1177 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1178 a rein:Request ;
+	 rein:requestedAction person:1178 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1179 a rein:Request ;
+	 rein:requestedAction person:1179 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1180 a rein:Request ;
+	 rein:requestedAction person:1180 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1181 a rein:Request ;
+	 rein:requestedAction person:1181 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1182 a rein:Request ;
+	 rein:requestedAction person:1182 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1183 a rein:Request ;
+	 rein:requestedAction person:1183 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1184 a rein:Request ;
+	 rein:requestedAction person:1184 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1185 a rein:Request ;
+	 rein:requestedAction person:1185 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1186 a rein:Request ;
+	 rein:requestedAction person:1186 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1187 a rein:Request ;
+	 rein:requestedAction person:1187 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1188 a rein:Request ;
+	 rein:requestedAction person:1188 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Shpock_boot.
+:request1189 a rein:Request ;
+	 rein:requestedAction person:1189 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Shpock_boot.

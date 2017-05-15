@@ -1,0 +1,70 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2276 a rein:Request ;
+	 rein:requestedAction person:2276 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:paypal.
+:request2277 a rein:Request ;
+	 rein:requestedAction person:2277 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:paypal.
+:request2280 a rein:Request ;
+	 rein:requestedAction person:2280 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:paypal.
+:request2281 a rein:Request ;
+	 rein:requestedAction person:2281 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:paypal.
+:request2282 a rein:Request ;
+	 rein:requestedAction person:2282 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:paypal.
+:request2283 a rein:Request ;
+	 rein:requestedAction person:2283 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:paypal.
+:request2284 a rein:Request ;
+	 rein:requestedAction person:2284 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:paypal.
+:request2285 a rein:Request ;
+	 rein:requestedAction person:2285 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:paypal.
+:request2286 a rein:Request ;
+	 rein:requestedAction person:2286 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:paypal.
+:request2287 a rein:Request ;
+	 rein:requestedAction person:2287 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:paypal.
+:request2288 a rein:Request ;
+	 rein:requestedAction person:2288 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Paypal ;
+	 dtou:requestApp dtou:paypal.
+:request2292 a rein:Request ;
+	 rein:requestedAction person:2292 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:paypal.
+:request2293 a rein:Request ;
+	 rein:requestedAction person:2293 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:paypal.

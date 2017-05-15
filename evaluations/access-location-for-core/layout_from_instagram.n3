@@ -1,0 +1,40 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request149 a rein:Request ;
+	 rein:requestedAction person:149 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:layout_from_instagram.
+:request150 a rein:Request ;
+	 rein:requestedAction person:150 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:layout_from_instagram.
+:request151 a rein:Request ;
+	 rein:requestedAction person:151 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:layout_from_instagram.
+:request152 a rein:Request ;
+	 rein:requestedAction person:152 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:layout_from_instagram.
+:request170 a rein:Request ;
+	 rein:requestedAction person:170 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Freeway ;
+	 dtou:requestApp dtou:layout_from_instagram.
+:request171 a rein:Request ;
+	 rein:requestedAction person:171 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:layout_from_instagram.
+:request172 a rein:Request ;
+	 rein:requestedAction person:172 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:layout_from_instagram.

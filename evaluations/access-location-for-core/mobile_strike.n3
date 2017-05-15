@@ -1,0 +1,85 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1679 a rein:Request ;
+	 rein:requestedAction person:1679 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1680 a rein:Request ;
+	 rein:requestedAction person:1680 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1681 a rein:Request ;
+	 rein:requestedAction person:1681 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1682 a rein:Request ;
+	 rein:requestedAction person:1682 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1683 a rein:Request ;
+	 rein:requestedAction person:1683 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1684 a rein:Request ;
+	 rein:requestedAction person:1684 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1685 a rein:Request ;
+	 rein:requestedAction person:1685 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Instagram ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1686 a rein:Request ;
+	 rein:requestedAction person:1686 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1687 a rein:Request ;
+	 rein:requestedAction person:1687 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1689 a rein:Request ;
+	 rein:requestedAction person:1689 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1690 a rein:Request ;
+	 rein:requestedAction person:1690 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1691 a rein:Request ;
+	 rein:requestedAction person:1691 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1692 a rein:Request ;
+	 rein:requestedAction person:1692 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1693 a rein:Request ;
+	 rein:requestedAction person:1693 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1694 a rein:Request ;
+	 rein:requestedAction person:1694 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:mobile_strike.
+:request1695 a rein:Request ;
+	 rein:requestedAction person:1695 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:mobile_strike.

@@ -1,0 +1,305 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2206 a rein:Request ;
+	 rein:requestedAction person:2206 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Liftoff ;
+	 dtou:requestApp dtou:grindr.
+:request2207 a rein:Request ;
+	 rein:requestedAction person:2207 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Liftoff ;
+	 dtou:requestApp dtou:grindr.
+:request2208 a rein:Request ;
+	 rein:requestedAction person:2208 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:grindr.
+:request2209 a rein:Request ;
+	 rein:requestedAction person:2209 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Twitter ;
+	 dtou:requestApp dtou:grindr.
+:request2210 a rein:Request ;
+	 rein:requestedAction person:2210 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Openx ;
+	 dtou:requestApp dtou:grindr.
+:request2211 a rein:Request ;
+	 rein:requestedAction person:2211 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Openx ;
+	 dtou:requestApp dtou:grindr.
+:request2212 a rein:Request ;
+	 rein:requestedAction person:2212 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Openx ;
+	 dtou:requestApp dtou:grindr.
+:request2213 a rein:Request ;
+	 rein:requestedAction person:2213 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Loopme ;
+	 dtou:requestApp dtou:grindr.
+:request2214 a rein:Request ;
+	 rein:requestedAction person:2214 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Loopme ;
+	 dtou:requestApp dtou:grindr.
+:request2215 a rein:Request ;
+	 rein:requestedAction person:2215 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:grindr.
+:request2216 a rein:Request ;
+	 rein:requestedAction person:2216 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:grindr.
+:request2217 a rein:Request ;
+	 rein:requestedAction person:2217 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:grindr.
+:request2218 a rein:Request ;
+	 rein:requestedAction person:2218 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:grindr.
+:request2219 a rein:Request ;
+	 rein:requestedAction person:2219 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2220 a rein:Request ;
+	 rein:requestedAction person:2220 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2221 a rein:Request ;
+	 rein:requestedAction person:2221 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2222 a rein:Request ;
+	 rein:requestedAction person:2222 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2223 a rein:Request ;
+	 rein:requestedAction person:2223 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapsense ;
+	 dtou:requestApp dtou:grindr.
+:request2224 a rein:Request ;
+	 rein:requestedAction person:2224 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapsense ;
+	 dtou:requestApp dtou:grindr.
+:request2225 a rein:Request ;
+	 rein:requestedAction person:2225 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapsense ;
+	 dtou:requestApp dtou:grindr.
+:request2226 a rein:Request ;
+	 rein:requestedAction person:2226 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Grindr ;
+	 dtou:requestApp dtou:grindr.
+:request2227 a rein:Request ;
+	 rein:requestedAction person:2227 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Treasuredata ;
+	 dtou:requestApp dtou:grindr.
+:request2228 a rein:Request ;
+	 rein:requestedAction person:2228 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Smaato ;
+	 dtou:requestApp dtou:grindr.
+:request2229 a rein:Request ;
+	 rein:requestedAction person:2229 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Smaato ;
+	 dtou:requestApp dtou:grindr.
+:request2230 a rein:Request ;
+	 rein:requestedAction person:2230 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:grindr.
+:request2231 a rein:Request ;
+	 rein:requestedAction person:2231 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:grindr.
+:request2232 a rein:Request ;
+	 rein:requestedAction person:2232 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapsense ;
+	 dtou:requestApp dtou:grindr.
+:request2233 a rein:Request ;
+	 rein:requestedAction person:2233 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Wish ;
+	 dtou:requestApp dtou:grindr.
+:request2234 a rein:Request ;
+	 rein:requestedAction person:2234 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:grindr.
+:request2237 a rein:Request ;
+	 rein:requestedAction person:2237 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:grindr.
+:request2238 a rein:Request ;
+	 rein:requestedAction person:2238 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:grindr.
+:request2239 a rein:Request ;
+	 rein:requestedAction person:2239 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Inmobi ;
+	 dtou:requestApp dtou:grindr.
+:request2240 a rein:Request ;
+	 rein:requestedAction person:2240 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Inmobi ;
+	 dtou:requestApp dtou:grindr.
+:request2241 a rein:Request ;
+	 rein:requestedAction person:2241 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mozilla ;
+	 dtou:requestApp dtou:grindr.
+:request2242 a rein:Request ;
+	 rein:requestedAction person:2242 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2243 a rein:Request ;
+	 rein:requestedAction person:2243 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2244 a rein:Request ;
+	 rein:requestedAction person:2244 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2245 a rein:Request ;
+	 rein:requestedAction person:2245 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2246 a rein:Request ;
+	 rein:requestedAction person:2246 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:grindr.
+:request2247 a rein:Request ;
+	 rein:requestedAction person:2247 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:App-Measurement ;
+	 dtou:requestApp dtou:grindr.
+:request2248 a rein:Request ;
+	 rein:requestedAction person:2248 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Aerserv ;
+	 dtou:requestApp dtou:grindr.
+:request2249 a rein:Request ;
+	 rein:requestedAction person:2249 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Aerserv ;
+	 dtou:requestApp dtou:grindr.
+:request2250 a rein:Request ;
+	 rein:requestedAction person:2250 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Liftoff ;
+	 dtou:requestApp dtou:grindr.
+:request2251 a rein:Request ;
+	 rein:requestedAction person:2251 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Forensiq ;
+	 dtou:requestApp dtou:grindr.
+:request2252 a rein:Request ;
+	 rein:requestedAction person:2252 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Forensiq ;
+	 dtou:requestApp dtou:grindr.
+:request2253 a rein:Request ;
+	 rein:requestedAction person:2253 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Inmobi ;
+	 dtou:requestApp dtou:grindr.
+:request2254 a rein:Request ;
+	 rein:requestedAction person:2254 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Inmobi ;
+	 dtou:requestApp dtou:grindr.
+:request2255 a rein:Request ;
+	 rein:requestedAction person:2255 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Twitter ;
+	 dtou:requestApp dtou:grindr.
+:request2256 a rein:Request ;
+	 rein:requestedAction person:2256 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Twitter ;
+	 dtou:requestApp dtou:grindr.
+:request2257 a rein:Request ;
+	 rein:requestedAction person:2257 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Grindr ;
+	 dtou:requestApp dtou:grindr.
+:request2260 a rein:Request ;
+	 rein:requestedAction person:2260 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:grindr.
+:request2263 a rein:Request ;
+	 rein:requestedAction person:2263 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Smaato ;
+	 dtou:requestApp dtou:grindr.
+:request2264 a rein:Request ;
+	 rein:requestedAction person:2264 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Smaato ;
+	 dtou:requestApp dtou:grindr.
+:request2265 a rein:Request ;
+	 rein:requestedAction person:2265 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Smaato ;
+	 dtou:requestApp dtou:grindr.
+:request2266 a rein:Request ;
+	 rein:requestedAction person:2266 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:grindr.
+:request2267 a rein:Request ;
+	 rein:requestedAction person:2267 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:grindr.
+:request2268 a rein:Request ;
+	 rein:requestedAction person:2268 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:grindr.
+:request2269 a rein:Request ;
+	 rein:requestedAction person:2269 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:grindr.
+:request2271 a rein:Request ;
+	 rein:requestedAction person:2271 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Inmobi ;
+	 dtou:requestApp dtou:grindr.
+:request2275 a rein:Request ;
+	 rein:requestedAction person:2275 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Liftoff ;
+	 dtou:requestApp dtou:grindr.

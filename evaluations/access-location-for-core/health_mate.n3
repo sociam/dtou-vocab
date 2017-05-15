@@ -1,0 +1,125 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2518 a rein:Request ;
+	 rein:requestedAction person:2518 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2519 a rein:Request ;
+	 rein:requestedAction person:2519 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2520 a rein:Request ;
+	 rein:requestedAction person:2520 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2523 a rein:Request ;
+	 rein:requestedAction person:2523 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Withings ;
+	 dtou:requestApp dtou:health_mate.
+:request2524 a rein:Request ;
+	 rein:requestedAction person:2524 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:health_mate.
+:request2525 a rein:Request ;
+	 rein:requestedAction person:2525 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:health_mate.
+:request2526 a rein:Request ;
+	 rein:requestedAction person:2526 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:health_mate.
+:request2527 a rein:Request ;
+	 rein:requestedAction person:2527 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:health_mate.
+:request2528 a rein:Request ;
+	 rein:requestedAction person:2528 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mozilla ;
+	 dtou:requestApp dtou:health_mate.
+:request2529 a rein:Request ;
+	 rein:requestedAction person:2529 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mozilla ;
+	 dtou:requestApp dtou:health_mate.
+:request2530 a rein:Request ;
+	 rein:requestedAction person:2530 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mozilla ;
+	 dtou:requestApp dtou:health_mate.
+:request2531 a rein:Request ;
+	 rein:requestedAction person:2531 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mozilla ;
+	 dtou:requestApp dtou:health_mate.
+:request2532 a rein:Request ;
+	 rein:requestedAction person:2532 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2533 a rein:Request ;
+	 rein:requestedAction person:2533 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2534 a rein:Request ;
+	 rein:requestedAction person:2534 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2535 a rein:Request ;
+	 rein:requestedAction person:2535 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2536 a rein:Request ;
+	 rein:requestedAction person:2536 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Withings ;
+	 dtou:requestApp dtou:health_mate.
+:request2537 a rein:Request ;
+	 rein:requestedAction person:2537 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2538 a rein:Request ;
+	 rein:requestedAction person:2538 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2539 a rein:Request ;
+	 rein:requestedAction person:2539 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2540 a rein:Request ;
+	 rein:requestedAction person:2540 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Withings ;
+	 dtou:requestApp dtou:health_mate.
+:request2541 a rein:Request ;
+	 rein:requestedAction person:2541 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:health_mate.
+:request2542 a rein:Request ;
+	 rein:requestedAction person:2542 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Withings ;
+	 dtou:requestApp dtou:health_mate.
+:request2543 a rein:Request ;
+	 rein:requestedAction person:2543 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Withings ;
+	 dtou:requestApp dtou:health_mate.

@@ -1,0 +1,100 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2443 a rein:Request ;
+	 rein:requestedAction person:2443 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:trainline.
+:request2444 a rein:Request ;
+	 rein:requestedAction person:2444 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:trainline.
+:request2445 a rein:Request ;
+	 rein:requestedAction person:2445 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:trainline.
+:request2446 a rein:Request ;
+	 rein:requestedAction person:2446 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:trainline.
+:request2447 a rein:Request ;
+	 rein:requestedAction person:2447 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:trainline.
+:request2448 a rein:Request ;
+	 rein:requestedAction person:2448 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:trainline.
+:request2449 a rein:Request ;
+	 rein:requestedAction person:2449 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Leanplum ;
+	 dtou:requestApp dtou:trainline.
+:request2451 a rein:Request ;
+	 rein:requestedAction person:2451 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:trainline.
+:request2452 a rein:Request ;
+	 rein:requestedAction person:2452 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:trainline.
+:request2453 a rein:Request ;
+	 rein:requestedAction person:2453 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:trainline.
+:request2454 a rein:Request ;
+	 rein:requestedAction person:2454 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:trainline.
+:request2455 a rein:Request ;
+	 rein:requestedAction person:2455 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:trainline.
+:request2456 a rein:Request ;
+	 rein:requestedAction person:2456 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:trainline.
+:request2457 a rein:Request ;
+	 rein:requestedAction person:2457 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Newrelic ;
+	 dtou:requestApp dtou:trainline.
+:request2458 a rein:Request ;
+	 rein:requestedAction person:2458 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Demdex ;
+	 dtou:requestApp dtou:trainline.
+:request2459 a rein:Request ;
+	 rein:requestedAction person:2459 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Demdex ;
+	 dtou:requestApp dtou:trainline.
+:request2463 a rein:Request ;
+	 rein:requestedAction person:2463 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:trainline.
+:request2464 a rein:Request ;
+	 rein:requestedAction person:2464 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:trainline.
+:request2465 a rein:Request ;
+	 rein:requestedAction person:2465 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Thetrainline ;
+	 dtou:requestApp dtou:trainline.

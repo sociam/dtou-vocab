@@ -1,0 +1,165 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2169 a rein:Request ;
+	 rein:requestedAction person:2169 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2170 a rein:Request ;
+	 rein:requestedAction person:2170 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2171 a rein:Request ;
+	 rein:requestedAction person:2171 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2172 a rein:Request ;
+	 rein:requestedAction person:2172 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:guardian.
+:request2173 a rein:Request ;
+	 rein:requestedAction person:2173 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:guardian.
+:request2174 a rein:Request ;
+	 rein:requestedAction person:2174 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:guardian.
+:request2175 a rein:Request ;
+	 rein:requestedAction person:2175 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:guardian.
+:request2176 a rein:Request ;
+	 rein:requestedAction person:2176 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2177 a rein:Request ;
+	 rein:requestedAction person:2177 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Twitter ;
+	 dtou:requestApp dtou:guardian.
+:request2178 a rein:Request ;
+	 rein:requestedAction person:2178 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2179 a rein:Request ;
+	 rein:requestedAction person:2179 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2180 a rein:Request ;
+	 rein:requestedAction person:2180 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Theguardian ;
+	 dtou:requestApp dtou:guardian.
+:request2181 a rein:Request ;
+	 rein:requestedAction person:2181 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Theguardian ;
+	 dtou:requestApp dtou:guardian.
+:request2182 a rein:Request ;
+	 rein:requestedAction person:2182 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Theguardian ;
+	 dtou:requestApp dtou:guardian.
+:request2183 a rein:Request ;
+	 rein:requestedAction person:2183 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2184 a rein:Request ;
+	 rein:requestedAction person:2184 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2185 a rein:Request ;
+	 rein:requestedAction person:2185 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2186 a rein:Request ;
+	 rein:requestedAction person:2186 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2187 a rein:Request ;
+	 rein:requestedAction person:2187 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2188 a rein:Request ;
+	 rein:requestedAction person:2188 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:guardian.
+:request2189 a rein:Request ;
+	 rein:requestedAction person:2189 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:guardian.
+:request2190 a rein:Request ;
+	 rein:requestedAction person:2190 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:guardian.
+:request2193 a rein:Request ;
+	 rein:requestedAction person:2193 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:App-Measurement ;
+	 dtou:requestApp dtou:guardian.
+:request2194 a rein:Request ;
+	 rein:requestedAction person:2194 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2195 a rein:Request ;
+	 rein:requestedAction person:2195 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2196 a rein:Request ;
+	 rein:requestedAction person:2196 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2197 a rein:Request ;
+	 rein:requestedAction person:2197 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2200 a rein:Request ;
+	 rein:requestedAction person:2200 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2201 a rein:Request ;
+	 rein:requestedAction person:2201 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2202 a rein:Request ;
+	 rein:requestedAction person:2202 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:guardian.
+:request2204 a rein:Request ;
+	 rein:requestedAction person:2204 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:guardian.
+:request2205 a rein:Request ;
+	 rein:requestedAction person:2205 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:guardian.

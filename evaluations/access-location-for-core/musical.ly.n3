@@ -1,0 +1,285 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3192 a rein:Request ;
+	 rein:requestedAction person:3192 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Intowow ;
+	 dtou:requestApp dtou:musical.ly.
+:request3193 a rein:Request ;
+	 rein:requestedAction person:3193 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Directly ;
+	 dtou:requestApp dtou:musical.ly.
+:request3194 a rein:Request ;
+	 rein:requestedAction person:3194 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Directly ;
+	 dtou:requestApp dtou:musical.ly.
+:request3195 a rein:Request ;
+	 rein:requestedAction person:3195 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Directly ;
+	 dtou:requestApp dtou:musical.ly.
+:request3196 a rein:Request ;
+	 rein:requestedAction person:3196 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Musical ;
+	 dtou:requestApp dtou:musical.ly.
+:request3197 a rein:Request ;
+	 rein:requestedAction person:3197 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Musical ;
+	 dtou:requestApp dtou:musical.ly.
+:request3198 a rein:Request ;
+	 rein:requestedAction person:3198 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:musical.ly.
+:request3199 a rein:Request ;
+	 rein:requestedAction person:3199 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:musical.ly.
+:request3200 a rein:Request ;
+	 rein:requestedAction person:3200 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:musical.ly.
+:request3201 a rein:Request ;
+	 rein:requestedAction person:3201 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:musical.ly.
+:request3202 a rein:Request ;
+	 rein:requestedAction person:3202 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Musical ;
+	 dtou:requestApp dtou:musical.ly.
+:request3203 a rein:Request ;
+	 rein:requestedAction person:3203 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Musical ;
+	 dtou:requestApp dtou:musical.ly.
+:request3204 a rein:Request ;
+	 rein:requestedAction person:3204 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3205 a rein:Request ;
+	 rein:requestedAction person:3205 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3206 a rein:Request ;
+	 rein:requestedAction person:3206 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3207 a rein:Request ;
+	 rein:requestedAction person:3207 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:musical.ly.
+:request3208 a rein:Request ;
+	 rein:requestedAction person:3208 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:musical.ly.
+:request3209 a rein:Request ;
+	 rein:requestedAction person:3209 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3210 a rein:Request ;
+	 rein:requestedAction person:3210 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3211 a rein:Request ;
+	 rein:requestedAction person:3211 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3212 a rein:Request ;
+	 rein:requestedAction person:3212 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3213 a rein:Request ;
+	 rein:requestedAction person:3213 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:musical.ly.
+:request3214 a rein:Request ;
+	 rein:requestedAction person:3214 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:musical.ly.
+:request3215 a rein:Request ;
+	 rein:requestedAction person:3215 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:musical.ly.
+:request3216 a rein:Request ;
+	 rein:requestedAction person:3216 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:musical.ly.
+:request3218 a rein:Request ;
+	 rein:requestedAction person:3218 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:musical.ly.
+:request3219 a rein:Request ;
+	 rein:requestedAction person:3219 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Intowow ;
+	 dtou:requestApp dtou:musical.ly.
+:request3220 a rein:Request ;
+	 rein:requestedAction person:3220 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Rollout ;
+	 dtou:requestApp dtou:musical.ly.
+:request3221 a rein:Request ;
+	 rein:requestedAction person:3221 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Rollout ;
+	 dtou:requestApp dtou:musical.ly.
+:request3222 a rein:Request ;
+	 rein:requestedAction person:3222 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Rollout ;
+	 dtou:requestApp dtou:musical.ly.
+:request3223 a rein:Request ;
+	 rein:requestedAction person:3223 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Rollout ;
+	 dtou:requestApp dtou:musical.ly.
+:request3224 a rein:Request ;
+	 rein:requestedAction person:3224 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:musical.ly.
+:request3225 a rein:Request ;
+	 rein:requestedAction person:3225 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:musical.ly.
+:request3226 a rein:Request ;
+	 rein:requestedAction person:3226 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3227 a rein:Request ;
+	 rein:requestedAction person:3227 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chengdu ;
+	 dtou:requestApp dtou:musical.ly.
+:request3228 a rein:Request ;
+	 rein:requestedAction person:3228 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chengdu ;
+	 dtou:requestApp dtou:musical.ly.
+:request3229 a rein:Request ;
+	 rein:requestedAction person:3229 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3230 a rein:Request ;
+	 rein:requestedAction person:3230 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:musical.ly.
+:request3231 a rein:Request ;
+	 rein:requestedAction person:3231 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:musical.ly.
+:request3232 a rein:Request ;
+	 rein:requestedAction person:3232 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:musical.ly.
+:request3233 a rein:Request ;
+	 rein:requestedAction person:3233 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Umeng ;
+	 dtou:requestApp dtou:musical.ly.
+:request3234 a rein:Request ;
+	 rein:requestedAction person:3234 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:musical.ly.
+:request3235 a rein:Request ;
+	 rein:requestedAction person:3235 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:musical.ly.
+:request3236 a rein:Request ;
+	 rein:requestedAction person:3236 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:musical.ly.
+:request3237 a rein:Request ;
+	 rein:requestedAction person:3237 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:musical.ly.
+:request3240 a rein:Request ;
+	 rein:requestedAction person:3240 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:musical.ly.
+:request3241 a rein:Request ;
+	 rein:requestedAction person:3241 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:musical.ly.
+:request3242 a rein:Request ;
+	 rein:requestedAction person:3242 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:musical.ly.
+:request3243 a rein:Request ;
+	 rein:requestedAction person:3243 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Amazon ;
+	 dtou:requestApp dtou:musical.ly.
+:request3244 a rein:Request ;
+	 rein:requestedAction person:3244 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:musical.ly.
+:request3245 a rein:Request ;
+	 rein:requestedAction person:3245 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:musical.ly.
+:request3246 a rein:Request ;
+	 rein:requestedAction person:3246 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:musical.ly.
+:request3247 a rein:Request ;
+	 rein:requestedAction person:3247 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:musical.ly.
+:request3248 a rein:Request ;
+	 rein:requestedAction person:3248 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3249 a rein:Request ;
+	 rein:requestedAction person:3249 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.
+:request3250 a rein:Request ;
+	 rein:requestedAction person:3250 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:musical.ly.

@@ -1,0 +1,55 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1123 a rein:Request ;
+	 rein:requestedAction person:1123 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:dattch.
+:request1124 a rein:Request ;
+	 rein:requestedAction person:1124 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:dattch.
+:request1125 a rein:Request ;
+	 rein:requestedAction person:1125 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:dattch.
+:request1126 a rein:Request ;
+	 rein:requestedAction person:1126 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:dattch.
+:request1127 a rein:Request ;
+	 rein:requestedAction person:1127 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:dattch.
+:request1128 a rein:Request ;
+	 rein:requestedAction person:1128 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:dattch.
+:request1129 a rein:Request ;
+	 rein:requestedAction person:1129 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:dattch.
+:request1130 a rein:Request ;
+	 rein:requestedAction person:1130 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:dattch.
+:request1131 a rein:Request ;
+	 rein:requestedAction person:1131 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:dattch.
+:request1134 a rein:Request ;
+	 rein:requestedAction person:1134 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Dattch ;
+	 dtou:requestApp dtou:dattch.

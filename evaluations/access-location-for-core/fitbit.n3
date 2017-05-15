@@ -1,0 +1,105 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request821 a rein:Request ;
+	 rein:requestedAction person:821 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request822 a rein:Request ;
+	 rein:requestedAction person:822 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:fitbit.
+:request823 a rein:Request ;
+	 rein:requestedAction person:823 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:fitbit.
+:request824 a rein:Request ;
+	 rein:requestedAction person:824 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request825 a rein:Request ;
+	 rein:requestedAction person:825 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request826 a rein:Request ;
+	 rein:requestedAction person:826 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request827 a rein:Request ;
+	 rein:requestedAction person:827 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request828 a rein:Request ;
+	 rein:requestedAction person:828 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:fitbit.
+:request829 a rein:Request ;
+	 rein:requestedAction person:829 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:fitbit.
+:request830 a rein:Request ;
+	 rein:requestedAction person:830 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:fitbit.
+:request831 a rein:Request ;
+	 rein:requestedAction person:831 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:fitbit.
+:request832 a rein:Request ;
+	 rein:requestedAction person:832 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:fitbit.
+:request833 a rein:Request ;
+	 rein:requestedAction person:833 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mixpanel ;
+	 dtou:requestApp dtou:fitbit.
+:request837 a rein:Request ;
+	 rein:requestedAction person:837 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request838 a rein:Request ;
+	 rein:requestedAction person:838 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request839 a rein:Request ;
+	 rein:requestedAction person:839 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:fitbit.
+:request840 a rein:Request ;
+	 rein:requestedAction person:840 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request841 a rein:Request ;
+	 rein:requestedAction person:841 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request847 a rein:Request ;
+	 rein:requestedAction person:847 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.
+:request848 a rein:Request ;
+	 rein:requestedAction person:848 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:fitbit.

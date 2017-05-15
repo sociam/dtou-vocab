@@ -1,0 +1,115 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request3097 a rein:Request ;
+	 rein:requestedAction person:3097 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:The_Nielsen_Company ;
+	 dtou:requestApp dtou:spotify_music.
+:request3098 a rein:Request ;
+	 rein:requestedAction person:3098 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:The_Nielsen_Company ;
+	 dtou:requestApp dtou:spotify_music.
+:request3099 a rein:Request ;
+	 rein:requestedAction person:3099 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3100 a rein:Request ;
+	 rein:requestedAction person:3100 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3101 a rein:Request ;
+	 rein:requestedAction person:3101 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3102 a rein:Request ;
+	 rein:requestedAction person:3102 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3103 a rein:Request ;
+	 rein:requestedAction person:3103 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3104 a rein:Request ;
+	 rein:requestedAction person:3104 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3105 a rein:Request ;
+	 rein:requestedAction person:3105 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3106 a rein:Request ;
+	 rein:requestedAction person:3106 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:spotify_music.
+:request3107 a rein:Request ;
+	 rein:requestedAction person:3107 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:spotify_music.
+:request3108 a rein:Request ;
+	 rein:requestedAction person:3108 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:spotify_music.
+:request3109 a rein:Request ;
+	 rein:requestedAction person:3109 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:spotify_music.
+:request3112 a rein:Request ;
+	 rein:requestedAction person:3112 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:spotify_music.
+:request3113 a rein:Request ;
+	 rein:requestedAction person:3113 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:spotify_music.
+:request3114 a rein:Request ;
+	 rein:requestedAction person:3114 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:spotify_music.
+:request3115 a rein:Request ;
+	 rein:requestedAction person:3115 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:spotify_music.
+:request3116 a rein:Request ;
+	 rein:requestedAction person:3116 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:spotify_music.
+:request3117 a rein:Request ;
+	 rein:requestedAction person:3117 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3118 a rein:Request ;
+	 rein:requestedAction person:3118 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Spotify ;
+	 dtou:requestApp dtou:spotify_music.
+:request3120 a rein:Request ;
+	 rein:requestedAction person:3120 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:spotify_music.
+:request3121 a rein:Request ;
+	 rein:requestedAction person:3121 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adjust ;
+	 dtou:requestApp dtou:spotify_music.

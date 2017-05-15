@@ -1,0 +1,80 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2352 a rein:Request ;
+	 rein:requestedAction person:2352 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2353 a rein:Request ;
+	 rein:requestedAction person:2353 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2354 a rein:Request ;
+	 rein:requestedAction person:2354 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2355 a rein:Request ;
+	 rein:requestedAction person:2355 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2356 a rein:Request ;
+	 rein:requestedAction person:2356 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2357 a rein:Request ;
+	 rein:requestedAction person:2357 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2358 a rein:Request ;
+	 rein:requestedAction person:2358 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2360 a rein:Request ;
+	 rein:requestedAction person:2360 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:snapchat.
+:request2361 a rein:Request ;
+	 rein:requestedAction person:2361 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:snapchat.
+:request2362 a rein:Request ;
+	 rein:requestedAction person:2362 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:snapchat.
+:request2365 a rein:Request ;
+	 rein:requestedAction person:2365 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2366 a rein:Request ;
+	 rein:requestedAction person:2366 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:snapchat.
+:request2368 a rein:Request ;
+	 rein:requestedAction person:2368 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:snapchat.
+:request2369 a rein:Request ;
+	 rein:requestedAction person:2369 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:snapchat.
+:request2370 a rein:Request ;
+	 rein:requestedAction person:2370 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:snapchat.

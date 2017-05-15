@@ -1,0 +1,65 @@
+@prefix person:  <person-B.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1311 a rein:Request ;
+	 rein:requestedAction person:1311 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vimov ;
+	 dtou:requestApp dtou:clear_day.
+:request1312 a rein:Request ;
+	 rein:requestedAction person:1312 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vimov ;
+	 dtou:requestApp dtou:clear_day.
+:request1313 a rein:Request ;
+	 rein:requestedAction person:1313 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vimov ;
+	 dtou:requestApp dtou:clear_day.
+:request1314 a rein:Request ;
+	 rein:requestedAction person:1314 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:clear_day.
+:request1315 a rein:Request ;
+	 rein:requestedAction person:1315 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:clear_day.
+:request1316 a rein:Request ;
+	 rein:requestedAction person:1316 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:clear_day.
+:request1317 a rein:Request ;
+	 rein:requestedAction person:1317 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:clear_day.
+:request1318 a rein:Request ;
+	 rein:requestedAction person:1318 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:clear_day.
+:request1319 a rein:Request ;
+	 rein:requestedAction person:1319 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:clear_day.
+:request1321 a rein:Request ;
+	 rein:requestedAction person:1321 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vimov ;
+	 dtou:requestApp dtou:clear_day.
+:request1322 a rein:Request ;
+	 rein:requestedAction person:1322 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vimov ;
+	 dtou:requestApp dtou:clear_day.
+:request1323 a rein:Request ;
+	 rein:requestedAction person:1323 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vimov ;
+	 dtou:requestApp dtou:clear_day.
