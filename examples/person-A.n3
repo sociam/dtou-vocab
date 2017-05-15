@@ -7,7 +7,7 @@
 @prefix rein: <rein.n3#>.
 
 :City a rdfs:Class ;
-	rdfs:subClassOf :PreciseLocationData .
+	rdfs:subClassOf :CoarseLocationData .
 
 :CoarseLocationData a rdfs:Class ;
 	rdfs:subClassOf :LocationData .
@@ -27,11 +27,14 @@
 	rdfs:subClassOf :LocationData .
 
 :Town a rdfs:Class ;
-	rdfs:subClassOf :PreciseLocationData .
+	rdfs:subClassOf :CoarseLocationData .
 
 #### some instance data
 
 :GB a :Country ;rein:controlledBy <mob-policyA.n3> .
 
 :Oxford a :Town ;
+	rein:controlledBy <mob-policyA.n3> .
+
+:gps1 a :PreciseLocationData ;
 	rein:controlledBy <mob-policyA.n3> .

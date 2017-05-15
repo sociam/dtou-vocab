@@ -11,15 +11,15 @@
 @prefix : <#>.
 
 # valid
-# reason : All access to location is not permitted
+# reason : All access to coarse location is permitted
 :request8 a rein:Request;
         rein:requester tracker:Google-ads;
         rein:requestType reina:ispermitted;
-        rein:requestedAction person:GB.
+        rein:requestedAction person:Oxford.
 
 # valid
-# reason : All access to location is not permitted
+# reason : All access to precise location is not permitted
 :request9 a rein:Request;
         rein:requester tracker:Google-ads;
         rein:requestType reina:isprohibited;
-        rein:requestedAction person:Oxford.
+        rein:requestedAction person:gps1.

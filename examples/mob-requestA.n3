@@ -4,7 +4,7 @@
 @prefix log: <http://www.w3.org/2000/10/swap/log#> .
 @prefix rein: <rein.n3#>.
 @prefix reina: <reinA.n3#>.
-@prefix person: <person.n3#>.
+@prefix person: <person-A.n3#>.
 @prefix tracker: <tracker.n3#>.
 @prefix math: <http://www.w3.org/2000/10/swap/math#>.
 @prefix : <#>.
@@ -14,7 +14,7 @@
 :request1 a rein:Request;
         rein:requester tracker:Google-ads;
 	    rein:requestType reina:isprohibited;
-        rein:requestedAction person:GB.
+        rein:requestedAction person:Oxford.
 
 # invalid
 # reason : All access to location is not permitted
@@ -22,7 +22,7 @@
 :request2 a rein:Request;
         rein:requester tracker:Google-ads;
         rein:requestType reina:ispermitted;
-        rein:requestedAction person:GB.
+        rein:requestedAction person:Oxford.
 
 # valid
 # reason : All access to precise location is not permitted
@@ -30,7 +30,7 @@
 :request3 a rein:Request;
         rein:requester tracker:Google-ads;
 	    rein:requestType reina:isprohibited;
-        rein:requestedAction person:Oxford.
+        rein:requestedAction person:gps1.
 
 # invalid
 # reason : All access to precise location is not permitted
@@ -38,4 +38,4 @@
 :request4 a rein:Request;
         rein:requester tracker:Google-ads;
 	    rein:requestType reina:ispermitted;
-        rein:requestedAction person:Oxford.
+        rein:requestedAction person:gps1.

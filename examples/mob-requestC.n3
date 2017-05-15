@@ -25,7 +25,7 @@
         rein:requestedAction person:GB.
 
 # valid
-# reason : All access by a chinese tracker is not permitted
+# reason : All access by not a chinese tracker is permitted
 :request3 a rein:Request;
         rein:requester tracker:company-gb;
         rein:requestType reina:ispermitted;
