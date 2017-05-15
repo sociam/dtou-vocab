@@ -1,0 +1,811 @@
+@prefix person:  <person-F.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1979 a rein:Request ;
+	 rein:requestedAction person:1979 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Uber ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1980 a rein:Request ;
+	 rein:requestedAction person:1980 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Uber ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1981 a rein:Request ;
+	 rein:requestedAction person:1981 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Groupm ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1982 a rein:Request ;
+	 rein:requestedAction person:1982 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Groupm ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1983 a rein:Request ;
+	 rein:requestedAction person:1983 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Truste ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1984 a rein:Request ;
+	 rein:requestedAction person:1984 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Truste ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1985 a rein:Request ;
+	 rein:requestedAction person:1985 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1986 a rein:Request ;
+	 rein:requestedAction person:1986 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1987 a rein:Request ;
+	 rein:requestedAction person:1987 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sojern ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1988 a rein:Request ;
+	 rein:requestedAction person:1988 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sojern ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1989 a rein:Request ;
+	 rein:requestedAction person:1989 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1990 a rein:Request ;
+	 rein:requestedAction person:1990 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1991 a rein:Request ;
+	 rein:requestedAction person:1991 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1992 a rein:Request ;
+	 rein:requestedAction person:1992 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1993 a rein:Request ;
+	 rein:requestedAction person:1993 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Onlinemetrix ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1994 a rein:Request ;
+	 rein:requestedAction person:1994 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Onlinemetrix ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1995 a rein:Request ;
+	 rein:requestedAction person:1995 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Onlinemetrix ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1996 a rein:Request ;
+	 rein:requestedAction person:1996 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1997 a rein:Request ;
+	 rein:requestedAction person:1997 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1998 a rein:Request ;
+	 rein:requestedAction person:1998 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request1999 a rein:Request ;
+	 rein:requestedAction person:1999 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2003 a rein:Request ;
+	 rein:requestedAction person:2003 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2004 a rein:Request ;
+	 rein:requestedAction person:2004 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2005 a rein:Request ;
+	 rein:requestedAction person:2005 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2008 a rein:Request ;
+	 rein:requestedAction person:2008 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2009 a rein:Request ;
+	 rein:requestedAction person:2009 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2010 a rein:Request ;
+	 rein:requestedAction person:2010 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2011 a rein:Request ;
+	 rein:requestedAction person:2011 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sociomantic
+ ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2012 a rein:Request ;
+	 rein:requestedAction person:2012 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sociomantic
+ ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2013 a rein:Request ;
+	 rein:requestedAction person:2013 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Rocketfuel ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2014 a rein:Request ;
+	 rein:requestedAction person:2014 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Rocketfuel ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2015 a rein:Request ;
+	 rein:requestedAction person:2015 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Criteo ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2016 a rein:Request ;
+	 rein:requestedAction person:2016 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Criteo ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2017 a rein:Request ;
+	 rein:requestedAction person:2017 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2018 a rein:Request ;
+	 rein:requestedAction person:2018 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2019 a rein:Request ;
+	 rein:requestedAction person:2019 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2020 a rein:Request ;
+	 rein:requestedAction person:2020 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2021 a rein:Request ;
+	 rein:requestedAction person:2021 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2022 a rein:Request ;
+	 rein:requestedAction person:2022 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2023 a rein:Request ;
+	 rein:requestedAction person:2023 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mediaforge ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2024 a rein:Request ;
+	 rein:requestedAction person:2024 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mediaforge ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2025 a rein:Request ;
+	 rein:requestedAction person:2025 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2026 a rein:Request ;
+	 rein:requestedAction person:2026 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2027 a rein:Request ;
+	 rein:requestedAction person:2027 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appnexus ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2028 a rein:Request ;
+	 rein:requestedAction person:2028 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appnexus ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2029 a rein:Request ;
+	 rein:requestedAction person:2029 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bluekai ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2030 a rein:Request ;
+	 rein:requestedAction person:2030 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Bluekai ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2031 a rein:Request ;
+	 rein:requestedAction person:2031 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Hilton ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2032 a rein:Request ;
+	 rein:requestedAction person:2032 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Hilton ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2033 a rein:Request ;
+	 rein:requestedAction person:2033 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2034 a rein:Request ;
+	 rein:requestedAction person:2034 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2035 a rein:Request ;
+	 rein:requestedAction person:2035 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2036 a rein:Request ;
+	 rein:requestedAction person:2036 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2037 a rein:Request ;
+	 rein:requestedAction person:2037 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2038 a rein:Request ;
+	 rein:requestedAction person:2038 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2039 a rein:Request ;
+	 rein:requestedAction person:2039 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2040 a rein:Request ;
+	 rein:requestedAction person:2040 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Microsoft ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2041 a rein:Request ;
+	 rein:requestedAction person:2041 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Demdex ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2042 a rein:Request ;
+	 rein:requestedAction person:2042 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Demdex ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2043 a rein:Request ;
+	 rein:requestedAction person:2043 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2044 a rein:Request ;
+	 rein:requestedAction person:2044 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2045 a rein:Request ;
+	 rein:requestedAction person:2045 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2046 a rein:Request ;
+	 rein:requestedAction person:2046 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2047 a rein:Request ;
+	 rein:requestedAction person:2047 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2048 a rein:Request ;
+	 rein:requestedAction person:2048 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2049 a rein:Request ;
+	 rein:requestedAction person:2049 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2050 a rein:Request ;
+	 rein:requestedAction person:2050 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sojern ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2051 a rein:Request ;
+	 rein:requestedAction person:2051 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sojern ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2052 a rein:Request ;
+	 rein:requestedAction person:2052 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Manage
+ ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2053 a rein:Request ;
+	 rein:requestedAction person:2053 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Manage
+ ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2054 a rein:Request ;
+	 rein:requestedAction person:2054 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Hilton ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2055 a rein:Request ;
+	 rein:requestedAction person:2055 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Hilton ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2056 a rein:Request ;
+	 rein:requestedAction person:2056 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appnexus ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2057 a rein:Request ;
+	 rein:requestedAction person:2057 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appnexus ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2058 a rein:Request ;
+	 rein:requestedAction person:2058 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2059 a rein:Request ;
+	 rein:requestedAction person:2059 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2060 a rein:Request ;
+	 rein:requestedAction person:2060 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2061 a rein:Request ;
+	 rein:requestedAction person:2061 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2062 a rein:Request ;
+	 rein:requestedAction person:2062 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2063 a rein:Request ;
+	 rein:requestedAction person:2063 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2064 a rein:Request ;
+	 rein:requestedAction person:2064 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tune ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2065 a rein:Request ;
+	 rein:requestedAction person:2065 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2066 a rein:Request ;
+	 rein:requestedAction person:2066 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2067 a rein:Request ;
+	 rein:requestedAction person:2067 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2068 a rein:Request ;
+	 rein:requestedAction person:2068 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2069 a rein:Request ;
+	 rein:requestedAction person:2069 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2070 a rein:Request ;
+	 rein:requestedAction person:2070 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2071 a rein:Request ;
+	 rein:requestedAction person:2071 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2072 a rein:Request ;
+	 rein:requestedAction person:2072 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vizury ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2073 a rein:Request ;
+	 rein:requestedAction person:2073 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vizury ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2074 a rein:Request ;
+	 rein:requestedAction person:2074 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vizury ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2075 a rein:Request ;
+	 rein:requestedAction person:2075 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Rocketfuel ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2076 a rein:Request ;
+	 rein:requestedAction person:2076 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Rocketfuel ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2077 a rein:Request ;
+	 rein:requestedAction person:2077 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Criteo ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2078 a rein:Request ;
+	 rein:requestedAction person:2078 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Criteo ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2079 a rein:Request ;
+	 rein:requestedAction person:2079 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ignitionone ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2080 a rein:Request ;
+	 rein:requestedAction person:2080 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ignitionone ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2081 a rein:Request ;
+	 rein:requestedAction person:2081 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2082 a rein:Request ;
+	 rein:requestedAction person:2082 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2083 a rein:Request ;
+	 rein:requestedAction person:2083 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2084 a rein:Request ;
+	 rein:requestedAction person:2084 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2085 a rein:Request ;
+	 rein:requestedAction person:2085 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2086 a rein:Request ;
+	 rein:requestedAction person:2086 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2087 a rein:Request ;
+	 rein:requestedAction person:2087 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2088 a rein:Request ;
+	 rein:requestedAction person:2088 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2089 a rein:Request ;
+	 rein:requestedAction person:2089 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2090 a rein:Request ;
+	 rein:requestedAction person:2090 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2091 a rein:Request ;
+	 rein:requestedAction person:2091 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2092 a rein:Request ;
+	 rein:requestedAction person:2092 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2093 a rein:Request ;
+	 rein:requestedAction person:2093 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2094 a rein:Request ;
+	 rein:requestedAction person:2094 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2095 a rein:Request ;
+	 rein:requestedAction person:2095 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Instagram ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2096 a rein:Request ;
+	 rein:requestedAction person:2096 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2097 a rein:Request ;
+	 rein:requestedAction person:2097 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Roomkey ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2098 a rein:Request ;
+	 rein:requestedAction person:2098 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Roomkey ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2102 a rein:Request ;
+	 rein:requestedAction person:2102 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2103 a rein:Request ;
+	 rein:requestedAction person:2103 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2104 a rein:Request ;
+	 rein:requestedAction person:2104 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2105 a rein:Request ;
+	 rein:requestedAction person:2105 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2106 a rein:Request ;
+	 rein:requestedAction person:2106 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tumri ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2107 a rein:Request ;
+	 rein:requestedAction person:2107 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tumri ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2108 a rein:Request ;
+	 rein:requestedAction person:2108 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2109 a rein:Request ;
+	 rein:requestedAction person:2109 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2112 a rein:Request ;
+	 rein:requestedAction person:2112 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sociomantic
+ ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2113 a rein:Request ;
+	 rein:requestedAction person:2113 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sociomantic
+ ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2114 a rein:Request ;
+	 rein:requestedAction person:2114 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Movableink ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2115 a rein:Request ;
+	 rein:requestedAction person:2115 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Movableink ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2116 a rein:Request ;
+	 rein:requestedAction person:2116 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2117 a rein:Request ;
+	 rein:requestedAction person:2117 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2118 a rein:Request ;
+	 rein:requestedAction person:2118 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2119 a rein:Request ;
+	 rein:requestedAction person:2119 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2120 a rein:Request ;
+	 rein:requestedAction person:2120 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2121 a rein:Request ;
+	 rein:requestedAction person:2121 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2122 a rein:Request ;
+	 rein:requestedAction person:2122 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2123 a rein:Request ;
+	 rein:requestedAction person:2123 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Csdata ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2124 a rein:Request ;
+	 rein:requestedAction person:2124 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Csdata ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2125 a rein:Request ;
+	 rein:requestedAction person:2125 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tripadvisor ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2126 a rein:Request ;
+	 rein:requestedAction person:2126 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Maxymiser ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2127 a rein:Request ;
+	 rein:requestedAction person:2127 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Maxymiser ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2128 a rein:Request ;
+	 rein:requestedAction person:2128 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Maxymiser ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2129 a rein:Request ;
+	 rein:requestedAction person:2129 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2130 a rein:Request ;
+	 rein:requestedAction person:2130 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2131 a rein:Request ;
+	 rein:requestedAction person:2131 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2132 a rein:Request ;
+	 rein:requestedAction person:2132 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2133 a rein:Request ;
+	 rein:requestedAction person:2133 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2134 a rein:Request ;
+	 rein:requestedAction person:2134 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2135 a rein:Request ;
+	 rein:requestedAction person:2135 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2136 a rein:Request ;
+	 rein:requestedAction person:2136 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2137 a rein:Request ;
+	 rein:requestedAction person:2137 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2138 a rein:Request ;
+	 rein:requestedAction person:2138 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2139 a rein:Request ;
+	 rein:requestedAction person:2139 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2140 a rein:Request ;
+	 rein:requestedAction person:2140 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2141 a rein:Request ;
+	 rein:requestedAction person:2141 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2142 a rein:Request ;
+	 rein:requestedAction person:2142 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2143 a rein:Request ;
+	 rein:requestedAction person:2143 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2144 a rein:Request ;
+	 rein:requestedAction person:2144 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2145 a rein:Request ;
+	 rein:requestedAction person:2145 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2146 a rein:Request ;
+	 rein:requestedAction person:2146 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adobe ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2147 a rein:Request ;
+	 rein:requestedAction person:2147 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yieldoptimizer ;
+	 dtou:requestApp dtou:TripAdvisor.
+:request2148 a rein:Request ;
+	 rein:requestedAction person:2148 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yieldoptimizer ;
+	 dtou:requestApp dtou:TripAdvisor.

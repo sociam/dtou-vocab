@@ -1,108 +1,78 @@
-@prefix person:  <person-C-1.n3#> .
+@prefix person:  <person-F.n3#> .
 @prefix rein:  <rein.n3#> .
 @prefix reina:  <reinA.n3#> .
 @prefix tracker: <tracker.n3#> .
 @prefix dtou:  <app.n3#> .
-
-# valid, access not to location data
 :request1810 a rein:Request ;
 	 rein:requestedAction person:1810 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Sumo_Logic ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-# valid, access not to location data
 :request1811 a rein:Request ;
 	 rein:requestedAction person:1811 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:MSN ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-# valid, access to location data but not for ads
 :request1812 a rein:Request ;
 	 rein:requestedAction person:1812 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:MSN ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-# valid, access to location data but not for ads
 :request1814 a rein:Request ;
 	 rein:requestedAction person:1814 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Apple ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-# valid, access not to location data
 :request1815 a rein:Request ;
 	 rein:requestedAction person:1815 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Apple ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-# valid, access to location data but not for ads
 :request1818 a rein:Request ;
 	 rein:requestedAction person:1818 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Apple ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-#valid
 :request1819 a rein:Request ;
 	 rein:requestedAction person:1819 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Apple ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-#valid
 :request1820 a rein:Request ;
 	 rein:requestedAction person:1820 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Apple ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-#valid
 :request1829 a rein:Request ;
 	 rein:requestedAction person:1829 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Scorecardresearch ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-#valid
 :request1830 a rein:Request ;
 	 rein:requestedAction person:1830 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Scorecardresearch ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-# invalid, access to location data for ads
 :request1831 a rein:Request ;
 	 rein:requestedAction person:1831 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Scorecardresearch ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-#invalid, access to coarse location data for ads
 :request1832 a rein:Request ;
 	 rein:requestedAction person:1832 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Scorecardresearch ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-#valid
 :request1833 a rein:Request ;
 	 rein:requestedAction person:1833 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Scorecardresearch ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-#valid
 :request1840 a rein:Request ;
 	 rein:requestedAction person:1840 ;
  	 rein:requestType reina:ispermitted ;
 	 rein:requester tracker:Apple ;
 	 dtou:requestApp dtou:bbc_iplayer.
-
-# valid, access to location data but not for ads
 :request1841 a rein:Request ;
 	 rein:requestedAction person:1841 ;
  	 rein:requestType reina:ispermitted ;

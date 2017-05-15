@@ -1,0 +1,605 @@
+@prefix person:  <person-F.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request532 a rein:Request ;
+	 rein:requestedAction person:532 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Admob ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request533 a rein:Request ;
+	 rein:requestedAction person:533 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request534 a rein:Request ;
+	 rein:requestedAction person:534 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request535 a rein:Request ;
+	 rein:requestedAction person:535 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request536 a rein:Request ;
+	 rein:requestedAction person:536 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request537 a rein:Request ;
+	 rein:requestedAction person:537 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request538 a rein:Request ;
+	 rein:requestedAction person:538 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request539 a rein:Request ;
+	 rein:requestedAction person:539 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request540 a rein:Request ;
+	 rein:requestedAction person:540 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request541 a rein:Request ;
+	 rein:requestedAction person:541 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request542 a rein:Request ;
+	 rein:requestedAction person:542 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request543 a rein:Request ;
+	 rein:requestedAction person:543 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request544 a rein:Request ;
+	 rein:requestedAction person:544 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request548 a rein:Request ;
+	 rein:requestedAction person:548 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request549 a rein:Request ;
+	 rein:requestedAction person:549 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Vungle ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request550 a rein:Request ;
+	 rein:requestedAction person:550 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request551 a rein:Request ;
+	 rein:requestedAction person:551 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request552 a rein:Request ;
+	 rein:requestedAction person:552 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request553 a rein:Request ;
+	 rein:requestedAction person:553 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request554 a rein:Request ;
+	 rein:requestedAction person:554 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request555 a rein:Request ;
+	 rein:requestedAction person:555 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request556 a rein:Request ;
+	 rein:requestedAction person:556 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request557 a rein:Request ;
+	 rein:requestedAction person:557 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request558 a rein:Request ;
+	 rein:requestedAction person:558 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request559 a rein:Request ;
+	 rein:requestedAction person:559 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request560 a rein:Request ;
+	 rein:requestedAction person:560 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request561 a rein:Request ;
+	 rein:requestedAction person:561 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request562 a rein:Request ;
+	 rein:requestedAction person:562 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request563 a rein:Request ;
+	 rein:requestedAction person:563 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request564 a rein:Request ;
+	 rein:requestedAction person:564 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tencent ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request565 a rein:Request ;
+	 rein:requestedAction person:565 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tencent ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request566 a rein:Request ;
+	 rein:requestedAction person:566 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request567 a rein:Request ;
+	 rein:requestedAction person:567 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request568 a rein:Request ;
+	 rein:requestedAction person:568 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request569 a rein:Request ;
+	 rein:requestedAction person:569 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request570 a rein:Request ;
+	 rein:requestedAction person:570 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request571 a rein:Request ;
+	 rein:requestedAction person:571 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request572 a rein:Request ;
+	 rein:requestedAction person:572 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request573 a rein:Request ;
+	 rein:requestedAction person:573 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request574 a rein:Request ;
+	 rein:requestedAction person:574 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request575 a rein:Request ;
+	 rein:requestedAction person:575 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request576 a rein:Request ;
+	 rein:requestedAction person:576 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request577 a rein:Request ;
+	 rein:requestedAction person:577 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request578 a rein:Request ;
+	 rein:requestedAction person:578 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request579 a rein:Request ;
+	 rein:requestedAction person:579 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request580 a rein:Request ;
+	 rein:requestedAction person:580 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request581 a rein:Request ;
+	 rein:requestedAction person:581 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request582 a rein:Request ;
+	 rein:requestedAction person:582 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request583 a rein:Request ;
+	 rein:requestedAction person:583 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request584 a rein:Request ;
+	 rein:requestedAction person:584 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request585 a rein:Request ;
+	 rein:requestedAction person:585 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request586 a rein:Request ;
+	 rein:requestedAction person:586 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request587 a rein:Request ;
+	 rein:requestedAction person:587 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tencent ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request588 a rein:Request ;
+	 rein:requestedAction person:588 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tencent ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request589 a rein:Request ;
+	 rein:requestedAction person:589 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request590 a rein:Request ;
+	 rein:requestedAction person:590 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request591 a rein:Request ;
+	 rein:requestedAction person:591 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request592 a rein:Request ;
+	 rein:requestedAction person:592 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request593 a rein:Request ;
+	 rein:requestedAction person:593 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request594 a rein:Request ;
+	 rein:requestedAction person:594 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request595 a rein:Request ;
+	 rein:requestedAction person:595 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request596 a rein:Request ;
+	 rein:requestedAction person:596 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request597 a rein:Request ;
+	 rein:requestedAction person:597 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request598 a rein:Request ;
+	 rein:requestedAction person:598 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request599 a rein:Request ;
+	 rein:requestedAction person:599 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request600 a rein:Request ;
+	 rein:requestedAction person:600 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request601 a rein:Request ;
+	 rein:requestedAction person:601 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Youtube ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request602 a rein:Request ;
+	 rein:requestedAction person:602 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request603 a rein:Request ;
+	 rein:requestedAction person:603 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request604 a rein:Request ;
+	 rein:requestedAction person:604 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request605 a rein:Request ;
+	 rein:requestedAction person:605 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request606 a rein:Request ;
+	 rein:requestedAction person:606 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request607 a rein:Request ;
+	 rein:requestedAction person:607 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request608 a rein:Request ;
+	 rein:requestedAction person:608 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request609 a rein:Request ;
+	 rein:requestedAction person:609 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request610 a rein:Request ;
+	 rein:requestedAction person:610 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request611 a rein:Request ;
+	 rein:requestedAction person:611 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request612 a rein:Request ;
+	 rein:requestedAction person:612 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request613 a rein:Request ;
+	 rein:requestedAction person:613 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request614 a rein:Request ;
+	 rein:requestedAction person:614 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request616 a rein:Request ;
+	 rein:requestedAction person:616 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Umeng ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request617 a rein:Request ;
+	 rein:requestedAction person:617 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Instagram ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request618 a rein:Request ;
+	 rein:requestedAction person:618 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request619 a rein:Request ;
+	 rein:requestedAction person:619 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request620 a rein:Request ;
+	 rein:requestedAction person:620 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request621 a rein:Request ;
+	 rein:requestedAction person:621 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request622 a rein:Request ;
+	 rein:requestedAction person:622 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request623 a rein:Request ;
+	 rein:requestedAction person:623 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request624 a rein:Request ;
+	 rein:requestedAction person:624 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request625 a rein:Request ;
+	 rein:requestedAction person:625 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request626 a rein:Request ;
+	 rein:requestedAction person:626 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applifier ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request627 a rein:Request ;
+	 rein:requestedAction person:627 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request628 a rein:Request ;
+	 rein:requestedAction person:628 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request629 a rein:Request ;
+	 rein:requestedAction person:629 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request630 a rein:Request ;
+	 rein:requestedAction person:630 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request631 a rein:Request ;
+	 rein:requestedAction person:631 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request632 a rein:Request ;
+	 rein:requestedAction person:632 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request633 a rein:Request ;
+	 rein:requestedAction person:633 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request634 a rein:Request ;
+	 rein:requestedAction person:634 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request635 a rein:Request ;
+	 rein:requestedAction person:635 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request636 a rein:Request ;
+	 rein:requestedAction person:636 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request637 a rein:Request ;
+	 rein:requestedAction person:637 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request638 a rein:Request ;
+	 rein:requestedAction person:638 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request639 a rein:Request ;
+	 rein:requestedAction person:639 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request640 a rein:Request ;
+	 rein:requestedAction person:640 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request641 a rein:Request ;
+	 rein:requestedAction person:641 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request642 a rein:Request ;
+	 rein:requestedAction person:642 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Applovin ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request643 a rein:Request ;
+	 rein:requestedAction person:643 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request644 a rein:Request ;
+	 rein:requestedAction person:644 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request645 a rein:Request ;
+	 rein:requestedAction person:645 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request646 a rein:Request ;
+	 rein:requestedAction person:646 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request647 a rein:Request ;
+	 rein:requestedAction person:647 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request650 a rein:Request ;
+	 rein:requestedAction person:650 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request651 a rein:Request ;
+	 rein:requestedAction person:651 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request652 a rein:Request ;
+	 rein:requestedAction person:652 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Analytics ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request653 a rein:Request ;
+	 rein:requestedAction person:653 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request654 a rein:Request ;
+	 rein:requestedAction person:654 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request655 a rein:Request ;
+	 rein:requestedAction person:655 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cheetahmobile ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request656 a rein:Request ;
+	 rein:requestedAction person:656 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:piano_tiles_2.
+:request657 a rein:Request ;
+	 rein:requestedAction person:657 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Umeng ;
+	 dtou:requestApp dtou:piano_tiles_2.

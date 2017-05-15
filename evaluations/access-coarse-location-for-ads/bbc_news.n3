@@ -1,0 +1,90 @@
+@prefix person:  <person-F.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1903 a rein:Request ;
+	 rein:requestedAction person:1903 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Limelight_Networks ;
+	 dtou:requestApp dtou:bbc_news.
+:request1904 a rein:Request ;
+	 rein:requestedAction person:1904 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Limelight_Networks ;
+	 dtou:requestApp dtou:bbc_news.
+:request1905 a rein:Request ;
+	 rein:requestedAction person:1905 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:bbc_news.
+:request1906 a rein:Request ;
+	 rein:requestedAction person:1906 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:bbc_news.
+:request1909 a rein:Request ;
+	 rein:requestedAction person:1909 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_news.
+:request1912 a rein:Request ;
+	 rein:requestedAction person:1912 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_news.
+:request1915 a rein:Request ;
+	 rein:requestedAction person:1915 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_news.
+:request1916 a rein:Request ;
+	 rein:requestedAction person:1916 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_news.
+:request1917 a rein:Request ;
+	 rein:requestedAction person:1917 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_news.
+:request1924 a rein:Request ;
+	 rein:requestedAction person:1924 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:bbc_news.
+:request1925 a rein:Request ;
+	 rein:requestedAction person:1925 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:bbc_news.
+:request1926 a rein:Request ;
+	 rein:requestedAction person:1926 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:bbc_news.
+:request1927 a rein:Request ;
+	 rein:requestedAction person:1927 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:bbc_news.
+:request1928 a rein:Request ;
+	 rein:requestedAction person:1928 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:bbc_news.
+:request1929 a rein:Request ;
+	 rein:requestedAction person:1929 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_news.
+:request1930 a rein:Request ;
+	 rein:requestedAction person:1930 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_news.
+:request1931 a rein:Request ;
+	 rein:requestedAction person:1931 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:bbc_news.

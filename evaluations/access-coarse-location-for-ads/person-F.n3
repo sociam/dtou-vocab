@@ -1,0 +1,1738 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rein: <rein.n3#>.
+
+:City a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:CoarseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Continent a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:Country a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:GPS a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+:LocationData a rdfs:Class .
+
+:PreciseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Town a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:PhoneCharacteristics a rdfs:Class .
+:PhoneID a rdfs:Class ;
+	rdfs:subClassOf :PhoneCharacteristics .
+
+:PersonalDetails a rdfs:Class .
+:Age a rdfs:Class ;
+	rdfs:subClassOf :PersonalDetails .
+
+#### some instance data
+
+:phoneid a :PhoneCharacteristics ;rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+<person-A.n3#age/20> a :Age ;rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+:GB a :CoarseLocationData ;rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+:Oxford a :Town ;
+	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+:gps1 a :GPS ;
+	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+:532 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:533 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:534 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:535 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:536 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:537 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:538 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:539 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:540 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:541 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:542 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:543 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:544 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:548 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:549 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:550 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:551 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:552 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:553 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:554 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:555 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:556 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:557 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:558 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:559 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:560 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:561 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:562 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:563 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:564 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:565 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:566 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:567 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:568 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:569 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:570 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:571 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:572 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:573 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:574 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:575 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:576 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:577 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:578 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:579 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:580 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:581 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:582 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:583 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:584 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:585 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:586 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:587 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:588 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:589 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:590 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:591 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:592 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:593 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:594 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:595 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:596 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:597 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:598 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:599 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:600 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:601 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:602 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:603 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:604 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:605 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:606 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:607 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:608 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:609 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:610 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:611 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:612 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:613 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:614 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:616 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:617 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:618 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:619 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:620 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:621 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:622 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:623 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:624 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:625 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:626 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:627 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:628 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:629 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:630 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:631 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:632 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:633 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:634 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:635 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:636 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:637 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:638 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:639 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:640 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:641 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:642 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:643 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:644 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:645 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:646 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:647 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:650 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:651 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:652 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:653 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:654 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:655 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:656 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:657 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:665 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:666 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:667 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:668 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:669 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:670 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:671 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:672 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:673 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:674 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:675 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:676 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:677 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:678 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:679 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:681 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:682 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:683 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:684 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:685 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:686 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:687 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:688 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:689 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:690 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:691 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:984 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:986 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:987 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:991 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:992 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:997 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:998 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:999 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1000 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1001 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1002 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1003 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1004 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1005 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1006 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1007 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1008 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1009 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1010 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1011 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1012 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1013 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1014 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1015 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1016 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1017 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1018 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1019 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1020 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1021 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1023 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1024 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1025 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1026 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1027 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1028 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1029 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1030 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1031 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1032 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1033 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1034 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1035 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1036 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1037 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1038 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1039 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1040 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1041 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1042 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1043 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1044 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1045 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1046 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1047 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1048 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1049 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1135 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1137 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1138 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1139 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1140 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1142 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1143 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1144 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1145 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1146 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1147 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1148 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1149 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1150 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1151 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1152 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1153 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1154 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1155 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1156 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1157 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1158 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1159 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1160 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1161 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1162 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1163 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1164 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1165 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1166 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1167 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1168 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1169 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1172 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1173 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1174 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1175 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1176 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1177 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1178 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1179 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1180 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1181 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1182 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1183 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1184 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1185 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1186 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1187 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1188 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1189 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1219 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1220 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1221 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1222 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1224 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1225 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1226 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1227 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1228 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1229 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1230 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1234 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1235 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1236 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1238 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1239 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1240 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1241 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1242 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1243 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1244 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1245 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1246 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1247 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1248 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1249 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1250 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1251 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1252 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1253 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1254 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1255 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1256 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1257 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1258 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1259 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1260 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1261 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1262 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1263 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1266 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1267 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1268 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1269 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1270 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1271 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1272 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1273 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1274 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1275 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1276 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1277 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1280 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1281 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1282 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1283 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1284 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1285 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1286 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1287 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1288 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1289 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1290 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1291 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1292 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1293 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1294 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1295 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1296 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1297 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1298 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1324 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1325 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1326 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1327 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1328 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1329 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1330 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1331 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1332 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1333 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1334 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1335 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1336 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1337 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1338 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1339 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1340 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1341 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1342 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1343 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1344 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1345 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1346 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1347 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1348 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1349 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1350 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1351 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1352 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1353 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1354 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1355 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1356 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1357 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1358 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1359 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1360 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1361 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1362 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1363 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1364 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1365 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1366 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1367 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1368 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1369 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1370 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1371 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1372 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1373 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1374 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1375 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1376 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1377 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1378 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1379 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1380 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1381 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1382 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1383 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1384 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1385 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1386 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1387 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1388 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1389 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1390 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1391 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1392 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1393 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1394 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1395 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1396 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1397 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1398 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1399 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1400 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1401 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1402 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1403 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1404 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1405 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1406 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1407 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1408 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1409 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1410 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1411 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1412 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1413 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1414 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1415 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1416 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1417 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1418 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1419 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1420 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1421 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1422 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1423 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1424 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1425 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1426 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1427 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1428 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1429 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1430 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1431 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1432 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1433 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1434 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1435 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1436 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1439 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1440 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1441 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1442 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1443 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1444 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1445 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1446 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1447 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1448 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1451 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1452 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1453 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1454 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1455 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1456 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1457 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1458 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1459 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1460 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1461 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1462 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1463 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1464 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1465 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1466 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1467 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1468 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1469 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1470 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1471 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1472 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1473 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1474 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1475 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1476 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1477 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1478 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1480 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1481 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1482 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1483 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1484 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1485 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1486 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1487 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1488 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1489 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1490 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1491 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1492 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1493 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1494 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1495 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1496 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1499 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1500 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1501 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1502 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1503 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1504 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1505 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1506 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1511 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1512 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1513 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1810 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1811 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1812 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1814 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1815 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1818 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1819 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1820 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1829 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1830 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1831 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1832 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1833 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1840 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1841 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1903 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1904 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1905 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1906 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1909 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1912 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1915 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1916 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1917 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1924 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1925 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1926 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1927 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1928 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1929 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1930 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1931 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1951 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1952 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1953 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1954 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1955 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1956 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1957 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1958 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1962 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1963 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1979 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1980 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1981 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1982 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1983 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1984 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1985 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1986 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1987 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1988 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1989 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1990 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1991 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1992 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1993 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1994 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1995 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1996 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1997 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1998 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1999 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2003 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2004 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2005 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2008 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2009 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2010 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2011 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2012 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2013 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2014 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2015 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2016 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2017 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2018 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2019 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2020 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2021 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2022 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2023 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2024 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2025 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2026 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2027 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2028 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2029 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2030 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2031 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2032 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2033 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2034 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2035 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2036 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2037 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2038 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2039 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2040 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2041 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2042 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2043 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2044 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2045 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2046 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2047 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2048 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2049 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2050 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2051 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2052 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2053 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2054 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2055 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2056 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2057 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2058 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2059 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2060 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2061 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2062 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2063 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2064 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2065 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2066 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2067 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2068 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2069 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2070 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2071 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2072 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2073 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2074 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2075 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2076 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2077 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2078 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2079 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2080 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2081 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2082 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2083 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2084 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2085 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2086 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2087 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2088 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2089 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2090 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2091 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2092 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2093 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2094 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2095 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2096 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2097 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2098 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2102 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2103 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2104 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2105 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2106 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2107 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2108 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2109 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2112 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2113 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2114 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2115 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2116 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2117 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2118 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2119 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2120 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2121 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2122 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2123 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2124 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2125 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2126 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2127 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2128 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2129 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2130 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2131 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2132 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2133 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2134 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2135 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2136 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2137 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2138 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2139 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2140 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2141 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2142 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2143 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2144 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2145 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2146 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2147 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2148 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2371 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2372 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2373 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2375 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2376 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2377 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2378 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2379 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2380 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2381 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2382 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2383 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2389 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2390 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2391 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2392 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2393 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2394 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2395 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2396 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2397 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2398 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2399 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2400 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2401 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2402 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2403 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2404 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2405 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2406 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2407 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2408 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2409 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2410 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2411 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2412 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2413 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2414 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2415 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2416 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2417 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2418 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2419 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2420 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2421 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2422 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2423 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2424 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2425 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2426 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2427 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2428 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2429 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2430 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2431 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2432 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2433 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2434 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2435 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2436 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2437 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2438 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2439 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2440 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2441 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2550 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2551 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2552 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2553 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2554 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2555 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2556 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2557 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2561 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2562 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2563 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2564 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2565 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2566 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2567 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2568 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2569 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2570 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2571 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2572 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2573 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2574 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2575 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2576 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2577 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2578 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2579 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2580 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2581 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2582 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2583 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2584 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2585 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2586 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2587 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2588 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2589 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2590 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2591 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2592 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2593 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2594 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2595 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2596 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2597 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2598 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2599 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2600 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2601 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2602 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2603 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2604 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2605 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2606 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2607 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2608 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2609 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2836 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2837 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2841 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2842 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2848 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2849 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2850 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2854 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2855 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2856 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2857 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2858 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2864 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:2865 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+

@@ -1,0 +1,290 @@
+@prefix person:  <person-F.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request984 a rein:Request ;
+	 rein:requestedAction person:984 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request986 a rein:Request ;
+	 rein:requestedAction person:986 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chartboost ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request987 a rein:Request ;
+	 rein:requestedAction person:987 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Onlinemetrix ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request991 a rein:Request ;
+	 rein:requestedAction person:991 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request992 a rein:Request ;
+	 rein:requestedAction person:992 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request997 a rein:Request ;
+	 rein:requestedAction person:997 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request998 a rein:Request ;
+	 rein:requestedAction person:998 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request999 a rein:Request ;
+	 rein:requestedAction person:999 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chartboost ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1000 a rein:Request ;
+	 rein:requestedAction person:1000 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1001 a rein:Request ;
+	 rein:requestedAction person:1001 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Zynga ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1002 a rein:Request ;
+	 rein:requestedAction person:1002 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1003 a rein:Request ;
+	 rein:requestedAction person:1003 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Onlinemetrix ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1004 a rein:Request ;
+	 rein:requestedAction person:1004 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Onlinemetrix ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1005 a rein:Request ;
+	 rein:requestedAction person:1005 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Onlinemetrix ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1006 a rein:Request ;
+	 rein:requestedAction person:1006 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1007 a rein:Request ;
+	 rein:requestedAction person:1007 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1008 a rein:Request ;
+	 rein:requestedAction person:1008 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1009 a rein:Request ;
+	 rein:requestedAction person:1009 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1010 a rein:Request ;
+	 rein:requestedAction person:1010 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1011 a rein:Request ;
+	 rein:requestedAction person:1011 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1012 a rein:Request ;
+	 rein:requestedAction person:1012 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1013 a rein:Request ;
+	 rein:requestedAction person:1013 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1014 a rein:Request ;
+	 rein:requestedAction person:1014 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1015 a rein:Request ;
+	 rein:requestedAction person:1015 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1016 a rein:Request ;
+	 rein:requestedAction person:1016 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1017 a rein:Request ;
+	 rein:requestedAction person:1017 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1018 a rein:Request ;
+	 rein:requestedAction person:1018 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1019 a rein:Request ;
+	 rein:requestedAction person:1019 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1020 a rein:Request ;
+	 rein:requestedAction person:1020 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1021 a rein:Request ;
+	 rein:requestedAction person:1021 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1023 a rein:Request ;
+	 rein:requestedAction person:1023 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1024 a rein:Request ;
+	 rein:requestedAction person:1024 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1025 a rein:Request ;
+	 rein:requestedAction person:1025 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1026 a rein:Request ;
+	 rein:requestedAction person:1026 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1027 a rein:Request ;
+	 rein:requestedAction person:1027 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1028 a rein:Request ;
+	 rein:requestedAction person:1028 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1029 a rein:Request ;
+	 rein:requestedAction person:1029 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1030 a rein:Request ;
+	 rein:requestedAction person:1030 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1031 a rein:Request ;
+	 rein:requestedAction person:1031 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1032 a rein:Request ;
+	 rein:requestedAction person:1032 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1033 a rein:Request ;
+	 rein:requestedAction person:1033 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1034 a rein:Request ;
+	 rein:requestedAction person:1034 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1035 a rein:Request ;
+	 rein:requestedAction person:1035 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chartboost ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1036 a rein:Request ;
+	 rein:requestedAction person:1036 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1037 a rein:Request ;
+	 rein:requestedAction person:1037 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1038 a rein:Request ;
+	 rein:requestedAction person:1038 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1039 a rein:Request ;
+	 rein:requestedAction person:1039 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Zynga ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1040 a rein:Request ;
+	 rein:requestedAction person:1040 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1041 a rein:Request ;
+	 rein:requestedAction person:1041 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1042 a rein:Request ;
+	 rein:requestedAction person:1042 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1043 a rein:Request ;
+	 rein:requestedAction person:1043 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1044 a rein:Request ;
+	 rein:requestedAction person:1044 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1045 a rein:Request ;
+	 rein:requestedAction person:1045 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1046 a rein:Request ;
+	 rein:requestedAction person:1046 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1047 a rein:Request ;
+	 rein:requestedAction person:1047 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1048 a rein:Request ;
+	 rein:requestedAction person:1048 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:csr_racing_2.
+:request1049 a rein:Request ;
+	 rein:requestedAction person:1049 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:csr_racing_2.

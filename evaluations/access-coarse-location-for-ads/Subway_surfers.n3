@@ -1,0 +1,360 @@
+@prefix person:  <person-F.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1219 a rein:Request ;
+	 rein:requestedAction person:1219 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1220 a rein:Request ;
+	 rein:requestedAction person:1220 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1221 a rein:Request ;
+	 rein:requestedAction person:1221 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1222 a rein:Request ;
+	 rein:requestedAction person:1222 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1224 a rein:Request ;
+	 rein:requestedAction person:1224 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chartboost ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1225 a rein:Request ;
+	 rein:requestedAction person:1225 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1226 a rein:Request ;
+	 rein:requestedAction person:1226 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1227 a rein:Request ;
+	 rein:requestedAction person:1227 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1228 a rein:Request ;
+	 rein:requestedAction person:1228 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1229 a rein:Request ;
+	 rein:requestedAction person:1229 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1230 a rein:Request ;
+	 rein:requestedAction person:1230 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1234 a rein:Request ;
+	 rein:requestedAction person:1234 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1235 a rein:Request ;
+	 rein:requestedAction person:1235 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1236 a rein:Request ;
+	 rein:requestedAction person:1236 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1238 a rein:Request ;
+	 rein:requestedAction person:1238 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1239 a rein:Request ;
+	 rein:requestedAction person:1239 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Kiloo ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1240 a rein:Request ;
+	 rein:requestedAction person:1240 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Kiloo ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1241 a rein:Request ;
+	 rein:requestedAction person:1241 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chartboost ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1242 a rein:Request ;
+	 rein:requestedAction person:1242 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1243 a rein:Request ;
+	 rein:requestedAction person:1243 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1244 a rein:Request ;
+	 rein:requestedAction person:1244 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1245 a rein:Request ;
+	 rein:requestedAction person:1245 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1246 a rein:Request ;
+	 rein:requestedAction person:1246 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Finderly ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1247 a rein:Request ;
+	 rein:requestedAction person:1247 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1248 a rein:Request ;
+	 rein:requestedAction person:1248 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1249 a rein:Request ;
+	 rein:requestedAction person:1249 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Cloudfront ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1250 a rein:Request ;
+	 rein:requestedAction person:1250 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1251 a rein:Request ;
+	 rein:requestedAction person:1251 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1252 a rein:Request ;
+	 rein:requestedAction person:1252 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1253 a rein:Request ;
+	 rein:requestedAction person:1253 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1254 a rein:Request ;
+	 rein:requestedAction person:1254 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1255 a rein:Request ;
+	 rein:requestedAction person:1255 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1256 a rein:Request ;
+	 rein:requestedAction person:1256 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1257 a rein:Request ;
+	 rein:requestedAction person:1257 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chartboost ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1258 a rein:Request ;
+	 rein:requestedAction person:1258 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1259 a rein:Request ;
+	 rein:requestedAction person:1259 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1260 a rein:Request ;
+	 rein:requestedAction person:1260 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1261 a rein:Request ;
+	 rein:requestedAction person:1261 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1262 a rein:Request ;
+	 rein:requestedAction person:1262 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1263 a rein:Request ;
+	 rein:requestedAction person:1263 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1266 a rein:Request ;
+	 rein:requestedAction person:1266 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1267 a rein:Request ;
+	 rein:requestedAction person:1267 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1268 a rein:Request ;
+	 rein:requestedAction person:1268 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Adcolony ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1269 a rein:Request ;
+	 rein:requestedAction person:1269 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1270 a rein:Request ;
+	 rein:requestedAction person:1270 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1271 a rein:Request ;
+	 rein:requestedAction person:1271 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Inmobi ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1272 a rein:Request ;
+	 rein:requestedAction person:1272 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1273 a rein:Request ;
+	 rein:requestedAction person:1273 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1274 a rein:Request ;
+	 rein:requestedAction person:1274 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1275 a rein:Request ;
+	 rein:requestedAction person:1275 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1276 a rein:Request ;
+	 rein:requestedAction person:1276 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1277 a rein:Request ;
+	 rein:requestedAction person:1277 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1280 a rein:Request ;
+	 rein:requestedAction person:1280 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Akamai ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1281 a rein:Request ;
+	 rein:requestedAction person:1281 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1282 a rein:Request ;
+	 rein:requestedAction person:1282 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1283 a rein:Request ;
+	 rein:requestedAction person:1283 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1284 a rein:Request ;
+	 rein:requestedAction person:1284 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Chartboost ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1285 a rein:Request ;
+	 rein:requestedAction person:1285 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Ironsource ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1286 a rein:Request ;
+	 rein:requestedAction person:1286 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1287 a rein:Request ;
+	 rein:requestedAction person:1287 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Yahoo ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1288 a rein:Request ;
+	 rein:requestedAction person:1288 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1289 a rein:Request ;
+	 rein:requestedAction person:1289 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1290 a rein:Request ;
+	 rein:requestedAction person:1290 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1291 a rein:Request ;
+	 rein:requestedAction person:1291 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Inmobi ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1292 a rein:Request ;
+	 rein:requestedAction person:1292 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1293 a rein:Request ;
+	 rein:requestedAction person:1293 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Inmobi ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1294 a rein:Request ;
+	 rein:requestedAction person:1294 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1295 a rein:Request ;
+	 rein:requestedAction person:1295 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1296 a rein:Request ;
+	 rein:requestedAction person:1296 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1297 a rein:Request ;
+	 rein:requestedAction person:1297 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:Subway_surfers.
+:request1298 a rein:Request ;
+	 rein:requestedAction person:1298 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Tapjoy ;
+	 dtou:requestApp dtou:Subway_surfers.

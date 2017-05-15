@@ -1,0 +1,330 @@
+@prefix person:  <person-F.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request2371 a rein:Request ;
+	 rein:requestedAction person:2371 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2372 a rein:Request ;
+	 rein:requestedAction person:2372 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2373 a rein:Request ;
+	 rein:requestedAction person:2373 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2375 a rein:Request ;
+	 rein:requestedAction person:2375 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2376 a rein:Request ;
+	 rein:requestedAction person:2376 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2377 a rein:Request ;
+	 rein:requestedAction person:2377 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Flksu ;
+	 dtou:requestApp dtou:endomondo.
+:request2378 a rein:Request ;
+	 rein:requestedAction person:2378 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sharethrough ;
+	 dtou:requestApp dtou:endomondo.
+:request2379 a rein:Request ;
+	 rein:requestedAction person:2379 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sharethrough ;
+	 dtou:requestApp dtou:endomondo.
+:request2380 a rein:Request ;
+	 rein:requestedAction person:2380 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Dataxu ;
+	 dtou:requestApp dtou:endomondo.
+:request2381 a rein:Request ;
+	 rein:requestedAction person:2381 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2382 a rein:Request ;
+	 rein:requestedAction person:2382 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2383 a rein:Request ;
+	 rein:requestedAction person:2383 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2389 a rein:Request ;
+	 rein:requestedAction person:2389 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:endomondo.
+:request2390 a rein:Request ;
+	 rein:requestedAction person:2390 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:endomondo.
+:request2391 a rein:Request ;
+	 rein:requestedAction person:2391 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:endomondo.
+:request2392 a rein:Request ;
+	 rein:requestedAction person:2392 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:endomondo.
+:request2393 a rein:Request ;
+	 rein:requestedAction person:2393 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:endomondo.
+:request2394 a rein:Request ;
+	 rein:requestedAction person:2394 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2395 a rein:Request ;
+	 rein:requestedAction person:2395 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2396 a rein:Request ;
+	 rein:requestedAction person:2396 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2397 a rein:Request ;
+	 rein:requestedAction person:2397 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2398 a rein:Request ;
+	 rein:requestedAction person:2398 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:endomondo.
+:request2399 a rein:Request ;
+	 rein:requestedAction person:2399 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:endomondo.
+:request2400 a rein:Request ;
+	 rein:requestedAction person:2400 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2401 a rein:Request ;
+	 rein:requestedAction person:2401 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sharethrough ;
+	 dtou:requestApp dtou:endomondo.
+:request2402 a rein:Request ;
+	 rein:requestedAction person:2402 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:endomondo.
+:request2403 a rein:Request ;
+	 rein:requestedAction person:2403 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:endomondo.
+:request2404 a rein:Request ;
+	 rein:requestedAction person:2404 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:endomondo.
+:request2405 a rein:Request ;
+	 rein:requestedAction person:2405 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:endomondo.
+:request2406 a rein:Request ;
+	 rein:requestedAction person:2406 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:endomondo.
+:request2407 a rein:Request ;
+	 rein:requestedAction person:2407 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:endomondo.
+:request2408 a rein:Request ;
+	 rein:requestedAction person:2408 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:endomondo.
+:request2409 a rein:Request ;
+	 rein:requestedAction person:2409 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:endomondo.
+:request2410 a rein:Request ;
+	 rein:requestedAction person:2410 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:endomondo.
+:request2411 a rein:Request ;
+	 rein:requestedAction person:2411 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Sharethrough ;
+	 dtou:requestApp dtou:endomondo.
+:request2412 a rein:Request ;
+	 rein:requestedAction person:2412 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2413 a rein:Request ;
+	 rein:requestedAction person:2413 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2414 a rein:Request ;
+	 rein:requestedAction person:2414 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2415 a rein:Request ;
+	 rein:requestedAction person:2415 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2416 a rein:Request ;
+	 rein:requestedAction person:2416 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2417 a rein:Request ;
+	 rein:requestedAction person:2417 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:endomondo.
+:request2418 a rein:Request ;
+	 rein:requestedAction person:2418 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:endomondo.
+:request2419 a rein:Request ;
+	 rein:requestedAction person:2419 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google-Ads ;
+	 dtou:requestApp dtou:endomondo.
+:request2420 a rein:Request ;
+	 rein:requestedAction person:2420 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2421 a rein:Request ;
+	 rein:requestedAction person:2421 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2422 a rein:Request ;
+	 rein:requestedAction person:2422 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2423 a rein:Request ;
+	 rein:requestedAction person:2423 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2424 a rein:Request ;
+	 rein:requestedAction person:2424 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2425 a rein:Request ;
+	 rein:requestedAction person:2425 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2426 a rein:Request ;
+	 rein:requestedAction person:2426 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:endomondo.
+:request2427 a rein:Request ;
+	 rein:requestedAction person:2427 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:endomondo.
+:request2428 a rein:Request ;
+	 rein:requestedAction person:2428 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:endomondo.
+:request2429 a rein:Request ;
+	 rein:requestedAction person:2429 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2430 a rein:Request ;
+	 rein:requestedAction person:2430 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2431 a rein:Request ;
+	 rein:requestedAction person:2431 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:endomondo.
+:request2432 a rein:Request ;
+	 rein:requestedAction person:2432 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:endomondo.
+:request2433 a rein:Request ;
+	 rein:requestedAction person:2433 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Appsflyer ;
+	 dtou:requestApp dtou:endomondo.
+:request2434 a rein:Request ;
+	 rein:requestedAction person:2434 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2435 a rein:Request ;
+	 rein:requestedAction person:2435 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2436 a rein:Request ;
+	 rein:requestedAction person:2436 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2437 a rein:Request ;
+	 rein:requestedAction person:2437 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Doubleclick ;
+	 dtou:requestApp dtou:endomondo.
+:request2438 a rein:Request ;
+	 rein:requestedAction person:2438 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Turn ;
+	 dtou:requestApp dtou:endomondo.
+:request2439 a rein:Request ;
+	 rein:requestedAction person:2439 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Conversant_Llc ;
+	 dtou:requestApp dtou:endomondo.
+:request2440 a rein:Request ;
+	 rein:requestedAction person:2440 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.
+:request2441 a rein:Request ;
+	 rein:requestedAction person:2441 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:endomondo.

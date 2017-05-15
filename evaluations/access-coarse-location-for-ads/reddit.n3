@@ -1,0 +1,60 @@
+@prefix person:  <person-F-1.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request1951 a rein:Request ;
+	 rein:requestedAction person:1951 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:reddit.
+
+# valid: access to location not for acs
+:request1952 a rein:Request ;
+	 rein:requestedAction person:1952 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:MSN ;
+	 dtou:requestApp dtou:reddit.
+:request1953 a rein:Request ;
+	 rein:requestedAction person:1953 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Branch ;
+	 dtou:requestApp dtou:reddit.
+:request1954 a rein:Request ;
+	 rein:requestedAction person:1954 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:reddit.
+:request1955 a rein:Request ;
+	 rein:requestedAction person:1955 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:reddit.
+:request1956 a rein:Request ;
+	 rein:requestedAction person:1956 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:reddit.
+
+# invalid: access to location for ads
+:request1957 a rein:Request ;
+	 rein:requestedAction person:1957 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:reddit.
+# invalid: access to location for ads	 
+:request1958 a rein:Request ;
+	 rein:requestedAction person:1958 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:reddit.
+:request1962 a rein:Request ;
+	 rein:requestedAction person:1962 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Liftoff ;
+	 dtou:requestApp dtou:reddit.
+:request1963 a rein:Request ;
+	 rein:requestedAction person:1963 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Reddit ;
+	 dtou:requestApp dtou:reddit.

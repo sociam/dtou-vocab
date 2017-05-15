@@ -1,0 +1,135 @@
+@prefix person:  <person-F.n3#> .
+@prefix rein:  <rein.n3#> .
+@prefix reina:  <reinA.n3#> .
+@prefix tracker: <tracker.n3#> .
+@prefix dtou:  <app.n3#> .
+:request665 a rein:Request ;
+	 rein:requestedAction person:665 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request666 a rein:Request ;
+	 rein:requestedAction person:666 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request667 a rein:Request ;
+	 rein:requestedAction person:667 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request668 a rein:Request ;
+	 rein:requestedAction person:668 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request669 a rein:Request ;
+	 rein:requestedAction person:669 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Facebook ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request670 a rein:Request ;
+	 rein:requestedAction person:670 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request671 a rein:Request ;
+	 rein:requestedAction person:671 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request672 a rein:Request ;
+	 rein:requestedAction person:672 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request673 a rein:Request ;
+	 rein:requestedAction person:673 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request674 a rein:Request ;
+	 rein:requestedAction person:674 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request675 a rein:Request ;
+	 rein:requestedAction person:675 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request676 a rein:Request ;
+	 rein:requestedAction person:676 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request677 a rein:Request ;
+	 rein:requestedAction person:677 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request678 a rein:Request ;
+	 rein:requestedAction person:678 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Mopub ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request679 a rein:Request ;
+	 rein:requestedAction person:679 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request681 a rein:Request ;
+	 rein:requestedAction person:681 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request682 a rein:Request ;
+	 rein:requestedAction person:682 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request683 a rein:Request ;
+	 rein:requestedAction person:683 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Scorecardresearch ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request684 a rein:Request ;
+	 rein:requestedAction person:684 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Disney ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request685 a rein:Request ;
+	 rein:requestedAction person:685 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Disney ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request686 a rein:Request ;
+	 rein:requestedAction person:686 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request687 a rein:Request ;
+	 rein:requestedAction person:687 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Apple ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request688 a rein:Request ;
+	 rein:requestedAction person:688 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Disney ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request689 a rein:Request ;
+	 rein:requestedAction person:689 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Disney ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request690 a rein:Request ;
+	 rein:requestedAction person:690 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.
+:request691 a rein:Request ;
+	 rein:requestedAction person:691 ;
+ 	 rein:requestType reina:ispermitted ;
+	 rein:requester tracker:Google ;
+	 dtou:requestApp dtou:Disney_Emoji_Blitz.

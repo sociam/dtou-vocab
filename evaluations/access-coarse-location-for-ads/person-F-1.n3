@@ -1,0 +1,73 @@
+@prefix : <#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rein: <rein.n3#>.
+
+:City a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:CoarseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Continent a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:Country a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:GPS a rdfs:Class ;
+	rdfs:subClassOf :PreciseLocationData .
+
+:LocationData a rdfs:Class .
+
+:PreciseLocationData a rdfs:Class ;
+	rdfs:subClassOf :LocationData .
+
+:Town a rdfs:Class ;
+	rdfs:subClassOf :CoarseLocationData .
+
+:PhoneCharacteristics a rdfs:Class .
+:PhoneID a rdfs:Class ;
+	rdfs:subClassOf :PhoneCharacteristics .
+
+:PersonalDetails a rdfs:Class .
+:Age a rdfs:Class ;
+	rdfs:subClassOf :PersonalDetails .
+
+#### some instance data
+
+:phoneid a :PhoneCharacteristics ;rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+<person-A.n3#age/20> a :Age ;rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+:GB a :CoarseLocationData ;rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+:Oxford a :Town ;
+	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+:gps1 a :GPS ;
+	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+
+:1951 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1952 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1953 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1954 a :PhoneID;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1955 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1956 a :PersonalDetails;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1957 a :LocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1958 a :CoarseLocationData;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1962 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
+:1963 a :PhoneCharacteristics;
+ 	 	rein:controlledBy <6-policy-coarse-location-no-ads-only.n3> .
