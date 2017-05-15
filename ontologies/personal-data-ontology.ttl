@@ -91,6 +91,11 @@
          rdfs:subClassOf :PhoneCharacteristics .
 
 
+###  http://www.semanticweb.org/junhao/ontologies/2017/3/untitled-ontology-6#PhoneSoftware
+:PhoneSoftware rdf:type owl:Class ;
+               rdfs:subClassOf :PhoneCharacteristics .
+
+
 ###  http://www.semanticweb.org/junhao/ontologies/2017/3/untitled-ontology-6#PreciseLocationData
 :PreciseLocationData rdf:type owl:Class ;
                      rdfs:subClassOf :LocationData .
