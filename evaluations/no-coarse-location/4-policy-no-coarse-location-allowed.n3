@@ -8,7 +8,7 @@
 @prefix reina: <reinA.n3#> .
 @prefix rein: <rein.n3#> .
 @prefix reind: <reinD.n3#> .
-@prefix person: <person-B.n3#> .
+@prefix person: <person-D-1.n3#> .
 @prefix tracker: <tracker.n3#> .
 @prefix : <#>.
 
@@ -26,6 +26,11 @@
 @forAll :x, :y.
 {  ?x a tracker:Tracker. 
    ?y a person:PreciseLocationData. 
+} => { ?x reina:ispermitted ?y }.
+
+@forAll :x, :y.
+{  ?x a tracker:Tracker. 
+   ?y a person:LocationData. 
 } => { ?x reina:ispermitted ?y }.
 
 
